@@ -1,0 +1,717 @@
+{
+    "expiration": {
+        "expired": {
+            "message": "Sonolus Coconut server subscription expired."
+        }
+    },
+    "storage": {
+        "full": {
+            "message": "Sonolus Coconut server storage full."
+        }
+    },
+    "player": {
+        "placeholder": "Enter player handle...",
+        "description": "Player handle.\n\nFor example, enter 1000 for player Burrito#1000."
+    },
+    "posts": {
+        "aboutServer": {
+            "item": {
+                "title": "About Server"
+            },
+            "homeItems": {
+                "title": "Home Items",
+                "description": "Items shown on server homepage."
+            },
+            "allowCreate": {
+                "title": "Allow Create",
+                "description": "If creating is allowed."
+            },
+            "requireReview": {
+                "title": "Require Review",
+                "description": "If moderator review is required before publishing."
+            }
+        },
+        "inquiry": {
+            "create": {
+                "description": "Create an inquiry to privately contact server moderators."
+            }
+        },
+        "log": {
+            "editServerTitle": {
+                "item": {
+                    "title": "Edited Server Title"
+                }
+            },
+            "editServerDescription": {
+                "item": {
+                    "title": "Edited Server Description"
+                }
+            },
+            "editServerBanner": {
+                "item": {
+                    "title": "Edited Server Banner"
+                }
+            },
+            "editServerHomeItemTypes": {
+                "item": {
+                    "title": "Edited Server Home Items"
+                }
+            },
+            "editServerAllowCreateTypes": {
+                "item": {
+                    "title": "Edited Server Allow Create"
+                }
+            },
+            "editServerRequireReviewTypes": {
+                "item": {
+                    "title": "Edited Server Require Review"
+                }
+            },
+            "addModerator": {
+                "item": {
+                    "title": "Added Moderator"
+                }
+            },
+            "removeModerator": {
+                "item": {
+                    "title": "Removed Moderator"
+                }
+            },
+            "addBanned": {
+                "item": {
+                    "title": "Added Banned"
+                }
+            },
+            "removeBanned": {
+                "item": {
+                    "title": "Removed Banned"
+                }
+            },
+            "lockInquiry": {
+                "item": {
+                    "title": "Locked Inquiry"
+                }
+            },
+            "unlockInquiry": {
+                "item": {
+                    "title": "Unlocked Inquiry"
+                }
+            },
+            "removeComment": {
+                "item": {
+                    "title": "Removed Comment"
+                }
+            },
+            "restoreComment": {
+                "item": {
+                    "title": "Restored Comment"
+                }
+            },
+            "approvePost": {
+                "item": {
+                    "title": "Approved Post"
+                }
+            },
+            "rejectPost": {
+                "item": {
+                    "title": "Rejected Post"
+                }
+            },
+            "editPostTitle": {
+                "item": {
+                    "title": "Edited Post Title"
+                }
+            },
+            "editPostDescription": {
+                "item": {
+                    "title": "Edited Post Description"
+                }
+            },
+            "editPostKeywords": {
+                "item": {
+                    "title": "Edited Post Keywords"
+                }
+            },
+            "editPostThumbnail": {
+                "item": {
+                    "title": "Edited Post Thumbnail"
+                }
+            },
+            "pinPost": {
+                "item": {
+                    "title": "Pinned Post"
+                }
+            },
+            "unpinPost": {
+                "item": {
+                    "title": "Unpinned Post"
+                }
+            },
+            "removePost": {
+                "item": {
+                    "title": "Removed Post"
+                }
+            },
+            "restorePost": {
+                "item": {
+                    "title": "Restored Post"
+                }
+            },
+            "approvePlaylist": {
+                "item": {
+                    "title": "Approved Playlist"
+                }
+            },
+            "rejectPlaylist": {
+                "item": {
+                    "title": "Rejected Playlist"
+                }
+            },
+            "editPlaylistTitle": {
+                "item": {
+                    "title": "Edited Playlist Title"
+                }
+            },
+            "editPlaylistSubtitle": {
+                "item": {
+                    "title": "Edited Playlist Subtitle"
+                }
+            },
+            "editPlaylistDescription": {
+                "item": {
+                    "title": "Edited Playlist Description"
+                }
+            },
+            "editPlaylistKeywords": {
+                "item": {
+                    "title": "Edited Playlist Keywords"
+                }
+            },
+            "editPlaylistLevels": {
+                "item": {
+                    "title": "Edited Playlist Levels"
+                }
+            },
+            "editPlaylistThumbnail": {
+                "item": {
+                    "title": "Edited Playlist Thumbnail"
+                }
+            },
+            "pinPlaylist": {
+                "item": {
+                    "title": "Pinned Playlist"
+                }
+            },
+            "unpinPlaylist": {
+                "item": {
+                    "title": "Unpinned Playlist"
+                }
+            },
+            "removePlaylist": {
+                "item": {
+                    "title": "Removed Playlist"
+                }
+            },
+            "restorePlaylist": {
+                "item": {
+                    "title": "Restored Playlist"
+                }
+            },
+            "approveLevel": {
+                "item": {
+                    "title": "Approved Level"
+                }
+            },
+            "rejectLevel": {
+                "item": {
+                    "title": "Rejected Level"
+                }
+            },
+            "editLevelRating": {
+                "item": {
+                    "title": "Edited Level Rating"
+                }
+            },
+            "editLevelTitle": {
+                "item": {
+                    "title": "Edited Level Title"
+                }
+            },
+            "editLevelArtists": {
+                "item": {
+                    "title": "Edited Level Artists"
+                }
+            },
+            "editLevelDescription": {
+                "item": {
+                    "title": "Edited Level Description"
+                }
+            },
+            "editLevelKeywords": {
+                "item": {
+                    "title": "Edited Level Keywords"
+                }
+            },
+            "editLevelEngine": {
+                "item": {
+                    "title": "Edited Level Engine"
+                }
+            },
+            "editLevelSkin": {
+                "item": {
+                    "title": "Edited Level Skin"
+                }
+            },
+            "editLevelBackground": {
+                "item": {
+                    "title": "Edited Level Background"
+                }
+            },
+            "editLevelEffect": {
+                "item": {
+                    "title": "Edited Level SFX"
+                }
+            },
+            "editLevelParticle": {
+                "item": {
+                    "title": "Edited Level Particle"
+                }
+            },
+            "editLevelCover": {
+                "item": {
+                    "title": "Edited Level Cover"
+                }
+            },
+            "editLevelBgm": {
+                "item": {
+                    "title": "Edited Level BGM"
+                }
+            },
+            "editLevelPreview": {
+                "item": {
+                    "title": "Edited Level Preview"
+                }
+            },
+            "editLevelData": {
+                "item": {
+                    "title": "Edited Level Data"
+                }
+            },
+            "pinLevel": {
+                "item": {
+                    "title": "Pinned Level"
+                }
+            },
+            "unpinLevel": {
+                "item": {
+                    "title": "Unpinned Level"
+                }
+            },
+            "removeLevel": {
+                "item": {
+                    "title": "Removed Level"
+                }
+            },
+            "restoreLevel": {
+                "item": {
+                    "title": "Restored Level"
+                }
+            },
+            "approveSkin": {
+                "item": {
+                    "title": "Approved Skin"
+                }
+            },
+            "rejectSkin": {
+                "item": {
+                    "title": "Rejected Skin"
+                }
+            },
+            "editSkinTitle": {
+                "item": {
+                    "title": "Edited Skin Title"
+                }
+            },
+            "editSkinSubtitle": {
+                "item": {
+                    "title": "Edited Skin Subtitle"
+                }
+            },
+            "editSkinDescription": {
+                "item": {
+                    "title": "Edited Skin Description"
+                }
+            },
+            "editSkinKeywords": {
+                "item": {
+                    "title": "Edited Skin Keywords"
+                }
+            },
+            "editSkinThumbnail": {
+                "item": {
+                    "title": "Edited Skin Thumbnail"
+                }
+            },
+            "editSkinData": {
+                "item": {
+                    "title": "Edited Skin Data"
+                }
+            },
+            "editSkinTexture": {
+                "item": {
+                    "title": "Edited Skin Texture"
+                }
+            },
+            "pinSkin": {
+                "item": {
+                    "title": "Pinned Skin"
+                }
+            },
+            "unpinSkin": {
+                "item": {
+                    "title": "Unpinned Skin"
+                }
+            },
+            "removeSkin": {
+                "item": {
+                    "title": "Removed Skin"
+                }
+            },
+            "restoreSkin": {
+                "item": {
+                    "title": "Restored Skin"
+                }
+            },
+            "approveBackground": {
+                "item": {
+                    "title": "Approved Background"
+                }
+            },
+            "rejectBackground": {
+                "item": {
+                    "title": "Rejected Background"
+                }
+            },
+            "editBackgroundTitle": {
+                "item": {
+                    "title": "Edited Background Title"
+                }
+            },
+            "editBackgroundSubtitle": {
+                "item": {
+                    "title": "Edited Background Subtitle"
+                }
+            },
+            "editBackgroundDescription": {
+                "item": {
+                    "title": "Edited Background Description"
+                }
+            },
+            "editBackgroundKeywords": {
+                "item": {
+                    "title": "Edited Background Keywords"
+                }
+            },
+            "editBackgroundThumbnail": {
+                "item": {
+                    "title": "Edited Background Thumbnail"
+                }
+            },
+            "editBackgroundImage": {
+                "item": {
+                    "title": "Edited Background Image"
+                }
+            },
+            "editBackgroundData": {
+                "item": {
+                    "title": "Edited Background Data"
+                }
+            },
+            "editBackgroundConfiguration": {
+                "item": {
+                    "title": "Edited Background Configuration"
+                }
+            },
+            "pinBackground": {
+                "item": {
+                    "title": "Pinned Background"
+                }
+            },
+            "unpinBackground": {
+                "item": {
+                    "title": "Unpinned Background"
+                }
+            },
+            "removeBackground": {
+                "item": {
+                    "title": "Removed Background"
+                }
+            },
+            "restoreBackground": {
+                "item": {
+                    "title": "Restored Background"
+                }
+            },
+            "approveEffect": {
+                "item": {
+                    "title": "Approved SFX"
+                }
+            },
+            "rejectEffect": {
+                "item": {
+                    "title": "Rejected SFX"
+                }
+            },
+            "editEffectTitle": {
+                "item": {
+                    "title": "Edited SFX Title"
+                }
+            },
+            "editEffectSubtitle": {
+                "item": {
+                    "title": "Edited SFX Subtitle"
+                }
+            },
+            "editEffectDescription": {
+                "item": {
+                    "title": "Edited SFX Description"
+                }
+            },
+            "editEffectKeywords": {
+                "item": {
+                    "title": "Edited SFX Keywords"
+                }
+            },
+            "editEffectThumbnail": {
+                "item": {
+                    "title": "Edited SFX Thumbnail"
+                }
+            },
+            "editEffectData": {
+                "item": {
+                    "title": "Edited SFX Data"
+                }
+            },
+            "editEffectAudio": {
+                "item": {
+                    "title": "Edited SFX Audio"
+                }
+            },
+            "pinEffect": {
+                "item": {
+                    "title": "Pinned SFX"
+                }
+            },
+            "unpinEffect": {
+                "item": {
+                    "title": "Unpinned SFX"
+                }
+            },
+            "removeEffect": {
+                "item": {
+                    "title": "Removed SFX"
+                }
+            },
+            "restoreEffect": {
+                "item": {
+                    "title": "Restored SFX"
+                }
+            },
+            "approveParticle": {
+                "item": {
+                    "title": "Approved Particle"
+                }
+            },
+            "rejectParticle": {
+                "item": {
+                    "title": "Rejected Particle"
+                }
+            },
+            "editParticleTitle": {
+                "item": {
+                    "title": "Edited Particle Title"
+                }
+            },
+            "editParticleSubtitle": {
+                "item": {
+                    "title": "Edited Particle Subtitle"
+                }
+            },
+            "editParticleDescription": {
+                "item": {
+                    "title": "Edited Particle Description"
+                }
+            },
+            "editParticleKeywords": {
+                "item": {
+                    "title": "Edited Particle Keywords"
+                }
+            },
+            "editParticleThumbnail": {
+                "item": {
+                    "title": "Edited Particle Thumbnail"
+                }
+            },
+            "editParticleData": {
+                "item": {
+                    "title": "Edited Particle Data"
+                }
+            },
+            "editParticleTexture": {
+                "item": {
+                    "title": "Edited Particle Texture"
+                }
+            },
+            "pinParticle": {
+                "item": {
+                    "title": "Pinned Particle"
+                }
+            },
+            "unpinParticle": {
+                "item": {
+                    "title": "Unpinned Particle"
+                }
+            },
+            "removeParticle": {
+                "item": {
+                    "title": "Removed Particle"
+                }
+            },
+            "restoreParticle": {
+                "item": {
+                    "title": "Restored Particle"
+                }
+            },
+            "approveEngine": {
+                "item": {
+                    "title": "Approved Engine"
+                }
+            },
+            "rejectEngine": {
+                "item": {
+                    "title": "Rejected Engine"
+                }
+            },
+            "editEngineTitle": {
+                "item": {
+                    "title": "Edited Engine Title"
+                }
+            },
+            "editEngineSubtitle": {
+                "item": {
+                    "title": "Edited Engine Subtitle"
+                }
+            },
+            "editEngineDescription": {
+                "item": {
+                    "title": "Edited Engine Description"
+                }
+            },
+            "editEngineKeywords": {
+                "item": {
+                    "title": "Edited Engine Keywords"
+                }
+            },
+            "editEngineSkin": {
+                "item": {
+                    "title": "Edited Engine Skin"
+                }
+            },
+            "editEngineBackground": {
+                "item": {
+                    "title": "Edited Engine Background"
+                }
+            },
+            "editEngineEffect": {
+                "item": {
+                    "title": "Edited Engine SFX"
+                }
+            },
+            "editEngineParticle": {
+                "item": {
+                    "title": "Edited Engine Particle"
+                }
+            },
+            "editEngineThumbnail": {
+                "item": {
+                    "title": "Edited Engine Thumbnail"
+                }
+            },
+            "editEnginePlayData": {
+                "item": {
+                    "title": "Edited Engine Play Data"
+                }
+            },
+            "editEngineWatchData": {
+                "item": {
+                    "title": "Edited Engine Watch Data"
+                }
+            },
+            "editEnginePreviewData": {
+                "item": {
+                    "title": "Edited Engine Preview Data"
+                }
+            },
+            "editEngineTutorialData": {
+                "item": {
+                    "title": "Edited Engine Tutorial Data"
+                }
+            },
+            "editEngineRom": {
+                "item": {
+                    "title": "Edited Engine ROM"
+                }
+            },
+            "editEngineConfiguration": {
+                "item": {
+                    "title": "Edited Engine Configuration"
+                }
+            },
+            "pinEngine": {
+                "item": {
+                    "title": "Pinned Engine"
+                }
+            },
+            "unpinEngine": {
+                "item": {
+                    "title": "Unpinned Engine"
+                }
+            },
+            "removeEngine": {
+                "item": {
+                    "title": "Removed Engine"
+                }
+            },
+            "restoreEngine": {
+                "item": {
+                    "title": "Restored Engine"
+                }
+            },
+            "approveReplay": {
+                "item": {
+                    "title": "Approved Replay"
+                }
+            },
+            "pinReplay": {
+                "item": {
+                    "title": "Pinned Replay"
+                }
+            },
+            "unpinReplay": {
+                "item": {
+                    "title": "Unpinned Replay"
+                }
+            },
+            "removeReplay": {
+                "item": {
+                    "title": "Removed Replay"
+                }
+            },
+            "restoreReplay": {
+                "item": {
+                    "title": "Restored Replay"
+                }
+            }
+        }
+    }
+}
