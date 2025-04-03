@@ -1,0 +1,717 @@
+{
+  "expiration": {
+    "expired": {
+      "message": "L'abonnement au serveur Sonolus Coconut a expiré."
+    }
+  },
+  "storage": {
+    "full": {
+      "message": "Le stockage du serveur Sonolus Coconut est plein."
+    }
+  },
+  "player": {
+    "placeholder": "Entrez l'identifiant du joueur…",
+    "description": "Identifiant du joueur.\n\nPar exemple, saisissez 1000 pour le joueur Burrito#1000."
+  },
+  "posts": {
+    "aboutServer": {
+      "item": {
+        "title": "À Propos du Serveur"
+      },
+      "homeItems": {
+        "title": "Éléments de l'Accueil",
+        "description": "Les éléments affichés sur la page d'accueil du serveur."
+      },
+      "allowCreate": {
+        "title": "Autoriser la Création",
+        "description": "Si la création est autorisée."
+      },
+      "requireReview": {
+        "title": "Exiger une Vérification",
+        "description": "Si une vérification par un modérateur est requise avant la publication."
+      }
+    },
+    "inquiry": {
+      "create": {
+        "description": "Créez une demande pour contacter en privé les modérateurs du serveur."
+      }
+    },
+    "log": {
+      "editServerTitle": {
+        "item": {
+          "title": "Titre du Serveur Modifié"
+        }
+      },
+      "editServerDescription": {
+        "item": {
+          "title": "Description du Serveur Modifiée"
+        }
+      },
+      "editServerBanner": {
+        "item": {
+          "title": "Bannière du Serveur Modifiée"
+        }
+      },
+      "editServerHomeItemTypes": {
+        "item": {
+          "title": "Éléments de l'Accueil du Serveur Modifiés"
+        }
+      },
+      "editServerAllowCreateTypes": {
+        "item": {
+          "title": "Permission de Création du Serveur Modifiée"
+        }
+      },
+      "editServerRequireReviewTypes": {
+        "item": {
+          "title": "Exiger une Vérification Modifié"
+        }
+      },
+      "addModerator": {
+        "item": {
+          "title": "Modérateur Ajouté"
+        }
+      },
+      "removeModerator": {
+        "item": {
+          "title": "Modérateur Supprimé"
+        }
+      },
+      "addBanned": {
+        "item": {
+          "title": "Banni Ajouté"
+        }
+      },
+      "removeBanned": {
+        "item": {
+          "title": "Banni Supprimé"
+        }
+      },
+      "lockInquiry": {
+        "item": {
+          "title": "Demande Verrouillée"
+        }
+      },
+      "unlockInquiry": {
+        "item": {
+          "title": "Demande Déverrouillée"
+        }
+      },
+      "removeComment": {
+        "item": {
+          "title": "Commentaire Retiré"
+        }
+      },
+      "restoreComment": {
+        "item": {
+          "title": "Commentaire Restauré"
+        }
+      },
+      "approvePost": {
+        "item": {
+          "title": "Publication Approuvée"
+        }
+      },
+      "rejectPost": {
+        "item": {
+          "title": "Publication Rejetée"
+        }
+      },
+      "editPostTitle": {
+        "item": {
+          "title": "Titre de la Publication Modifié"
+        }
+      },
+      "editPostDescription": {
+        "item": {
+          "title": "Description de la Publication Modifiée"
+        }
+      },
+      "editPostKeywords": {
+        "item": {
+          "title": "Mots-clés de la Publication Modifiés"
+        }
+      },
+      "editPostThumbnail": {
+        "item": {
+          "title": "Miniature de la Publication Modifiée"
+        }
+      },
+      "pinPost": {
+        "item": {
+          "title": "Publication Épinglée"
+        }
+      },
+      "unpinPost": {
+        "item": {
+          "title": "Publication Plus Épinglée"
+        }
+      },
+      "removePost": {
+        "item": {
+          "title": "Publication Retirée"
+        }
+      },
+      "restorePost": {
+        "item": {
+          "title": "Publication Restaurée"
+        }
+      },
+      "approvePlaylist": {
+        "item": {
+          "title": "Playlist Approuvée"
+        }
+      },
+      "rejectPlaylist": {
+        "item": {
+          "title": "Playlist Rejetée"
+        }
+      },
+      "editPlaylistTitle": {
+        "item": {
+          "title": "Titre de la Playlist Modifié"
+        }
+      },
+      "editPlaylistSubtitle": {
+        "item": {
+          "title": "Sous-titre de la Playlist Modifié"
+        }
+      },
+      "editPlaylistDescription": {
+        "item": {
+          "title": "Description de la Playlist Modifiée"
+        }
+      },
+      "editPlaylistKeywords": {
+        "item": {
+          "title": "Mots-clés de la Playlist Modifiés"
+        }
+      },
+      "editPlaylistLevels": {
+        "item": {
+          "title": "Niveaux de la Playlist Modifiés"
+        }
+      },
+      "editPlaylistThumbnail": {
+        "item": {
+          "title": "Miniature de la Playlist Modifiée"
+        }
+      },
+      "pinPlaylist": {
+        "item": {
+          "title": "Playlist Épinglée"
+        }
+      },
+      "unpinPlaylist": {
+        "item": {
+          "title": "Playlist Plus Épinglée"
+        }
+      },
+      "removePlaylist": {
+        "item": {
+          "title": "Playlist Retiree"
+        }
+      },
+      "restorePlaylist": {
+        "item": {
+          "title": "Playlist Restaurée"
+        }
+      },
+      "approveLevel": {
+        "item": {
+          "title": "Niveau Approuvé"
+        }
+      },
+      "rejectLevel": {
+        "item": {
+          "title": "Niveau Rejeté"
+        }
+      },
+      "editLevelRating": {
+        "item": {
+          "title": "Notation du Niveau Modifié"
+        }
+      },
+      "editLevelTitle": {
+        "item": {
+          "title": "Titre du Niveau Modifié"
+        }
+      },
+      "editLevelArtists": {
+        "item": {
+          "title": "Artistes du Niveau Modifiés"
+        }
+      },
+      "editLevelDescription": {
+        "item": {
+          "title": "Description du Niveau Modifiée"
+        }
+      },
+      "editLevelKeywords": {
+        "item": {
+          "title": "Mots-clés du Niveau Modifiés"
+        }
+      },
+      "editLevelEngine": {
+        "item": {
+          "title": "Moteur du Niveau Modifié"
+        }
+      },
+      "editLevelSkin": {
+        "item": {
+          "title": "Skin du Niveau Modifié"
+        }
+      },
+      "editLevelBackground": {
+        "item": {
+          "title": "Arrière-plan du Niveau Modifié"
+        }
+      },
+      "editLevelEffect": {
+        "item": {
+          "title": "Effet Sonore du Niveau Modifié"
+        }
+      },
+      "editLevelParticle": {
+        "item": {
+          "title": "Particule du Niveau Modifiée"
+        }
+      },
+      "editLevelCover": {
+        "item": {
+          "title": "Miniature du Niveau Modifiée"
+        }
+      },
+      "editLevelBgm": {
+        "item": {
+          "title": "Musique du Niveau Modifiée"
+        }
+      },
+      "editLevelPreview": {
+        "item": {
+          "title": "Aperçu du Niveau Modifié"
+        }
+      },
+      "editLevelData": {
+        "item": {
+          "title": "Données du Niveau Modifiées"
+        }
+      },
+      "pinLevel": {
+        "item": {
+          "title": "Niveau Épinglé"
+        }
+      },
+      "unpinLevel": {
+        "item": {
+          "title": "Niveau Désépinglé"
+        }
+      },
+      "removeLevel": {
+        "item": {
+          "title": "Niveau Retiré"
+        }
+      },
+      "restoreLevel": {
+        "item": {
+          "title": "Niveau Restauré"
+        }
+      },
+      "approveSkin": {
+        "item": {
+          "title": "Skin Approuvé"
+        }
+      },
+      "rejectSkin": {
+        "item": {
+          "title": "Skin Rejeté"
+        }
+      },
+      "editSkinTitle": {
+        "item": {
+          "title": "Titre du Skin Modifié"
+        }
+      },
+      "editSkinSubtitle": {
+        "item": {
+          "title": "Sous-titre du Skin Modifié"
+        }
+      },
+      "editSkinDescription": {
+        "item": {
+          "title": "Description du Skin Modifiée"
+        }
+      },
+      "editSkinKeywords": {
+        "item": {
+          "title": "Mots-clés du Skin Modifiés"
+        }
+      },
+      "editSkinThumbnail": {
+        "item": {
+          "title": "Miniature du Skin Modifiée"
+        }
+      },
+      "editSkinData": {
+        "item": {
+          "title": "Données du Skin Modifiées"
+        }
+      },
+      "editSkinTexture": {
+        "item": {
+          "title": "Texture du Skin Modifiée"
+        }
+      },
+      "pinSkin": {
+        "item": {
+          "title": "Skin Épinglé"
+        }
+      },
+      "unpinSkin": {
+        "item": {
+          "title": "Skin Désépinglé"
+        }
+      },
+      "removeSkin": {
+        "item": {
+          "title": "Skin Retiré"
+        }
+      },
+      "restoreSkin": {
+        "item": {
+          "title": "Skin Restauré"
+        }
+      },
+      "approveBackground": {
+        "item": {
+          "title": "Arrière-plan Approuvé"
+        }
+      },
+      "rejectBackground": {
+        "item": {
+          "title": "Arrière-plan Rejeté"
+        }
+      },
+      "editBackgroundTitle": {
+        "item": {
+          "title": "Titre de l'Arrière-plan Modifié"
+        }
+      },
+      "editBackgroundSubtitle": {
+        "item": {
+          "title": "Sous-titre de l'Arrière-plan Modifié"
+        }
+      },
+      "editBackgroundDescription": {
+        "item": {
+          "title": "Description de l'Arrière-plan Modifiée"
+        }
+      },
+      "editBackgroundKeywords": {
+        "item": {
+          "title": "Mots-clés de l'Arrière-plan Modifiés"
+        }
+      },
+      "editBackgroundThumbnail": {
+        "item": {
+          "title": "Miniature de l'Arrière-plan Modifiée"
+        }
+      },
+      "editBackgroundImage": {
+        "item": {
+          "title": "Image de l'Arrière-plan Modifiée"
+        }
+      },
+      "editBackgroundData": {
+        "item": {
+          "title": "Données de l'Arrière-plan Modifiées"
+        }
+      },
+      "editBackgroundConfiguration": {
+        "item": {
+          "title": "Configuration de l'Arrière-plan Modifiée"
+        }
+      },
+      "pinBackground": {
+        "item": {
+          "title": "Arrière-plan Épinglé"
+        }
+      },
+      "unpinBackground": {
+        "item": {
+          "title": "Arrière-plan Désépinglé"
+        }
+      },
+      "removeBackground": {
+        "item": {
+          "title": "Arrière-plan Retiré"
+        }
+      },
+      "restoreBackground": {
+        "item": {
+          "title": "Arrière-plan Restauré"
+        }
+      },
+      "approveEffect": {
+        "item": {
+          "title": "Effet Sonore Approuvé"
+        }
+      },
+      "rejectEffect": {
+        "item": {
+          "title": "Effet sonore Rejeté"
+        }
+      },
+      "editEffectTitle": {
+        "item": {
+          "title": "Titre de l'Effet Sonore Modifié"
+        }
+      },
+      "editEffectSubtitle": {
+        "item": {
+          "title": "Sous-titre de l'Effet Sonore Modifié"
+        }
+      },
+      "editEffectDescription": {
+        "item": {
+          "title": "Description de l'Effet Sonore Modifiée"
+        }
+      },
+      "editEffectKeywords": {
+        "item": {
+          "title": "Mots-clés de l'Effet Sonore modifiés"
+        }
+      },
+      "editEffectThumbnail": {
+        "item": {
+          "title": "Miniature de l'Effet Sonore modifiée"
+        }
+      },
+      "editEffectData": {
+        "item": {
+          "title": "Données de l'Effet Sonore Modifiées"
+        }
+      },
+      "editEffectAudio": {
+        "item": {
+          "title": "Audio de l'Effet Sonore Modifié"
+        }
+      },
+      "pinEffect": {
+        "item": {
+          "title": "Effet Sonore Épinglé"
+        }
+      },
+      "unpinEffect": {
+        "item": {
+          "title": "Effet sonore Désépinglé"
+        }
+      },
+      "removeEffect": {
+        "item": {
+          "title": "Effet Sonore Supprimé"
+        }
+      },
+      "restoreEffect": {
+        "item": {
+          "title": "Effet Sonore Restauré"
+        }
+      },
+      "approveParticle": {
+        "item": {
+          "title": "Particule Approuvée"
+        }
+      },
+      "rejectParticle": {
+        "item": {
+          "title": "Particule Rejetée"
+        }
+      },
+      "editParticleTitle": {
+        "item": {
+          "title": "Titre de la Particule Modifié"
+        }
+      },
+      "editParticleSubtitle": {
+        "item": {
+          "title": "Sous-titre de la Particule Modifié "
+        }
+      },
+      "editParticleDescription": {
+        "item": {
+          "title": "Description de la Particule Modifiée"
+        }
+      },
+      "editParticleKeywords": {
+        "item": {
+          "title": "Mots-clés de la Particule Modifiés"
+        }
+      },
+      "editParticleThumbnail": {
+        "item": {
+          "title": "Miniature de la Particule Modifiée"
+        }
+      },
+      "editParticleData": {
+        "item": {
+          "title": "Données de la Particule Modifiées"
+        }
+      },
+      "editParticleTexture": {
+        "item": {
+          "title": "Texture de la Particule Modifiée"
+        }
+      },
+      "pinParticle": {
+        "item": {
+          "title": "Particule Épinglée"
+        }
+      },
+      "unpinParticle": {
+        "item": {
+          "title": "Particule Désépinglée"
+        }
+      },
+      "removeParticle": {
+        "item": {
+          "title": "Particule Retirée"
+        }
+      },
+      "restoreParticle": {
+        "item": {
+          "title": "Particule Restaurée"
+        }
+      },
+      "approveEngine": {
+        "item": {
+          "title": "Moteur Approuvé"
+        }
+      },
+      "rejectEngine": {
+        "item": {
+          "title": "Moteur Rejeté"
+        }
+      },
+      "editEngineTitle": {
+        "item": {
+          "title": "Titre du Moteur Modifié"
+        }
+      },
+      "editEngineSubtitle": {
+        "item": {
+          "title": "Sous-titre du Moteur Modifié"
+        }
+      },
+      "editEngineDescription": {
+        "item": {
+          "title": "Description du Moteur Modifiée"
+        }
+      },
+      "editEngineKeywords": {
+        "item": {
+          "title": "Mots-clés du Moteur Modifiés"
+        }
+      },
+      "editEngineSkin": {
+        "item": {
+          "title": "Skin du Moteur Modifié"
+        }
+      },
+      "editEngineBackground": {
+        "item": {
+          "title": "Arrière-plan du Moteur Modifié"
+        }
+      },
+      "editEngineEffect": {
+        "item": {
+          "title": "Effet Sonore du Moteur Modifié"
+        }
+      },
+      "editEngineParticle": {
+        "item": {
+          "title": "Particule du Moteur Modifiée"
+        }
+      },
+      "editEngineThumbnail": {
+        "item": {
+          "title": "Miniature du Moteur Modifiée"
+        }
+      },
+      "editEnginePlayData": {
+        "item": {
+          "title": "Données du mode Jouer du Moteur Modifiées"
+        }
+      },
+      "editEngineWatchData": {
+        "item": {
+          "title": "Données du Mode Replay du Moteur Modifiées"
+        }
+      },
+      "editEnginePreviewData": {
+        "item": {
+          "title": "Données du Mode Aperçu du Moteur Modifiées"
+        }
+      },
+      "editEngineTutorialData": {
+        "item": {
+          "title": "Données du mode Tutoriel du Moteur Modifiées"
+        }
+      },
+      "editEngineRom": {
+        "item": {
+          "title": "ROM du Moteur Modifiée"
+        }
+      },
+      "editEngineConfiguration": {
+        "item": {
+          "title": "Configuration du Moteur Modifiée"
+        }
+      },
+      "pinEngine": {
+        "item": {
+          "title": "Moteur Épinglé"
+        }
+      },
+      "unpinEngine": {
+        "item": {
+          "title": "Moteur Désépinglé"
+        }
+      },
+      "removeEngine": {
+        "item": {
+          "title": "Moteur Retiré"
+        }
+      },
+      "restoreEngine": {
+        "item": {
+          "title": "Moteur Restauré"
+        }
+      },
+      "approveReplay": {
+        "item": {
+          "title": "Replay Approuvé"
+        }
+      },
+      "pinReplay": {
+        "item": {
+          "title": "Replay Épinglé"
+        }
+      },
+      "unpinReplay": {
+        "item": {
+          "title": "Replay Désépinglé"
+        }
+      },
+      "removeReplay": {
+        "item": {
+          "title": "Replay Retiré"
+        }
+      },
+      "restoreReplay": {
+        "item": {
+          "title": "Replay Restauré"
+        }
+      }
+    }
+  }
+}
