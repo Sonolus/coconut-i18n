@@ -29,6 +29,10 @@
             "requireReview": {
                 "title": "Require Review",
                 "description": "If moderator review is required before publishing."
+            },
+            "showRandom": {
+                "title": "Show Random",
+                "description": "Show random section."
             }
         },
         "inquiry": {
@@ -65,6 +69,11 @@
             "editServerRequireReviewTypes": {
                 "item": {
                     "title": "Edited Server Require Review"
+                }
+            },
+            "editServerShowRandomTypes": {
+                "item": {
+                    "title": "Edited Server Show Random"
                 }
             },
             "addModerator": {
