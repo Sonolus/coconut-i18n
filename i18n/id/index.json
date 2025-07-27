@@ -1,0 +1,707 @@
+{
+  "expiration": {
+    "expired": {
+      "message": "Langganan server Sonolus Coconut telah berakhir."
+    }
+  },
+  "storage": {
+    "full": {
+      "message": "Penyimpanan server Sonolus Coconut penuh."
+    }
+  },
+  "player": {
+    "placeholder": "Masukkan handle pemain...",
+    "description": "Handle pemain.\n\nMisalnya, masukkan 1000 untuk pemain Burrito#1000."
+  },
+  "posts": {
+    "aboutServer": {
+      "item": {
+      },
+      "homeItems": {
+        "title": "Item Beranda"
+      },
+      "allowCreate": {
+      },
+      "requireReview": {
+      },
+      "showRandom": {
+      }
+    },
+    "inquiry": {
+      "create": {
+      }
+    },
+    "log": {
+      "editServerTitle": {
+        "item": {
+          "title": "Judul Server Diedit"
+        }
+      },
+      "editServerDescription": {
+        "item": {
+          "title": "Deskripsi Server Diedit"
+        }
+      },
+      "editServerBanner": {
+        "item": {
+          "title": "Spanduk Server Diedit"
+        }
+      },
+      "editServerHomeItemTypes": {
+        "item": {
+          "title": "Item Beranda Server Diedit"
+        }
+      },
+      "editServerAllowCreateTypes": {
+        "item": {
+          "title": "Izinkan Buat Server Diedit"
+        }
+      },
+      "editServerRequireReviewTypes": {
+        "item": {
+          "title": "Memerlukan Tinjauan Server Diedit"
+        }
+      },
+      "editServerShowRandomTypes": {
+        "item": {
+          "title": "Tampilkan Acak Server Diedit"
+        }
+      },
+      "addModerator": {
+        "item": {
+        }
+      },
+      "removeModerator": {
+        "item": {
+        }
+      },
+      "addBanned": {
+        "item": {
+          "title": "Banned Ditambahkan"
+        }
+      },
+      "removeBanned": {
+        "item": {
+          "title": "Banned Dihapus"
+        }
+      },
+      "lockInquiry": {
+        "item": {
+        }
+      },
+      "unlockInquiry": {
+        "item": {
+          "title": "Pertanyaan Tidak Terkunci"
+        }
+      },
+      "removeComment": {
+        "item": {
+        }
+      },
+      "restoreComment": {
+        "item": {
+          "title": "Komentar Dipulihkan"
+        }
+      },
+      "approvePost": {
+        "item": {
+        }
+      },
+      "rejectPost": {
+        "item": {
+        }
+      },
+      "editPostTitle": {
+        "item": {
+          "title": "Judul Postingan Diedit"
+        }
+      },
+      "editPostDescription": {
+        "item": {
+          "title": "Deskripsi Postingan Diedit"
+        }
+      },
+      "editPostKeywords": {
+        "item": {
+          "title": "Kata Kunci Postingan Diedit"
+        }
+      },
+      "editPostThumbnail": {
+        "item": {
+          "title": "Thumbnail Postingan Diedit"
+        }
+      },
+      "pinPost": {
+        "item": {
+          "title": "Postingan Disematkan"
+        }
+      },
+      "unpinPost": {
+        "item": {
+          "title": "Postingan Tidak Disematkan"
+        }
+      },
+      "removePost": {
+        "item": {
+        }
+      },
+      "restorePost": {
+        "item": {
+          "title": "Postingan Dipulihkan"
+        }
+      },
+      "approvePlaylist": {
+        "item": {
+          "title": "Daftar Putar Disetujui"
+        }
+      },
+      "rejectPlaylist": {
+        "item": {
+          "title": "Daftar Putar Ditolak"
+        }
+      },
+      "editPlaylistTitle": {
+        "item": {
+          "title": "Judul Daftar Putar Diedit"
+        }
+      },
+      "editPlaylistSubtitle": {
+        "item": {
+          "title": "Subtitel Daftar Putar Diedit"
+        }
+      },
+      "editPlaylistDescription": {
+        "item": {
+          "title": "Deskripsi Daftar Putar Diedit"
+        }
+      },
+      "editPlaylistKeywords": {
+        "item": {
+          "title": "Kata Kunci Daftar Putar Diedit"
+        }
+      },
+      "editPlaylistLevels": {
+        "item": {
+          "title": "Level Daftar Putar Diedit"
+        }
+      },
+      "editPlaylistThumbnail": {
+        "item": {
+          "title": "Thumbnail Daftar Putar Diedit"
+        }
+      },
+      "pinPlaylist": {
+        "item": {
+          "title": "Daftar Putar Disematkan"
+        }
+      },
+      "unpinPlaylist": {
+        "item": {
+          "title": "Daftar Putar Tidak Disematkan"
+        }
+      },
+      "removePlaylist": {
+        "item": {
+          "title": "Daftar Putar Dihapus"
+        }
+      },
+      "restorePlaylist": {
+        "item": {
+          "title": "Daftar Putar Dipulihkan"
+        }
+      },
+      "approveLevel": {
+        "item": {
+          "title": "Level Disetujui"
+        }
+      },
+      "rejectLevel": {
+        "item": {
+          "title": "Level Ditolak"
+        }
+      },
+      "editLevelRating": {
+        "item": {
+          "title": "Rating Level Diedit"
+        }
+      },
+      "editLevelTitle": {
+        "item": {
+          "title": "Judul Level Diedit"
+        }
+      },
+      "editLevelArtists": {
+        "item": {
+          "title": "Artis Level Diedit"
+        }
+      },
+      "editLevelDescription": {
+        "item": {
+          "title": "Deskripsi Level Diedit"
+        }
+      },
+      "editLevelKeywords": {
+        "item": {
+          "title": "Kata Kunci Level Diedit"
+        }
+      },
+      "editLevelEngine": {
+        "item": {
+          "title": "Mesin Level Diedit"
+        }
+      },
+      "editLevelSkin": {
+        "item": {
+          "title": "Skin Level Diedit"
+        }
+      },
+      "editLevelBackground": {
+        "item": {
+          "title": "Latar Belakang Level Diedit"
+        }
+      },
+      "editLevelEffect": {
+        "item": {
+          "title": "SFX Level Diedit"
+        }
+      },
+      "editLevelParticle": {
+        "item": {
+          "title": "Partikel Level Diedit"
+        }
+      },
+      "editLevelCover": {
+        "item": {
+          "title": "Sampul Level Diedit"
+        }
+      },
+      "editLevelBgm": {
+        "item": {
+          "title": "BGM Level Diedit"
+        }
+      },
+      "editLevelPreview": {
+        "item": {
+          "title": "Pratinjau Level Diedit"
+        }
+      },
+      "editLevelData": {
+        "item": {
+          "title": "Data Level Diedit"
+        }
+      },
+      "pinLevel": {
+        "item": {
+          "title": "Level Disematkan"
+        }
+      },
+      "unpinLevel": {
+        "item": {
+          "title": "Level Tidak Disematkan"
+        }
+      },
+      "removeLevel": {
+        "item": {
+          "title": "Level Dihapus"
+        }
+      },
+      "restoreLevel": {
+        "item": {
+          "title": "Level Dipulihkan"
+        }
+      },
+      "approveSkin": {
+        "item": {
+          "title": "Skin Disetujui"
+        }
+      },
+      "rejectSkin": {
+        "item": {
+          "title": "Skin Ditolak"
+        }
+      },
+      "editSkinTitle": {
+        "item": {
+          "title": "Judul Skin Diedit"
+        }
+      },
+      "editSkinSubtitle": {
+        "item": {
+          "title": "Subtitel Skin Diedit"
+        }
+      },
+      "editSkinDescription": {
+        "item": {
+          "title": "Deskripsi Skin Diedit"
+        }
+      },
+      "editSkinKeywords": {
+        "item": {
+          "title": "Kata Kunci Skin Diedit"
+        }
+      },
+      "editSkinThumbnail": {
+        "item": {
+          "title": "Thumbnail Skin Diedit"
+        }
+      },
+      "editSkinData": {
+        "item": {
+          "title": "Data Skin Diedit"
+        }
+      },
+      "editSkinTexture": {
+        "item": {
+          "title": "Tekstur Skin Diedit"
+        }
+      },
+      "pinSkin": {
+        "item": {
+          "title": "Skin Disematkan"
+        }
+      },
+      "unpinSkin": {
+        "item": {
+          "title": "Skin Tidak Disematkan"
+        }
+      },
+      "removeSkin": {
+        "item": {
+          "title": "Skin Dihapus"
+        }
+      },
+      "restoreSkin": {
+        "item": {
+          "title": "Skin Dipulihkan"
+        }
+      },
+      "approveBackground": {
+        "item": {
+          "title": "Latar Belakang Disetujui"
+        }
+      },
+      "rejectBackground": {
+        "item": {
+          "title": "Latar Belakang Ditolak"
+        }
+      },
+      "editBackgroundTitle": {
+        "item": {
+          "title": "Judul Latar Belakang Diedit"
+        }
+      },
+      "editBackgroundSubtitle": {
+        "item": {
+          "title": "Subtitel Latar Belakang Diedit"
+        }
+      },
+      "editBackgroundDescription": {
+        "item": {
+          "title": "Deskripsi Latar Belakang Diedit"
+        }
+      },
+      "editBackgroundKeywords": {
+        "item": {
+          "title": "Kata Kunci Latar Belakang Diedit"
+        }
+      },
+      "editBackgroundThumbnail": {
+        "item": {
+          "title": "Thumbnail Latar Belakang Diedit"
+        }
+      },
+      "editBackgroundImage": {
+        "item": {
+          "title": "Gambar Latar Belakang Diedit"
+        }
+      },
+      "editBackgroundData": {
+        "item": {
+          "title": "Data Latar Belakang Diedit"
+        }
+      },
+      "editBackgroundConfiguration": {
+        "item": {
+          "title": "Konfigurasi Latar Belakang Diedit"
+        }
+      },
+      "pinBackground": {
+        "item": {
+          "title": "Latar Belakang Disematkan"
+        }
+      },
+      "unpinBackground": {
+        "item": {
+          "title": "Latar Belakang Tidak Disematkan"
+        }
+      },
+      "removeBackground": {
+        "item": {
+        }
+      },
+      "restoreBackground": {
+        "item": {
+          "title": "Latar Belakang Dipulihkan"
+        }
+      },
+      "approveEffect": {
+        "item": {
+          "title": "SFX disetujui"
+        }
+      },
+      "rejectEffect": {
+        "item": {
+          "title": "SFX ditolak"
+        }
+      },
+      "editEffectTitle": {
+        "item": {
+          "title": "Judul SFX Diedit"
+        }
+      },
+      "editEffectSubtitle": {
+        "item": {
+          "title": "Subtitel SFX Diedit"
+        }
+      },
+      "editEffectDescription": {
+        "item": {
+          "title": "Deskripsi SFX Diedit"
+        }
+      },
+      "editEffectKeywords": {
+        "item": {
+          "title": "Kata Kunci SFX Diedit"
+        }
+      },
+      "editEffectThumbnail": {
+        "item": {
+          "title": "Thumbnail SFX Diedit"
+        }
+      },
+      "editEffectData": {
+        "item": {
+          "title": "Data SFX Diedit"
+        }
+      },
+      "editEffectAudio": {
+        "item": {
+          "title": "Audio SFX Diedit"
+        }
+      },
+      "pinEffect": {
+        "item": {
+          "title": "SFX disematkan"
+        }
+      },
+      "unpinEffect": {
+        "item": {
+          "title": "SFX tidak disematkan"
+        }
+      },
+      "removeEffect": {
+        "item": {
+        }
+      },
+      "restoreEffect": {
+        "item": {
+          "title": "SFX dipulihkan"
+        }
+      },
+      "approveParticle": {
+        "item": {
+          "title": "Partikel Disetujui"
+        }
+      },
+      "rejectParticle": {
+        "item": {
+          "title": "Partikel Ditolak"
+        }
+      },
+      "editParticleTitle": {
+        "item": {
+          "title": "Judul Partikel Diedit"
+        }
+      },
+      "editParticleSubtitle": {
+        "item": {
+          "title": "Subjudul Partikel Diedit"
+        }
+      },
+      "editParticleDescription": {
+        "item": {
+          "title": "Deskripsi Partikel Diedit"
+        }
+      },
+      "editParticleKeywords": {
+        "item": {
+          "title": "Kata Kunci Partikel Diedit"
+        }
+      },
+      "editParticleThumbnail": {
+        "item": {
+          "title": "Thumbnail Partikel Diedit"
+        }
+      },
+      "editParticleData": {
+        "item": {
+          "title": "Data Partikel Diedit"
+        }
+      },
+      "editParticleTexture": {
+        "item": {
+          "title": "Tekstur Partikel Diedit"
+        }
+      },
+      "pinParticle": {
+        "item": {
+          "title": "Partikel Disematkan"
+        }
+      },
+      "unpinParticle": {
+        "item": {
+          "title": "Partikel Tidak Disematkan"
+        }
+      },
+      "removeParticle": {
+        "item": {
+          "title": "Partikel Dihapus"
+        }
+      },
+      "restoreParticle": {
+        "item": {
+          "title": "Partikel Dipulihkan"
+        }
+      },
+      "approveEngine": {
+        "item": {
+          "title": "Mesin Disetujui"
+        }
+      },
+      "rejectEngine": {
+        "item": {
+        }
+      },
+      "editEngineTitle": {
+        "item": {
+          "title": "Judul Mesin Diedit"
+        }
+      },
+      "editEngineSubtitle": {
+        "item": {
+          "title": "Subtitel Mesin Diedit"
+        }
+      },
+      "editEngineDescription": {
+        "item": {
+          "title": "Deskripsi Mesin Diedit"
+        }
+      },
+      "editEngineKeywords": {
+        "item": {
+          "title": "Kata Kunci Mesin Diedit"
+        }
+      },
+      "editEngineSkin": {
+        "item": {
+          "title": "Skin Mesin Diedit"
+        }
+      },
+      "editEngineBackground": {
+        "item": {
+          "title": "Latar Belakang Mesin Diedit"
+        }
+      },
+      "editEngineEffect": {
+        "item": {
+          "title": "SFX Mesin Diedit"
+        }
+      },
+      "editEngineParticle": {
+        "item": {
+          "title": "Partikel Mesin Diedit"
+        }
+      },
+      "editEngineThumbnail": {
+        "item": {
+          "title": "Thumbnail Mesin Diedit"
+        }
+      },
+      "editEnginePlayData": {
+        "item": {
+          "title": "Data Main Mesin Diedit"
+        }
+      },
+      "editEngineWatchData": {
+        "item": {
+          "title": "Data Tonton Mesin Diedit"
+        }
+      },
+      "editEnginePreviewData": {
+        "item": {
+          "title": "Data Pratinjau Mesin Diedit"
+        }
+      },
+      "editEngineTutorialData": {
+        "item": {
+          "title": "Data Tutorial Mesin Diedit"
+        }
+      },
+      "editEngineRom": {
+        "item": {
+          "title": "ROM Mesin Diedit"
+        }
+      },
+      "editEngineConfiguration": {
+        "item": {
+          "title": "Konfigurasi Mesin Diedit"
+        }
+      },
+      "pinEngine": {
+        "item": {
+          "title": "Mesin Disematkan"
+        }
+      },
+      "unpinEngine": {
+        "item": {
+          "title": "Mesin Tidak Disematkan"
+        }
+      },
+      "removeEngine": {
+        "item": {
+          "title": "Mesin Dihapus"
+        }
+      },
+      "restoreEngine": {
+        "item": {
+          "title": "Mesin Dipulihkan"
+        }
+      },
+      "approveReplay": {
+        "item": {
+          "title": "Replay Disetujui"
+        }
+      },
+      "pinReplay": {
+        "item": {
+          "title": "Replay Disematkan"
+        }
+      },
+      "unpinReplay": {
+        "item": {
+          "title": "Replay Tidak Disematkan"
+        }
+      },
+      "removeReplay": {
+        "item": {
+          "title": "Replay Dihapus"
+        }
+      },
+      "restoreReplay": {
+        "item": {
+          "title": "Replay Dipulihkan"
+        }
+      }
+    }
+  }
+}
