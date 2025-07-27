@@ -29,6 +29,10 @@
       "requireReview": {
         "title": "Yêu cầu đánh giá",
         "description": "Có cần người kiểm duyệt đánh giá trước khi đăng bài không."
+      },
+      "showRandom": {
+        "title": "Hiển thị ngẫu nhiên",
+        "description": "Hiển thị phần ngẫu nhiên."
       }
     },
     "inquiry": {
@@ -65,6 +69,11 @@
       "editServerRequireReviewTypes": {
         "item": {
           "title": "Máy chủ đã chỉnh sửa Yêu cầu xem xét"
+        }
+      },
+      "editServerShowRandomTypes": {
+        "item": {
+          "title": "Máy chủ đã chỉnh sửa Hiển thị ngẫu nhiên"
         }
       },
       "addModerator": {
