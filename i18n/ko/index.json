@@ -29,6 +29,10 @@
       "requireReview": {
         "title": "검토 필요",
         "description": "공개 전 관리자의 검토가 필요한 지 여부입니다."
+      },
+      "showRandom": {
+        "title": "무작위 표시",
+        "description": "무작위로 선택하여 표시합니다."
       }
     },
     "inquiry": {
@@ -65,6 +69,11 @@
       "editServerRequireReviewTypes": {
         "item": {
           "title": "서버 검토 필요 수정됨"
+        }
+      },
+      "editServerShowRandomTypes": {
+        "item": {
+          "title": "서버 무작위 표시 수정됨"
         }
       },
       "addModerator": {
