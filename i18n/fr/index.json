@@ -29,6 +29,10 @@
       "requireReview": {
         "title": "Exiger une Vérification",
         "description": "Si une vérification par un modérateur est requise avant la publication."
+      },
+      "showRandom": {
+        "title": "Afficher Aléatoire",
+        "description": "Afficher la section Aléatoire."
       }
     },
     "inquiry": {
@@ -65,6 +69,11 @@
       "editServerRequireReviewTypes": {
         "item": {
           "title": "Exiger une Vérification Modifié"
+        }
+      },
+      "editServerShowRandomTypes": {
+        "item": {
+          "title": "Affichage de la Section Aléatoire du Serveur Modifié"
         }
       },
       "addModerator": {
