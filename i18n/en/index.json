@@ -4,6 +4,12 @@
             "message": "Sonolus Coconut server subscription expired."
         }
     },
+    "includeTag": {
+        "title": "Include Tag"
+    },
+    "excludeTag": {
+        "title": "Exclude Tag"
+    },
     "storage": {
         "full": {
             "message": "Sonolus Coconut server storage full."
@@ -37,6 +43,18 @@
             "defaultEngine": {
                 "title": "Default Engine",
                 "description": "Default engine when creating a level."
+            }
+        },
+        "tags": {
+            "usableTags": {
+                "title": "Usable Tags",
+                "description": "Tags players can use.",
+                "placeholder": "Enter list of tag IDs separated by comma..."
+            },
+            "searchableTags": {
+                "title": "Searchable Tags",
+                "description": "Tags players can search.",
+                "placeholder": "Enter list of tag IDs separated by comma..."
             }
         },
         "inquiry": {
@@ -105,6 +123,96 @@
                     "title": "Removed Banned"
                 }
             },
+            "addTag": {
+                "item": {
+                    "title": "Added Tag"
+                }
+            },
+            "editTagTitle": {
+                "item": {
+                    "title": "Edited Tag Title"
+                }
+            },
+            "editUsablePostTagIds": {
+                "item": {
+                    "title": "Edited Usable Post Tags"
+                }
+            },
+            "editUsablePlaylistTagIds": {
+                "item": {
+                    "title": "Edited Usable Playlist Tags"
+                }
+            },
+            "editUsableLevelTagIds": {
+                "item": {
+                    "title": "Edited Usable Level Tags"
+                }
+            },
+            "editUsableSkinTagIds": {
+                "item": {
+                    "title": "Edited Usable Skin Tags"
+                }
+            },
+            "editUsableBackgroundTagIds": {
+                "item": {
+                    "title": "Edited Usable Background Tags"
+                }
+            },
+            "editUsableEffectTagIds": {
+                "item": {
+                    "title": "Edited Usable SFX Tags"
+                }
+            },
+            "editUsableParticleTagIds": {
+                "item": {
+                    "title": "Edited Usable Particle Tags"
+                }
+            },
+            "editUsableEngineTagIds": {
+                "item": {
+                    "title": "Edited Usable Engine Tags"
+                }
+            },
+            "editSearchablePostTagIds": {
+                "item": {
+                    "title": "Edited Searchable Post Tags"
+                }
+            },
+            "editSearchablePlaylistTagIds": {
+                "item": {
+                    "title": "Edited Searchable Playlist Tags"
+                }
+            },
+            "editSearchableLevelTagIds": {
+                "item": {
+                    "title": "Edited Searchable Level Tags"
+                }
+            },
+            "editSearchableSkinTagIds": {
+                "item": {
+                    "title": "Edited Searchable Skin Tags"
+                }
+            },
+            "editSearchableBackgroundTagIds": {
+                "item": {
+                    "title": "Edited Searchable Background Tags"
+                }
+            },
+            "editSearchableEffectTagIds": {
+                "item": {
+                    "title": "Edited Searchable SFX Tags"
+                }
+            },
+            "editSearchableParticleTagIds": {
+                "item": {
+                    "title": "Edited Searchable Particle Tags"
+                }
+            },
+            "editSearchableEngineTagIds": {
+                "item": {
+                    "title": "Edited Searchable Engine Tags"
+                }
+            },
             "lockInquiry": {
                 "item": {
                     "title": "Locked Inquiry"
@@ -148,6 +256,11 @@
             "editPostKeywords": {
                 "item": {
                     "title": "Edited Post Keywords"
+                }
+            },
+            "editPostTagIds": {
+                "item": {
+                    "title": "Edited Post Tags"
                 }
             },
             "editPostThumbnail": {
@@ -203,6 +316,11 @@
             "editPlaylistKeywords": {
                 "item": {
                     "title": "Edited Playlist Keywords"
+                }
+            },
+            "editPlaylistTagIds": {
+                "item": {
+                    "title": "Edited Playlist Tags"
                 }
             },
             "editPlaylistLevels": {
@@ -268,6 +386,11 @@
             "editLevelKeywords": {
                 "item": {
                     "title": "Edited Level Keywords"
+                }
+            },
+            "editLevelTagIds": {
+                "item": {
+                    "title": "Edited Level Tags"
                 }
             },
             "editLevelEngine": {
@@ -365,6 +488,11 @@
                     "title": "Edited Skin Keywords"
                 }
             },
+            "editSkinTagIds": {
+                "item": {
+                    "title": "Edited Skin Tags"
+                }
+            },
             "editSkinThumbnail": {
                 "item": {
                     "title": "Edited Skin Thumbnail"
@@ -428,6 +556,11 @@
             "editBackgroundKeywords": {
                 "item": {
                     "title": "Edited Background Keywords"
+                }
+            },
+            "editBackgroundTagIds": {
+                "item": {
+                    "title": "Edited Background Tags"
                 }
             },
             "editBackgroundThumbnail": {
@@ -500,6 +633,11 @@
                     "title": "Edited SFX Keywords"
                 }
             },
+            "editEffectTagIds": {
+                "item": {
+                    "title": "Edited SFX Tags"
+                }
+            },
             "editEffectThumbnail": {
                 "item": {
                     "title": "Edited SFX Thumbnail"
@@ -565,6 +703,11 @@
                     "title": "Edited Particle Keywords"
                 }
             },
+            "editParticleTagIds": {
+                "item": {
+                    "title": "Edited Particle Tags"
+                }
+            },
             "editParticleThumbnail": {
                 "item": {
                     "title": "Edited Particle Thumbnail"
@@ -628,6 +771,11 @@
             "editEngineKeywords": {
                 "item": {
                     "title": "Edited Engine Keywords"
+                }
+            },
+            "editEngineTagIds": {
+                "item": {
+                    "title": "Edited Engine Tags"
                 }
             },
             "editEngineSkin": {
