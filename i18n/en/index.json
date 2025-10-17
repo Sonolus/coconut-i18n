@@ -33,6 +33,10 @@
             "showRandom": {
                 "title": "Show Random",
                 "description": "Show random section."
+            },
+            "defaultEngine": {
+                "title": "Default Engine",
+                "description": "Default engine when creating a level."
             }
         },
         "inquiry": {
@@ -74,6 +78,11 @@
             "editServerShowRandomTypes": {
                 "item": {
                     "title": "Edited Server Show Random"
+                }
+            },
+            "editServerDefaultEngineId": {
+                "item": {
+                    "title": "Edited Server Default Engine"
                 }
             },
             "addModerator": {
