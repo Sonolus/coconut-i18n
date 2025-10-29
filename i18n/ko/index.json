@@ -4,6 +4,12 @@
       "message": "Sonolus Coconut 서버 구독이 만료되었습니다."
     }
   },
+  "includeTag": {
+    "title": "태그 포함"
+  },
+  "excludeTag": {
+    "title": "태그 제외"
+  },
   "storage": {
     "full": {
       "message": "Sonolus Coconut 서버 저장소가 가득 찼습니다."
@@ -33,6 +39,22 @@
       "showRandom": {
         "title": "무작위 표시",
         "description": "무작위로 선택하여 표시합니다."
+      },
+      "defaultEngine": {
+        "title": "기본 엔진",
+        "description": "레벨을 생성할 때의 기본 엔진입니다."
+      }
+    },
+    "tags": {
+      "usableTags": {
+        "title": "유용한 태그",
+        "description": "플레이어가 사용할 수 있는 태그입니다.",
+        "placeholder": "쉼표를 구분자로 사용하여 태그 ID 목록 입력..."
+      },
+      "searchableTags": {
+        "title": "검색 가능한 태그",
+        "description": "플레이어가 검색할 수 있는 태그입니다.",
+        "placeholder": "쉼표를 구분자로 사용하여 태그 ID 목록 입력..."
       }
     },
     "inquiry": {
@@ -76,6 +98,11 @@
           "title": "서버 무작위 표시 수정됨"
         }
       },
+      "editServerDefaultEngineId": {
+        "item": {
+          "title": "서버 기본 엔진 수정됨"
+        }
+      },
       "addModerator": {
         "item": {
           "title": "관리자 추가됨"
@@ -94,6 +121,96 @@
       "removeBanned": {
         "item": {
           "title": "제재 제거됨"
+        }
+      },
+      "addTag": {
+        "item": {
+          "title": "태그 추가됨"
+        }
+      },
+      "editTagTitle": {
+        "item": {
+          "title": "태그 이름 수정됨"
+        }
+      },
+      "editUsablePostTagIds": {
+        "item": {
+          "title": "유용한 게시물 태그 수정됨"
+        }
+      },
+      "editUsablePlaylistTagIds": {
+        "item": {
+          "title": "유용한 재생목록 태그 수정됨"
+        }
+      },
+      "editUsableLevelTagIds": {
+        "item": {
+          "title": "유용한 레벨 태그 수정됨"
+        }
+      },
+      "editUsableSkinTagIds": {
+        "item": {
+          "title": "유용한 스킨 태그 수정됨"
+        }
+      },
+      "editUsableBackgroundTagIds": {
+        "item": {
+          "title": "유용한 배경 태그 수정됨"
+        }
+      },
+      "editUsableEffectTagIds": {
+        "item": {
+          "title": "유용한 효과음 태그 수정됨"
+        }
+      },
+      "editUsableParticleTagIds": {
+        "item": {
+          "title": "유용한 입자 태그 수정됨"
+        }
+      },
+      "editUsableEngineTagIds": {
+        "item": {
+          "title": "유용한 엔진 태그 수정됨"
+        }
+      },
+      "editSearchablePostTagIds": {
+        "item": {
+          "title": "검색 가능한 게시물 태그 수정됨"
+        }
+      },
+      "editSearchablePlaylistTagIds": {
+        "item": {
+          "title": "검색 가능한 재생목록 태그 수정됨"
+        }
+      },
+      "editSearchableLevelTagIds": {
+        "item": {
+          "title": "검색 가능한 레벨 태그 수정됨"
+        }
+      },
+      "editSearchableSkinTagIds": {
+        "item": {
+          "title": "검색 가능한 스킨 태그 수정됨"
+        }
+      },
+      "editSearchableBackgroundTagIds": {
+        "item": {
+          "title": "검색 가능한 배경 태그 수정됨"
+        }
+      },
+      "editSearchableEffectTagIds": {
+        "item": {
+          "title": "검색 가능한 효과음 태그 수정됨"
+        }
+      },
+      "editSearchableParticleTagIds": {
+        "item": {
+          "title": "검색 가능한 입자 태그 수정됨"
+        }
+      },
+      "editSearchableEngineTagIds": {
+        "item": {
+          "title": "검색 가능한 엔진 태그 수정됨"
         }
       },
       "lockInquiry": {
@@ -139,6 +256,11 @@
       "editPostKeywords": {
         "item": {
           "title": "게시물 핵심 단어 수정됨"
+        }
+      },
+      "editPostTagIds": {
+        "item": {
+          "title": "게시물 태그 수정됨"
         }
       },
       "editPostThumbnail": {
@@ -194,6 +316,11 @@
       "editPlaylistKeywords": {
         "item": {
           "title": "재생목록 핵심 단어 수정됨"
+        }
+      },
+      "editPlaylistTagIds": {
+        "item": {
+          "title": "재생목록 태그 수정됨"
         }
       },
       "editPlaylistLevels": {
@@ -259,6 +386,11 @@
       "editLevelKeywords": {
         "item": {
           "title": "레벨 핵심 단어 수정됨"
+        }
+      },
+      "editLevelTagIds": {
+        "item": {
+          "title": "레벨 태그 수정됨"
         }
       },
       "editLevelEngine": {
@@ -356,6 +488,11 @@
           "title": "스킨 핵심 단어 수정됨"
         }
       },
+      "editSkinTagIds": {
+        "item": {
+          "title": "스킨 태그 수정됨"
+        }
+      },
       "editSkinThumbnail": {
         "item": {
           "title": "스킨 미리보기 이미지 수정됨"
@@ -419,6 +556,11 @@
       "editBackgroundKeywords": {
         "item": {
           "title": "배경 핵심 단어 수정됨"
+        }
+      },
+      "editBackgroundTagIds": {
+        "item": {
+          "title": "배경 태그 수정됨"
         }
       },
       "editBackgroundThumbnail": {
@@ -491,6 +633,11 @@
           "title": "효과음 핵심 단어 수정됨"
         }
       },
+      "editEffectTagIds": {
+        "item": {
+          "title": "효과음 태그 수정됨"
+        }
+      },
       "editEffectThumbnail": {
         "item": {
           "title": "효과음 미리보기 이미지 수정됨"
@@ -556,6 +703,11 @@
           "title": "입자 핵심 단어 수정됨"
         }
       },
+      "editParticleTagIds": {
+        "item": {
+          "title": "입자 태그 수정됨"
+        }
+      },
       "editParticleThumbnail": {
         "item": {
           "title": "입자 미리보기 이미지 수정됨"
@@ -619,6 +771,11 @@
       "editEngineKeywords": {
         "item": {
           "title": "엔진 핵심 단어 수정됨"
+        }
+      },
+      "editEngineTagIds": {
+        "item": {
+          "title": "엔진 태그 수정됨"
         }
       },
       "editEngineSkin": {
