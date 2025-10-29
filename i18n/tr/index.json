@@ -1,0 +1,883 @@
+{
+  "expiration": {
+    "expired": {
+      "message": "Sonolus Coconut sunucu aboneliği sona erdi."
+    }
+  },
+  "includeTag": {
+    "title": "Etiketi Dahil Et"
+  },
+  "excludeTag": {
+    "title": "Etiketi Hariç Tut"
+  },
+  "storage": {
+    "full": {
+      "message": "Sonolus Coconut sunucu depolama alanı dolu."
+    }
+  },
+  "player": {
+    "placeholder": "Oyuncu etiketini girin...",
+    "description": "Oyuncu etiketi.\n\nÖrneğin, Burrito#1000 oyuncusu için 1000 girin."
+  },
+  "posts": {
+    "aboutServer": {
+      "item": {
+        "title": "Sunucu Hakkında"
+      },
+      "homeItems": {
+        "title": "Ana Sayfa Ögeleri",
+        "description": "Sunucu ana sayfasında gösterilen öğeler."
+      },
+      "allowCreate": {
+        "title": "Oluşturmaya İzin Ver",
+        "description": "Eğer oluşturulmaya izin veriliyorsa."
+      },
+      "requireReview": {
+        "title": "İnceleme Gerektir",
+        "description": "Yayımlanmadan önce moderatör incelemesi gerekiyorsa."
+      },
+      "showRandom": {
+        "title": "Rastgele Göster",
+        "description": "Rastgele bölümünü gösterir."
+      },
+      "defaultEngine": {
+        "title": "Varsayılan Motor",
+        "description": "Bir seviye oluştururken varsayılan motor."
+      }
+    },
+    "tags": {
+      "usableTags": {
+        "title": "Kullanılabilir Etiketler",
+        "description": "Oyuncuların kullanabileceği etiketler.",
+        "placeholder": "Virgülle ayrılmış etiket kimliklerinin listesini girin..."
+      },
+      "searchableTags": {
+        "title": "Aranabilir Etiketler",
+        "description": "Oyuncuların arayabileceği etiketler.",
+        "placeholder": "Virgülle ayrılmış etiket kimliklerinin listesini girin..."
+      }
+    },
+    "inquiry": {
+      "create": {
+        "description": "Sunucu moderatörleriyle özel olarak iletişime geçmek için bir talep oluşturun."
+      }
+    },
+    "log": {
+      "editServerTitle": {
+        "item": {
+          "title": "Sunucu Başlığı Düzenlendi"
+        }
+      },
+      "editServerDescription": {
+        "item": {
+          "title": "Sunucu Açıklaması Düzenlendi"
+        }
+      },
+      "editServerBanner": {
+        "item": {
+          "title": "Sunucu Afişi Düzenlendi"
+        }
+      },
+      "editServerHomeItemTypes": {
+        "item": {
+          "title": "Sunucu Ana Öğeleri Düzenlendi"
+        }
+      },
+      "editServerAllowCreateTypes": {
+        "item": {
+          "title": "Sunucu İzin Oluşturma Düzenlendi"
+        }
+      },
+      "editServerRequireReviewTypes": {
+        "item": {
+          "title": "Sunucu İnceleme Gerektirme Düzenlendi"
+        }
+      },
+      "editServerShowRandomTypes": {
+        "item": {
+          "title": "Sunucu Rastgele Gösterme Düzenlendi"
+        }
+      },
+      "editServerDefaultEngineId": {
+        "item": {
+          "title": "Sunucu Varsayılan Motoru Düzenlendi"
+        }
+      },
+      "addModerator": {
+        "item": {
+          "title": "Moderatör Eklendi"
+        }
+      },
+      "removeModerator": {
+        "item": {
+          "title": "Moderatör Kaldırıldı"
+        }
+      },
+      "addBanned": {
+        "item": {
+          "title": "Yasaklananlara Eklendi"
+        }
+      },
+      "removeBanned": {
+        "item": {
+          "title": "Yasaklananlardan Kaldırıldı"
+        }
+      },
+      "addTag": {
+        "item": {
+          "title": "Etiket Eklendi"
+        }
+      },
+      "editTagTitle": {
+        "item": {
+          "title": "Etiket Başlığı Düzenlendi"
+        }
+      },
+      "editUsablePostTagIds": {
+        "item": {
+          "title": "Kullanılabilir Gönderi Etiketleri Düzenlendi"
+        }
+      },
+      "editUsablePlaylistTagIds": {
+        "item": {
+          "title": "Kullanılabilir Çalma Listesi Etiketleri Düzenlendi"
+        }
+      },
+      "editUsableLevelTagIds": {
+        "item": {
+          "title": "Kullanılabilir Düzey Etiketleri Düzenlendi"
+        }
+      },
+      "editUsableSkinTagIds": {
+        "item": {
+          "title": "Kullanılabilir Görünüm Etiketleri Düzenlendi\n"
+        }
+      },
+      "editUsableBackgroundTagIds": {
+        "item": {
+          "title": "Kullanılabilir Arka Plan Etiketleri Düzenlendi"
+        }
+      },
+      "editUsableEffectTagIds": {
+        "item": {
+          "title": "Kullanılabilir SFX Etiketleri Düzenlendi"
+        }
+      },
+      "editUsableParticleTagIds": {
+        "item": {
+          "title": "Kullanılabilir Parçacık Etiketleri Düzenlendi"
+        }
+      },
+      "editUsableEngineTagIds": {
+        "item": {
+          "title": "Kullanılabilir Motor Etiketleri Düzenlendi"
+        }
+      },
+      "editSearchablePostTagIds": {
+        "item": {
+          "title": "Aranabilir Gönderi Etiketleri Düzenlendi"
+        }
+      },
+      "editSearchablePlaylistTagIds": {
+        "item": {
+          "title": "Aranabilir Çalma Listesi Etiketleri Düzenlendi\n"
+        }
+      },
+      "editSearchableLevelTagIds": {
+        "item": {
+          "title": "Aranabilir Seviye Etiketleri Düzenlendi"
+        }
+      },
+      "editSearchableSkinTagIds": {
+        "item": {
+          "title": "Aranabilir Doku Etiketleri Düzenlendi"
+        }
+      },
+      "editSearchableBackgroundTagIds": {
+        "item": {
+          "title": "Aranabilir Arka Plan Etiketleri Düzenlendi"
+        }
+      },
+      "editSearchableEffectTagIds": {
+        "item": {
+          "title": "Aranabilir SFX Etiketleri Düzenlendi"
+        }
+      },
+      "editSearchableParticleTagIds": {
+        "item": {
+          "title": "Aranabilir Parçacık Etiketleri Düzenlendi"
+        }
+      },
+      "editSearchableEngineTagIds": {
+        "item": {
+          "title": "Aranabilir Motor Etiketleri Düzenlendi"
+        }
+      },
+      "lockInquiry": {
+        "item": {
+          "title": "Talep Kilitlendi"
+        }
+      },
+      "unlockInquiry": {
+        "item": {
+          "title": "Talebin Kilidi Açıldı"
+        }
+      },
+      "removeComment": {
+        "item": {
+          "title": "Yorum Kaldırıldı"
+        }
+      },
+      "restoreComment": {
+        "item": {
+          "title": "Yorum Onarıldı"
+        }
+      },
+      "approvePost": {
+        "item": {
+          "title": "Gönderi Onaylandı"
+        }
+      },
+      "rejectPost": {
+        "item": {
+          "title": "Gönderi Geri Çevirildi"
+        }
+      },
+      "editPostTitle": {
+        "item": {
+          "title": "Gönderi Başlığı Düzenlendi"
+        }
+      },
+      "editPostDescription": {
+        "item": {
+          "title": "Gönderi Açıklaması Düzenlendi"
+        }
+      },
+      "editPostKeywords": {
+        "item": {
+          "title": "Gönderi Anahtar Kelimeleri Düzenlendi"
+        }
+      },
+      "editPostTagIds": {
+        "item": {
+          "title": "Gönderi Etiketleri Düzenlendi"
+        }
+      },
+      "editPostThumbnail": {
+        "item": {
+          "title": "Gönderi Önizleme Resmi Düzenlendi"
+        }
+      },
+      "pinPost": {
+        "item": {
+          "title": "Gönderi Sabitlendi"
+        }
+      },
+      "unpinPost": {
+        "item": {
+          "title": "Gönderi Sabitlenmesi Kaldırıldı"
+        }
+      },
+      "removePost": {
+        "item": {
+          "title": "Gönderi Kaldırıldı"
+        }
+      },
+      "restorePost": {
+        "item": {
+          "title": "Gönderi Onarıldı"
+        }
+      },
+      "approvePlaylist": {
+        "item": {
+          "title": "Çalma Listesi Onaylandı"
+        }
+      },
+      "rejectPlaylist": {
+        "item": {
+          "title": "Çalma Listesi Geri Çevirildi"
+        }
+      },
+      "editPlaylistTitle": {
+        "item": {
+          "title": "Çalma Listesi Başlığı Düzenlendi"
+        }
+      },
+      "editPlaylistSubtitle": {
+        "item": {
+          "title": "Çalma Listesi Altbaşlığı Düzenlendi"
+        }
+      },
+      "editPlaylistDescription": {
+        "item": {
+          "title": "Çalma Listesi Açıklaması Düzenlendi"
+        }
+      },
+      "editPlaylistKeywords": {
+        "item": {
+          "title": "Çalma Listesi Anahtar Kelimeleri Düzenlendi"
+        }
+      },
+      "editPlaylistTagIds": {
+        "item": {
+          "title": "Çalma Listesi Etiketleri Düzenlendi"
+        }
+      },
+      "editPlaylistLevels": {
+        "item": {
+          "title": "Çalma Listesi Seviyeleri Düzenlendi"
+        }
+      },
+      "editPlaylistThumbnail": {
+        "item": {
+          "title": "Çalma Listesi Önizleme Resmi Düzenlendi"
+        }
+      },
+      "pinPlaylist": {
+        "item": {
+          "title": "Çalma Listesi Sabitlendi"
+        }
+      },
+      "unpinPlaylist": {
+        "item": {
+          "title": "Çalma Listesi Sabitlemesi Kaldırıldı"
+        }
+      },
+      "removePlaylist": {
+        "item": {
+          "title": "Çalma Listesi Kaldırıldı"
+        }
+      },
+      "restorePlaylist": {
+        "item": {
+          "title": "Çalma Listesi Onarıldı"
+        }
+      },
+      "approveLevel": {
+        "item": {
+          "title": "Seviye Onaylandı"
+        }
+      },
+      "rejectLevel": {
+        "item": {
+          "title": "Seviye Geri Çevirildi"
+        }
+      },
+      "editLevelRating": {
+        "item": {
+          "title": "Seviye Derecelendirmesi Düzenlendi"
+        }
+      },
+      "editLevelTitle": {
+        "item": {
+          "title": "Seviye Başlığı Düzenlendi"
+        }
+      },
+      "editLevelArtists": {
+        "item": {
+          "title": "Seviye Sanatçıları Düzenlendi"
+        }
+      },
+      "editLevelDescription": {
+        "item": {
+          "title": "Seviye Açıklaması Düzenlendi"
+        }
+      },
+      "editLevelKeywords": {
+        "item": {
+          "title": "Seviye Anahtar Kelimeleri Düzenlendi"
+        }
+      },
+      "editLevelTagIds": {
+        "item": {
+          "title": "Seviye Etiketleri Düzenlendi"
+        }
+      },
+      "editLevelEngine": {
+        "item": {
+          "title": "Seviye Motoru Düzenlendi"
+        }
+      },
+      "editLevelSkin": {
+        "item": {
+          "title": "Seviye Dokusu Düzenlendi"
+        }
+      },
+      "editLevelBackground": {
+        "item": {
+          "title": "Seviye Arkaplanı Düzenlendi"
+        }
+      },
+      "editLevelEffect": {
+        "item": {
+          "title": "Seviye Ses Efekti Düzenlendi"
+        }
+      },
+      "editLevelParticle": {
+        "item": {
+          "title": "Seviye Partikülü Düzenlendi"
+        }
+      },
+      "editLevelCover": {
+        "item": {
+          "title": "Seviye Albüm Kapağı Düzenlendi"
+        }
+      },
+      "editLevelBgm": {
+        "item": {
+          "title": "Seviye Arkaplan Müziği Düzenlendi"
+        }
+      },
+      "editLevelPreview": {
+        "item": {
+          "title": "Seviye Önizlemesi Düzenlendi"
+        }
+      },
+      "editLevelData": {
+        "item": {
+          "title": "Seviye Verileri Düzenlendi"
+        }
+      },
+      "pinLevel": {
+        "item": {
+          "title": "Seviye Sabitlendi"
+        }
+      },
+      "unpinLevel": {
+        "item": {
+          "title": "Seviye Sabitlenmesi Kaldırıldı"
+        }
+      },
+      "removeLevel": {
+        "item": {
+          "title": "Seviye Kaldırıldı"
+        }
+      },
+      "restoreLevel": {
+        "item": {
+          "title": "Seviye Onarıldı"
+        }
+      },
+      "approveSkin": {
+        "item": {
+          "title": "Doku Onaylandı"
+        }
+      },
+      "rejectSkin": {
+        "item": {
+          "title": "Doku Geri Çevirildi"
+        }
+      },
+      "editSkinTitle": {
+        "item": {
+          "title": "Doku Başlığı Düzenlendi"
+        }
+      },
+      "editSkinSubtitle": {
+        "item": {
+          "title": "Doku Altbaşlığı Düzenlendi"
+        }
+      },
+      "editSkinDescription": {
+        "item": {
+          "title": "Doku Açıklaması Düzenlendi"
+        }
+      },
+      "editSkinKeywords": {
+        "item": {
+          "title": "Doku Anahtar Kelimeleri Düzenlendi"
+        }
+      },
+      "editSkinTagIds": {
+        "item": {
+          "title": "Doku Etiketleri Düzenlendi"
+        }
+      },
+      "editSkinThumbnail": {
+        "item": {
+          "title": "Doku Önizleme Resmi Düzenlendi"
+        }
+      },
+      "editSkinData": {
+        "item": {
+          "title": "Doku Verileri Düzenlendi"
+        }
+      },
+      "editSkinTexture": {
+        "item": {
+          "title": "Doku Yapısı Düzenlendi"
+        }
+      },
+      "pinSkin": {
+        "item": {
+          "title": "Doku Sabitlendi"
+        }
+      },
+      "unpinSkin": {
+        "item": {
+          "title": "Doku Sabitlenmesi Kaldırıldı"
+        }
+      },
+      "removeSkin": {
+        "item": {
+          "title": "Doku Kaldırıldı"
+        }
+      },
+      "restoreSkin": {
+        "item": {
+          "title": "Doku Onarıldı"
+        }
+      },
+      "approveBackground": {
+        "item": {
+          "title": "Arkaplan Onaylandı"
+        }
+      },
+      "rejectBackground": {
+        "item": {
+          "title": "Arkaplan Geri Çevirildi"
+        }
+      },
+      "editBackgroundTitle": {
+        "item": {
+          "title": "Arkaplan Başlığı Düzenlendi"
+        }
+      },
+      "editBackgroundSubtitle": {
+        "item": {
+          "title": "Arkaplan Altbaşlığı Düzenlendi"
+        }
+      },
+      "editBackgroundDescription": {
+        "item": {
+          "title": "Arkaplan Açıklaması Düzenlendi"
+        }
+      },
+      "editBackgroundKeywords": {
+        "item": {
+          "title": "Arkaplan Anahtar Kelimeleri Düzenlendi"
+        }
+      },
+      "editBackgroundTagIds": {
+        "item": {
+          "title": "Arka Plan Etiketleri Düzenlendi"
+        }
+      },
+      "editBackgroundThumbnail": {
+        "item": {
+          "title": "Arkaplan Önizleme Resmi Düzenlendi"
+        }
+      },
+      "editBackgroundImage": {
+        "item": {
+          "title": "Arkaplan Görseli Düzenlendi"
+        }
+      },
+      "editBackgroundData": {
+        "item": {
+          "title": "Arkaplan Verileri Düzenlendi"
+        }
+      },
+      "editBackgroundConfiguration": {
+        "item": {
+          "title": "Arkaplan Yapılandırması Düzenlendi"
+        }
+      },
+      "pinBackground": {
+        "item": {
+          "title": "Arkaplan Düzenlendi"
+        }
+      },
+      "unpinBackground": {
+        "item": {
+          "title": "Arkaplan Sabitlenmesi Kaldırıldı"
+        }
+      },
+      "removeBackground": {
+        "item": {
+          "title": "Arkaplan Kaldırıldı"
+        }
+      },
+      "restoreBackground": {
+        "item": {
+          "title": "Arkaplan Onarıldı"
+        }
+      },
+      "approveEffect": {
+        "item": {
+          "title": "Ses Efekti Onaylandı"
+        }
+      },
+      "rejectEffect": {
+        "item": {
+          "title": "Ses Efekti Geri Çevirildi"
+        }
+      },
+      "editEffectTitle": {
+        "item": {
+          "title": "Ses Efekti Başlığı Düzenlendi"
+        }
+      },
+      "editEffectSubtitle": {
+        "item": {
+          "title": "Ses Efekti Altbaşlığı Düzenlendi"
+        }
+      },
+      "editEffectDescription": {
+        "item": {
+          "title": "Ses Efekti Açıklaması Düzenlendi"
+        }
+      },
+      "editEffectKeywords": {
+        "item": {
+          "title": "Ses Efekti Anahtar Kelimeleri Düzenlendi"
+        }
+      },
+      "editEffectTagIds": {
+        "item": {
+          "title": "SFX Etiketleri Düzenlendi"
+        }
+      },
+      "editEffectThumbnail": {
+        "item": {
+          "title": "Ses Efekti Önizleme Resmi Düzenlendi"
+        }
+      },
+      "editEffectData": {
+        "item": {
+          "title": "Ses Efekti Verileri Düzenlendi"
+        }
+      },
+      "editEffectAudio": {
+        "item": {
+          "title": "Ses Efekti Sesi Düzenlendi"
+        }
+      },
+      "pinEffect": {
+        "item": {
+          "title": "Ses Efekti Sabitlendi"
+        }
+      },
+      "unpinEffect": {
+        "item": {
+          "title": "Ses Efekti Sabitlemesi Kaldırıldı"
+        }
+      },
+      "removeEffect": {
+        "item": {
+          "title": "Ses Efekti Kaldırıldı"
+        }
+      },
+      "restoreEffect": {
+        "item": {
+          "title": "Ses Efekti Onarıldı"
+        }
+      },
+      "approveParticle": {
+        "item": {
+          "title": "Partikül Onaylandı"
+        }
+      },
+      "rejectParticle": {
+        "item": {
+          "title": "Partikül Geri Çevirildi"
+        }
+      },
+      "editParticleTitle": {
+        "item": {
+          "title": "Partikül Başlığı Düzenlendi"
+        }
+      },
+      "editParticleSubtitle": {
+        "item": {
+          "title": "Parçacık Alt Başlığı Düzenlendi"
+        }
+      },
+      "editParticleDescription": {
+        "item": {
+          "title": "Parçacık Açıklaması Düzenlendi"
+        }
+      },
+      "editParticleKeywords": {
+        "item": {
+          "title": "Parçacık Anahtar Kelimeleri Düzenlendi"
+        }
+      },
+      "editParticleTagIds": {
+        "item": {
+          "title": "Parçacık Etiketleri Düzenlendi"
+        }
+      },
+      "editParticleThumbnail": {
+        "item": {
+          "title": "Parçacık Küçük Resmi Düzenlendi"
+        }
+      },
+      "editParticleData": {
+        "item": {
+          "title": "Parçacık Verileri Düzenlendi"
+        }
+      },
+      "editParticleTexture": {
+        "item": {
+          "title": "Parçacık Dokusu Düzenlendi"
+        }
+      },
+      "pinParticle": {
+        "item": {
+          "title": "Parçacık Sabitlendi"
+        }
+      },
+      "unpinParticle": {
+        "item": {
+          "title": "Parçacık Sabitlemesi Kaldırıldı"
+        }
+      },
+      "removeParticle": {
+        "item": {
+          "title": "Parçacık Kaldırıldı"
+        }
+      },
+      "restoreParticle": {
+        "item": {
+          "title": "Parçacık Geri Yüklendi"
+        }
+      },
+      "approveEngine": {
+        "item": {
+          "title": "Motor Onaylandı"
+        }
+      },
+      "rejectEngine": {
+        "item": {
+          "title": "Motor Reddedildi"
+        }
+      },
+      "editEngineTitle": {
+        "item": {
+          "title": "Motor Başlığı Düzenlendi"
+        }
+      },
+      "editEngineSubtitle": {
+        "item": {
+          "title": "Motor Altyazısı Düzenlendi"
+        }
+      },
+      "editEngineDescription": {
+        "item": {
+          "title": "Motor Açıklaması Düzenlendi"
+        }
+      },
+      "editEngineKeywords": {
+        "item": {
+          "title": "Motor Anahtar Kelimeleri Düzenlendi"
+        }
+      },
+      "editEngineTagIds": {
+        "item": {
+          "title": "Motor Etiketleri Düzenlendi"
+        }
+      },
+      "editEngineSkin": {
+        "item": {
+          "title": "Motor Dokusu Düzenlendi"
+        }
+      },
+      "editEngineBackground": {
+        "item": {
+          "title": "Motor Arka Planı Düzenlendi"
+        }
+      },
+      "editEngineEffect": {
+        "item": {
+          "title": "Motor Ses Efekti Düzenlendi"
+        }
+      },
+      "editEngineParticle": {
+        "item": {
+          "title": "Motor Parçacığı Düzenlendi"
+        }
+      },
+      "editEngineThumbnail": {
+        "item": {
+          "title": "Motor Küçük Resmi Düzenlendi"
+        }
+      },
+      "editEnginePlayData": {
+        "item": {
+          "title": "Motor Oynatma Verileri Düzenlendi"
+        }
+      },
+      "editEngineWatchData": {
+        "item": {
+          "title": "Motor İzleme Verileri Düzenlendi"
+        }
+      },
+      "editEnginePreviewData": {
+        "item": {
+          "title": "Motor Önizleme Verileri Düzenlendi"
+        }
+      },
+      "editEngineTutorialData": {
+        "item": {
+          "title": "Motor Eğitimi Verileri Düzenlendi"
+        }
+      },
+      "editEngineRom": {
+        "item": {
+          "title": "Motor ROM'u Düzenlendi"
+        }
+      },
+      "editEngineConfiguration": {
+        "item": {
+          "title": "Motor Yapılandırması Düzenlendi"
+        }
+      },
+      "pinEngine": {
+        "item": {
+          "title": "Motor Sabitlendi"
+        }
+      },
+      "unpinEngine": {
+        "item": {
+          "title": "Motor Sabitlemesi Kaldırıldı"
+        }
+      },
+      "removeEngine": {
+        "item": {
+          "title": "Motor Kaldırıldı"
+        }
+      },
+      "restoreEngine": {
+        "item": {
+          "title": "Motor Geri Yüklendi"
+        }
+      },
+      "approveReplay": {
+        "item": {
+          "title": "Oynanış Kaydı Onaylandı"
+        }
+      },
+      "pinReplay": {
+        "item": {
+          "title": "Oynanış Kaydı Sabitlendi"
+        }
+      },
+      "unpinReplay": {
+        "item": {
+          "title": "Oynanış Kaydı Sabitlemesi Kaldırıldı"
+        }
+      },
+      "removeReplay": {
+        "item": {
+          "title": "Oynanış Kaydı Kaldırıldı"
+        }
+      },
+      "restoreReplay": {
+        "item": {
+          "title": "Oynanış Kaydı Geri Yüklendi"
+        }
+      }
+    }
+  }
+}
