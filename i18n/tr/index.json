@@ -5,8 +5,10 @@
     }
   },
   "includeTag": {
+    "title": "Etiketi Dahil Et"
   },
   "excludeTag": {
+    "title": "Etiketi Hariç Tut"
   },
   "storage": {
     "full": {
@@ -39,12 +41,20 @@
         "description": "Rastgele bölümünü gösterir."
       },
       "defaultEngine": {
+        "title": "Varsayılan Motor",
+        "description": "Bir seviye oluştururken varsayılan motor."
       }
     },
     "tags": {
       "usableTags": {
+        "title": "Kullanılabilir Etiketler",
+        "description": "Oyuncuların kullanabileceği etiketler.",
+        "placeholder": "Virgülle ayrılmış etiket kimliklerinin listesini girin..."
       },
       "searchableTags": {
+        "title": "Aranabilir Etiketler",
+        "description": "Oyuncuların arayabileceği etiketler.",
+        "placeholder": "Virgülle ayrılmış etiket kimliklerinin listesini girin..."
       }
     },
     "inquiry": {
@@ -90,6 +100,7 @@
       },
       "editServerDefaultEngineId": {
         "item": {
+          "title": "Sunucu Varsayılan Motoru Düzenlendi"
         }
       },
       "addModerator": {
@@ -114,74 +125,92 @@
       },
       "addTag": {
         "item": {
+          "title": "Etiket Eklendi"
         }
       },
       "editTagTitle": {
         "item": {
+          "title": "Etiket Başlığı Düzenlendi"
         }
       },
       "editUsablePostTagIds": {
         "item": {
+          "title": "Kullanılabilir Gönderi Etiketleri Düzenlendi"
         }
       },
       "editUsablePlaylistTagIds": {
         "item": {
+          "title": "Kullanılabilir Çalma Listesi Etiketleri Düzenlendi"
         }
       },
       "editUsableLevelTagIds": {
         "item": {
+          "title": "Kullanılabilir Düzey Etiketleri Düzenlendi"
         }
       },
       "editUsableSkinTagIds": {
         "item": {
+          "title": "Kullanılabilir Görünüm Etiketleri Düzenlendi\n"
         }
       },
       "editUsableBackgroundTagIds": {
         "item": {
+          "title": "Kullanılabilir Arka Plan Etiketleri Düzenlendi"
         }
       },
       "editUsableEffectTagIds": {
         "item": {
+          "title": "Kullanılabilir SFX Etiketleri Düzenlendi"
         }
       },
       "editUsableParticleTagIds": {
         "item": {
+          "title": "Kullanılabilir Parçacık Etiketleri Düzenlendi"
         }
       },
       "editUsableEngineTagIds": {
         "item": {
+          "title": "Kullanılabilir Motor Etiketleri Düzenlendi"
         }
       },
       "editSearchablePostTagIds": {
         "item": {
+          "title": "Aranabilir Gönderi Etiketleri Düzenlendi"
         }
       },
       "editSearchablePlaylistTagIds": {
         "item": {
+          "title": "Aranabilir Çalma Listesi Etiketleri Düzenlendi\n"
         }
       },
       "editSearchableLevelTagIds": {
         "item": {
+          "title": "Aranabilir Seviye Etiketleri Düzenlendi"
         }
       },
       "editSearchableSkinTagIds": {
         "item": {
+          "title": "Aranabilir Doku Etiketleri Düzenlendi"
         }
       },
       "editSearchableBackgroundTagIds": {
         "item": {
+          "title": "Aranabilir Arka Plan Etiketleri Düzenlendi"
         }
       },
       "editSearchableEffectTagIds": {
         "item": {
+          "title": "Aranabilir SFX Etiketleri Düzenlendi"
         }
       },
       "editSearchableParticleTagIds": {
         "item": {
+          "title": "Aranabilir Parçacık Etiketleri Düzenlendi"
         }
       },
       "editSearchableEngineTagIds": {
         "item": {
+          "title": "Aranabilir Motor Etiketleri Düzenlendi"
         }
       },
       "lockInquiry": {
@@ -231,6 +260,7 @@
       },
       "editPostTagIds": {
         "item": {
+          "title": "Gönderi Etiketleri Düzenlendi"
         }
       },
       "editPostThumbnail": {
@@ -290,6 +320,7 @@
       },
       "editPlaylistTagIds": {
         "item": {
+          "title": "Çalma Listesi Etiketleri Düzenlendi"
         }
       },
       "editPlaylistLevels": {
@@ -359,6 +390,7 @@
       },
       "editLevelTagIds": {
         "item": {
+          "title": "Seviye Etiketleri Düzenlendi"
         }
       },
       "editLevelEngine": {
@@ -458,6 +490,7 @@
       },
       "editSkinTagIds": {
         "item": {
+          "title": "Doku Etiketleri Düzenlendi"
         }
       },
       "editSkinThumbnail": {
@@ -527,6 +560,7 @@
       },
       "editBackgroundTagIds": {
         "item": {
+          "title": "Arka Plan Etiketleri Düzenlendi"
         }
       },
       "editBackgroundThumbnail": {
@@ -601,6 +635,7 @@
       },
       "editEffectTagIds": {
         "item": {
+          "title": "SFX Etiketleri Düzenlendi"
         }
       },
       "editEffectThumbnail": {
@@ -655,154 +690,192 @@
       },
       "editParticleSubtitle": {
         "item": {
+          "title": "Parçacık Alt Başlığı Düzenlendi"
         }
       },
       "editParticleDescription": {
         "item": {
+          "title": "Parçacık Açıklaması Düzenlendi"
         }
       },
       "editParticleKeywords": {
         "item": {
+          "title": "Parçacık Anahtar Kelimeleri Düzenlendi"
         }
       },
       "editParticleTagIds": {
         "item": {
+          "title": "Parçacık Etiketleri Düzenlendi"
         }
       },
       "editParticleThumbnail": {
         "item": {
+          "title": "Parçacık Küçük Resmi Düzenlendi"
         }
       },
       "editParticleData": {
         "item": {
+          "title": "Parçacık Verileri Düzenlendi"
         }
       },
       "editParticleTexture": {
         "item": {
+          "title": "Parçacık Dokusu Düzenlendi"
         }
       },
       "pinParticle": {
         "item": {
+          "title": "Parçacık Sabitlendi"
         }
       },
       "unpinParticle": {
         "item": {
+          "title": "Parçacık Sabitlemesi Kaldırıldı"
         }
       },
       "removeParticle": {
         "item": {
+          "title": "Parçacık Kaldırıldı"
         }
       },
       "restoreParticle": {
         "item": {
+          "title": "Parçacık Geri Yüklendi"
         }
       },
       "approveEngine": {
         "item": {
+          "title": "Motor Onaylandı"
         }
       },
       "rejectEngine": {
         "item": {
+          "title": "Motor Reddedildi"
         }
       },
       "editEngineTitle": {
         "item": {
+          "title": "Motor Başlığı Düzenlendi"
         }
       },
       "editEngineSubtitle": {
         "item": {
+          "title": "Motor Altyazısı Düzenlendi"
         }
       },
       "editEngineDescription": {
         "item": {
+          "title": "Motor Açıklaması Düzenlendi"
         }
       },
       "editEngineKeywords": {
         "item": {
+          "title": "Motor Anahtar Kelimeleri Düzenlendi"
         }
       },
       "editEngineTagIds": {
         "item": {
+          "title": "Motor Etiketleri Düzenlendi"
         }
       },
       "editEngineSkin": {
         "item": {
+          "title": "Motor Dokusu Düzenlendi"
         }
       },
       "editEngineBackground": {
         "item": {
+          "title": "Motor Arka Planı Düzenlendi"
         }
       },
       "editEngineEffect": {
         "item": {
+          "title": "Motor Ses Efekti Düzenlendi"
         }
       },
       "editEngineParticle": {
         "item": {
+          "title": "Motor Parçacığı Düzenlendi"
         }
       },
       "editEngineThumbnail": {
         "item": {
+          "title": "Motor Küçük Resmi Düzenlendi"
         }
       },
       "editEnginePlayData": {
         "item": {
+          "title": "Motor Oynatma Verileri Düzenlendi"
         }
       },
       "editEngineWatchData": {
         "item": {
+          "title": "Motor İzleme Verileri Düzenlendi"
         }
       },
       "editEnginePreviewData": {
         "item": {
+          "title": "Motor Önizleme Verileri Düzenlendi"
         }
       },
       "editEngineTutorialData": {
         "item": {
+          "title": "Motor Eğitimi Verileri Düzenlendi"
         }
       },
       "editEngineRom": {
         "item": {
+          "title": "Motor ROM'u Düzenlendi"
         }
       },
       "editEngineConfiguration": {
         "item": {
+          "title": "Motor Yapılandırması Düzenlendi"
         }
       },
       "pinEngine": {
         "item": {
+          "title": "Motor Sabitlendi"
         }
       },
       "unpinEngine": {
         "item": {
+          "title": "Motor Sabitlemesi Kaldırıldı"
         }
       },
       "removeEngine": {
         "item": {
+          "title": "Motor Kaldırıldı"
         }
       },
       "restoreEngine": {
         "item": {
+          "title": "Motor Geri Yüklendi"
         }
       },
       "approveReplay": {
         "item": {
+          "title": "Oynanış Kaydı Onaylandı"
         }
       },
       "pinReplay": {
         "item": {
+          "title": "Oynanış Kaydı Sabitlendi"
         }
       },
       "unpinReplay": {
         "item": {
+          "title": "Oynanış Kaydı Sabitlemesi Kaldırıldı"
         }
       },
       "removeReplay": {
         "item": {
+          "title": "Oynanış Kaydı Kaldırıldı"
         }
       },
       "restoreReplay": {
         "item": {
+          "title": "Oynanış Kaydı Geri Yüklendi"
         }
       }
     }
