@@ -4,6 +4,12 @@
       "message": "L'abonnement au serveur Sonolus Coconut a expiré."
     }
   },
+  "includeTag": {
+    "title": "Inclure l'Étiquette "
+  },
+  "excludeTag": {
+    "title": "Exclure l'Étiquette "
+  },
   "storage": {
     "full": {
       "message": "Le stockage du serveur Sonolus Coconut est plein."
@@ -33,6 +39,22 @@
       "showRandom": {
         "title": "Afficher Aléatoire",
         "description": "Afficher la section Aléatoire."
+      },
+      "defaultEngine": {
+        "title": "Moteur par Défaut",
+        "description": "Moteur par défaut lors de la création d'un niveau."
+      }
+    },
+    "tags": {
+      "usableTags": {
+        "title": "Étiquettes Disponibles",
+        "description": "Étiquettes que les joueurs peuvent utiliser.",
+        "placeholder": "Saisissez la liste des IDs des étiquettes, séparés par des virgules…"
+      },
+      "searchableTags": {
+        "title": "Étiquettes Recherchables",
+        "description": "Étiquettes Disponibles lors de ma recherche.",
+        "placeholder": "Saisissez la liste des IDs des étiquettes, séparés par des virgules…"
       }
     },
     "inquiry": {
@@ -76,6 +98,11 @@
           "title": "Affichage de la Section Aléatoire du Serveur Modifié"
         }
       },
+      "editServerDefaultEngineId": {
+        "item": {
+          "title": "Moteur par Défaut du Serveur Modifié"
+        }
+      },
       "addModerator": {
         "item": {
           "title": "Modérateur Ajouté"
@@ -94,6 +121,96 @@
       "removeBanned": {
         "item": {
           "title": "Banni Supprimé"
+        }
+      },
+      "addTag": {
+        "item": {
+          "title": "Étiquette Ajoutée"
+        }
+      },
+      "editTagTitle": {
+        "item": {
+          "title": "Titre de l'Étiquette Modifié"
+        }
+      },
+      "editUsablePostTagIds": {
+        "item": {
+          "title": "Étiquettes Disponibles pour les Publications Modifiées "
+        }
+      },
+      "editUsablePlaylistTagIds": {
+        "item": {
+          "title": "Étiquettes Disponibles pour les Playlists Modifiées "
+        }
+      },
+      "editUsableLevelTagIds": {
+        "item": {
+          "title": "Étiquettes Disponibles pour les  Niveaux Modifiées "
+        }
+      },
+      "editUsableSkinTagIds": {
+        "item": {
+          "title": "Étiquettes Disponibles pour les Skins Modifiées "
+        }
+      },
+      "editUsableBackgroundTagIds": {
+        "item": {
+          "title": "Étiquettes Disponibles pour les Arrière-plans Modifiées "
+        }
+      },
+      "editUsableEffectTagIds": {
+        "item": {
+          "title": "Étiquettes Disponibles pour les Effets Sonores Modifiées "
+        }
+      },
+      "editUsableParticleTagIds": {
+        "item": {
+          "title": "Étiquettes Disponibles pour les Particules Modifiées "
+        }
+      },
+      "editUsableEngineTagIds": {
+        "item": {
+          "title": "Arrières-plan Étiquettes Disponibles pour les Moteurs Modifiées "
+        }
+      },
+      "editSearchablePostTagIds": {
+        "item": {
+          "title": "Étiquettes Recherchables pour les Publications Modifiées "
+        }
+      },
+      "editSearchablePlaylistTagIds": {
+        "item": {
+          "title": "Étiquettes Recherchables pour les Playlists Modifiées "
+        }
+      },
+      "editSearchableLevelTagIds": {
+        "item": {
+          "title": "Étiquettes Recherchables pour les Niveaux Modifiées "
+        }
+      },
+      "editSearchableSkinTagIds": {
+        "item": {
+          "title": "Étiquettes Recherchables pour les Skins Modifiées "
+        }
+      },
+      "editSearchableBackgroundTagIds": {
+        "item": {
+          "title": "Étiquettes Recherchables pour les Arrière-plans Modifiées "
+        }
+      },
+      "editSearchableEffectTagIds": {
+        "item": {
+          "title": "Étiquettes Recherchables pour les Effets Sonores Modifiées "
+        }
+      },
+      "editSearchableParticleTagIds": {
+        "item": {
+          "title": "Étiquettes Recherchables pour les Particules Modifiées "
+        }
+      },
+      "editSearchableEngineTagIds": {
+        "item": {
+          "title": "Étiquettes Recherchables pour les Moteurs Modifiées "
         }
       },
       "lockInquiry": {
@@ -139,6 +256,11 @@
       "editPostKeywords": {
         "item": {
           "title": "Mots-clés de la Publication Modifiés"
+        }
+      },
+      "editPostTagIds": {
+        "item": {
+          "title": "Étiquettes de la Publication Modifiée"
         }
       },
       "editPostThumbnail": {
@@ -194,6 +316,11 @@
       "editPlaylistKeywords": {
         "item": {
           "title": "Mots-clés de la Playlist Modifiés"
+        }
+      },
+      "editPlaylistTagIds": {
+        "item": {
+          "title": "Étiquettes de la Playlist Modifiée"
         }
       },
       "editPlaylistLevels": {
@@ -259,6 +386,11 @@
       "editLevelKeywords": {
         "item": {
           "title": "Mots-clés du Niveau Modifiés"
+        }
+      },
+      "editLevelTagIds": {
+        "item": {
+          "title": "Étiquettes du Niveau Modifiée"
         }
       },
       "editLevelEngine": {
@@ -356,6 +488,11 @@
           "title": "Mots-clés du Skin Modifiés"
         }
       },
+      "editSkinTagIds": {
+        "item": {
+          "title": "Étiquettes du Skin Modifiée"
+        }
+      },
       "editSkinThumbnail": {
         "item": {
           "title": "Miniature du Skin Modifiée"
@@ -419,6 +556,11 @@
       "editBackgroundKeywords": {
         "item": {
           "title": "Mots-clés de l'Arrière-plan Modifiés"
+        }
+      },
+      "editBackgroundTagIds": {
+        "item": {
+          "title": "Étiquettes de l'Arrière-plan Modifiée"
         }
       },
       "editBackgroundThumbnail": {
@@ -491,6 +633,11 @@
           "title": "Mots-clés de l'Effet Sonore modifiés"
         }
       },
+      "editEffectTagIds": {
+        "item": {
+          "title": "Étiquettes de l'Effet Sonore Modifiée"
+        }
+      },
       "editEffectThumbnail": {
         "item": {
           "title": "Miniature de l'Effet Sonore modifiée"
@@ -556,6 +703,11 @@
           "title": "Mots-clés de la Particule Modifiés"
         }
       },
+      "editParticleTagIds": {
+        "item": {
+          "title": "Étiquettes de la Particule Modifiée"
+        }
+      },
       "editParticleThumbnail": {
         "item": {
           "title": "Miniature de la Particule Modifiée"
@@ -619,6 +771,11 @@
       "editEngineKeywords": {
         "item": {
           "title": "Mots-clés du Moteur Modifiés"
+        }
+      },
+      "editEngineTagIds": {
+        "item": {
+          "title": "Étiquettes du Moteur Modifiée"
         }
       },
       "editEngineSkin": {
