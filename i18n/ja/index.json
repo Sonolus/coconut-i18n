@@ -4,6 +4,12 @@
       "message": "Sonolus Coconutサーバーの有効期限が切れました。"
     }
   },
+  "includeTag": {
+    "title": "含めるタグ"
+  },
+  "excludeTag": {
+    "title": "含めないタグ"
+  },
   "storage": {
     "full": {
       "message": "Sonolus Coconutサーバーのストレージが満杯です。"
@@ -33,6 +39,22 @@
       "showRandom": {
         "title": "ランダム欄を表示",
         "description": "「ランダム」欄を追加します。"
+      },
+      "defaultEngine": {
+        "title": "デフォルトのエンジン",
+        "description": "レベルを作成する際のデフォルトのエンジン。"
+      }
+    },
+    "tags": {
+      "usableTags": {
+        "title": "利用可能なタグ",
+        "description": "プレイヤーが設定できるタグ。",
+        "placeholder": "タグIDのリストをコンマ区切りで入力してください..."
+      },
+      "searchableTags": {
+        "title": "検索可能なタグ",
+        "description": "プレイヤーが検索できるタグ。",
+        "placeholder": "タグIDのリストをコンマ区切りで入力してください..."
       }
     },
     "inquiry": {
@@ -76,6 +98,11 @@
           "title": "ランダム欄の表示設定を編集しました"
         }
       },
+      "editServerDefaultEngineId": {
+        "item": {
+          "title": "サーバーのデフォルトのエンジンを編集しました"
+        }
+      },
       "addModerator": {
         "item": {
           "title": "モデレーターが追加されました"
@@ -94,6 +121,96 @@
       "removeBanned": {
         "item": {
           "title": "ユーザーのBANが解除されました"
+        }
+      },
+      "addTag": {
+        "item": {
+          "title": "タグを追加しました"
+        }
+      },
+      "editTagTitle": {
+        "item": {
+          "title": "タグのタイトルを編集しました"
+        }
+      },
+      "editUsablePostTagIds": {
+        "item": {
+          "title": "利用可能な投稿のタグを編集しました"
+        }
+      },
+      "editUsablePlaylistTagIds": {
+        "item": {
+          "title": "利用可能なプレイリストのタグを編集しました"
+        }
+      },
+      "editUsableLevelTagIds": {
+        "item": {
+          "title": "利用可能なレベルのタグを編集しました"
+        }
+      },
+      "editUsableSkinTagIds": {
+        "item": {
+          "title": "利用可能なスキンのタグを編集しました"
+        }
+      },
+      "editUsableBackgroundTagIds": {
+        "item": {
+          "title": "利用可能な背景のタグを編集しました"
+        }
+      },
+      "editUsableEffectTagIds": {
+        "item": {
+          "title": "利用可能なSEのタグを編集しました"
+        }
+      },
+      "editUsableParticleTagIds": {
+        "item": {
+          "title": "利用可能なパーティクルのタグを編集しました"
+        }
+      },
+      "editUsableEngineTagIds": {
+        "item": {
+          "title": "利用可能なエンジンのタグを編集しました"
+        }
+      },
+      "editSearchablePostTagIds": {
+        "item": {
+          "title": "検索可能な投稿のタグを編集しました"
+        }
+      },
+      "editSearchablePlaylistTagIds": {
+        "item": {
+          "title": "検索可能なプレイリストのタグを編集しました"
+        }
+      },
+      "editSearchableLevelTagIds": {
+        "item": {
+          "title": "検索可能なレベルのタグを編集しました"
+        }
+      },
+      "editSearchableSkinTagIds": {
+        "item": {
+          "title": "検索可能なスキンのタグを編集しました"
+        }
+      },
+      "editSearchableBackgroundTagIds": {
+        "item": {
+          "title": "検索可能な背景のタグを編集しました"
+        }
+      },
+      "editSearchableEffectTagIds": {
+        "item": {
+          "title": "検索可能なSEのタグを編集しました"
+        }
+      },
+      "editSearchableParticleTagIds": {
+        "item": {
+          "title": "検索可能なパーティクルのタグを編集しました"
+        }
+      },
+      "editSearchableEngineTagIds": {
+        "item": {
+          "title": "検索可能なエンジンのタグを編集しました"
         }
       },
       "lockInquiry": {
@@ -139,6 +256,11 @@
       "editPostKeywords": {
         "item": {
           "title": "投稿のキーワードを編集しました"
+        }
+      },
+      "editPostTagIds": {
+        "item": {
+          "title": "投稿のタグを編集しました"
         }
       },
       "editPostThumbnail": {
@@ -194,6 +316,11 @@
       "editPlaylistKeywords": {
         "item": {
           "title": "プレイリストのキーワードを編集しました"
+        }
+      },
+      "editPlaylistTagIds": {
+        "item": {
+          "title": "プレイリストのタグを編集しました"
         }
       },
       "editPlaylistLevels": {
@@ -259,6 +386,11 @@
       "editLevelKeywords": {
         "item": {
           "title": "レベルのキーワードを編集しました"
+        }
+      },
+      "editLevelTagIds": {
+        "item": {
+          "title": "レベルのタグを編集しました"
         }
       },
       "editLevelEngine": {
@@ -356,6 +488,11 @@
           "title": "スキンのキーワードを編集しました"
         }
       },
+      "editSkinTagIds": {
+        "item": {
+          "title": "スキンのタグを編集しました"
+        }
+      },
       "editSkinThumbnail": {
         "item": {
           "title": "スキンのサムネイルを編集しました"
@@ -419,6 +556,11 @@
       "editBackgroundKeywords": {
         "item": {
           "title": "背景のキーワードを編集しました"
+        }
+      },
+      "editBackgroundTagIds": {
+        "item": {
+          "title": "背景のタグを編集しました"
         }
       },
       "editBackgroundThumbnail": {
@@ -491,6 +633,11 @@
           "title": "SEのキーワードを編集しました"
         }
       },
+      "editEffectTagIds": {
+        "item": {
+          "title": "SEのタグを編集しました"
+        }
+      },
       "editEffectThumbnail": {
         "item": {
           "title": "SEのサムネイルを編集しました"
@@ -556,6 +703,11 @@
           "title": "パーティクルのキーワードを編集しました"
         }
       },
+      "editParticleTagIds": {
+        "item": {
+          "title": "パーティクルのタグを編集しました"
+        }
+      },
       "editParticleThumbnail": {
         "item": {
           "title": "パーティクルのサムネイルを編集しました"
@@ -619,6 +771,11 @@
       "editEngineKeywords": {
         "item": {
           "title": "エンジンのキーワードを編集しました"
+        }
+      },
+      "editEngineTagIds": {
+        "item": {
+          "title": "エンジンのタグを編集しました"
         }
       },
       "editEngineSkin": {
