@@ -1,0 +1,883 @@
+{
+  "expiration": {
+    "expired": {
+      "message": "Sonolus Coconut 服务器订阅已过期。"
+    }
+  },
+  "includeTag": {
+    "title": "选中标签"
+  },
+  "excludeTag": {
+    "title": "过滤标签"
+  },
+  "storage": {
+    "full": {
+      "message": "Sonolus Coconut 服务器存储空间满了。"
+    }
+  },
+  "player": {
+    "placeholder": "请输入玩家ID...",
+    "description": "玩家ID。\n\n例如，Burrito#1000为1000。"
+  },
+  "posts": {
+    "aboutServer": {
+      "item": {
+        "title": "关于服务器"
+      },
+      "homeItems": {
+        "title": "主页项目",
+        "description": "服务器首页显示的项目。"
+      },
+      "allowCreate": {
+        "title": "允许创建",
+        "description": "创建是否是被允许的。"
+      },
+      "requireReview": {
+        "title": "需要审核",
+        "description": "是否需要版主审核才能发布。"
+      },
+      "showRandom": {
+        "title": "展示随机",
+        "description": "展示随机部分。"
+      },
+      "defaultEngine": {
+        "title": "默认引擎",
+        "description": "创建关卡时的默认引擎。"
+      }
+    },
+    "tags": {
+      "usableTags": {
+        "title": "可用标签",
+        "description": "玩家可以使用的标签。",
+        "placeholder": "请输入以逗号分隔的标签 ID 列表……"
+      },
+      "searchableTags": {
+        "title": "可查找的标签",
+        "description": "玩家可以查找的标签。",
+        "placeholder": "请输入以逗号分隔的标签 ID 列表……"
+      }
+    },
+    "inquiry": {
+      "create": {
+        "description": "创建咨询以私下联系服务器管理员。"
+      }
+    },
+    "log": {
+      "editServerTitle": {
+        "item": {
+          "title": "修改服务器标题"
+        }
+      },
+      "editServerDescription": {
+        "item": {
+          "title": "修改服务器描述"
+        }
+      },
+      "editServerBanner": {
+        "item": {
+          "title": "修改服务器横幅"
+        }
+      },
+      "editServerHomeItemTypes": {
+        "item": {
+          "title": "修改服务器主页项目"
+        }
+      },
+      "editServerAllowCreateTypes": {
+        "item": {
+          "title": "修改服务器允许创建"
+        }
+      },
+      "editServerRequireReviewTypes": {
+        "item": {
+          "title": "修改服务器要求审核"
+        }
+      },
+      "editServerShowRandomTypes": {
+        "item": {
+          "title": "修改服务器展示随机"
+        }
+      },
+      "editServerDefaultEngineId": {
+        "item": {
+          "title": "修改服务器默认引擎"
+        }
+      },
+      "addModerator": {
+        "item": {
+          "title": "添加管理员"
+        }
+      },
+      "removeModerator": {
+        "item": {
+          "title": "移除管理员"
+        }
+      },
+      "addBanned": {
+        "item": {
+          "title": "添加横幅"
+        }
+      },
+      "removeBanned": {
+        "item": {
+          "title": "移除横幅"
+        }
+      },
+      "addTag": {
+        "item": {
+          "title": "添加标签"
+        }
+      },
+      "editTagTitle": {
+        "item": {
+          "title": "修改标签名称"
+        }
+      },
+      "editUsablePostTagIds": {
+        "item": {
+          "title": "修改可用的帖子标签"
+        }
+      },
+      "editUsablePlaylistTagIds": {
+        "item": {
+          "title": "修改可用的游玩列表标签"
+        }
+      },
+      "editUsableLevelTagIds": {
+        "item": {
+          "title": "修改可用的关卡标签"
+        }
+      },
+      "editUsableSkinTagIds": {
+        "item": {
+          "title": "修改可用的皮肤标签"
+        }
+      },
+      "editUsableBackgroundTagIds": {
+        "item": {
+          "title": "修改可用的背景标签"
+        }
+      },
+      "editUsableEffectTagIds": {
+        "item": {
+          "title": "修改可用的音效标签"
+        }
+      },
+      "editUsableParticleTagIds": {
+        "item": {
+          "title": "修改可用的粒子效果标签"
+        }
+      },
+      "editUsableEngineTagIds": {
+        "item": {
+          "title": "修改可用的引擎标签"
+        }
+      },
+      "editSearchablePostTagIds": {
+        "item": {
+          "title": "修改可被搜索的帖子标签"
+        }
+      },
+      "editSearchablePlaylistTagIds": {
+        "item": {
+          "title": "修改可被搜索的游玩列表标签"
+        }
+      },
+      "editSearchableLevelTagIds": {
+        "item": {
+          "title": "修改可被搜索的关卡标签"
+        }
+      },
+      "editSearchableSkinTagIds": {
+        "item": {
+          "title": "修改可被搜索的皮肤标签"
+        }
+      },
+      "editSearchableBackgroundTagIds": {
+        "item": {
+          "title": "修改可被搜索的背景标签"
+        }
+      },
+      "editSearchableEffectTagIds": {
+        "item": {
+          "title": "修改可被搜索的音效标签"
+        }
+      },
+      "editSearchableParticleTagIds": {
+        "item": {
+          "title": "修改可被搜索的粒子效果标签"
+        }
+      },
+      "editSearchableEngineTagIds": {
+        "item": {
+          "title": "修改可被搜索的引擎标签"
+        }
+      },
+      "lockInquiry": {
+        "item": {
+          "title": "锁定查询"
+        }
+      },
+      "unlockInquiry": {
+        "item": {
+          "title": "解锁查询"
+        }
+      },
+      "removeComment": {
+        "item": {
+          "title": "移除评论"
+        }
+      },
+      "restoreComment": {
+        "item": {
+          "title": "恢复评论"
+        }
+      },
+      "approvePost": {
+        "item": {
+          "title": "批准帖子"
+        }
+      },
+      "rejectPost": {
+        "item": {
+          "title": "拒绝帖子"
+        }
+      },
+      "editPostTitle": {
+        "item": {
+          "title": "修改帖子标题"
+        }
+      },
+      "editPostDescription": {
+        "item": {
+          "title": "修改帖子标题"
+        }
+      },
+      "editPostKeywords": {
+        "item": {
+          "title": "修改帖子关键词"
+        }
+      },
+      "editPostTagIds": {
+        "item": {
+          "title": "修改帖子标签"
+        }
+      },
+      "editPostThumbnail": {
+        "item": {
+          "title": "修改帖子缩略图"
+        }
+      },
+      "pinPost": {
+        "item": {
+          "title": "置顶帖子"
+        }
+      },
+      "unpinPost": {
+        "item": {
+          "title": "取消置顶帖子"
+        }
+      },
+      "removePost": {
+        "item": {
+          "title": "移除帖子"
+        }
+      },
+      "restorePost": {
+        "item": {
+          "title": "恢复帖子"
+        }
+      },
+      "approvePlaylist": {
+        "item": {
+          "title": "批准游玩列表"
+        }
+      },
+      "rejectPlaylist": {
+        "item": {
+          "title": "拒绝游玩列表"
+        }
+      },
+      "editPlaylistTitle": {
+        "item": {
+          "title": "修改游玩列表标题"
+        }
+      },
+      "editPlaylistSubtitle": {
+        "item": {
+          "title": "修改游玩列表副标题"
+        }
+      },
+      "editPlaylistDescription": {
+        "item": {
+          "title": "修改游玩列表描述"
+        }
+      },
+      "editPlaylistKeywords": {
+        "item": {
+          "title": "修改游玩列表关键词"
+        }
+      },
+      "editPlaylistTagIds": {
+        "item": {
+          "title": "修改游玩列表标签"
+        }
+      },
+      "editPlaylistLevels": {
+        "item": {
+          "title": "修改游玩列表关卡"
+        }
+      },
+      "editPlaylistThumbnail": {
+        "item": {
+          "title": "修改游玩列表缩略图"
+        }
+      },
+      "pinPlaylist": {
+        "item": {
+          "title": "置顶游玩列表"
+        }
+      },
+      "unpinPlaylist": {
+        "item": {
+          "title": "取消置顶游玩列表"
+        }
+      },
+      "removePlaylist": {
+        "item": {
+          "title": "移除游玩列表"
+        }
+      },
+      "restorePlaylist": {
+        "item": {
+          "title": "恢复游玩列表"
+        }
+      },
+      "approveLevel": {
+        "item": {
+          "title": "批准关卡"
+        }
+      },
+      "rejectLevel": {
+        "item": {
+          "title": "拒绝关卡"
+        }
+      },
+      "editLevelRating": {
+        "item": {
+          "title": "修改关卡难度"
+        }
+      },
+      "editLevelTitle": {
+        "item": {
+          "title": "修改关卡标题"
+        }
+      },
+      "editLevelArtists": {
+        "item": {
+          "title": "修改关卡艺术家"
+        }
+      },
+      "editLevelDescription": {
+        "item": {
+          "title": "修改关卡评级"
+        }
+      },
+      "editLevelKeywords": {
+        "item": {
+          "title": "修改关卡关键词"
+        }
+      },
+      "editLevelTagIds": {
+        "item": {
+          "title": "修改关卡标签"
+        }
+      },
+      "editLevelEngine": {
+        "item": {
+          "title": "修改关卡引擎"
+        }
+      },
+      "editLevelSkin": {
+        "item": {
+          "title": "修改关卡皮肤"
+        }
+      },
+      "editLevelBackground": {
+        "item": {
+          "title": "修改关卡背景"
+        }
+      },
+      "editLevelEffect": {
+        "item": {
+          "title": "修改关卡音效"
+        }
+      },
+      "editLevelParticle": {
+        "item": {
+          "title": "修改关卡粒子特效"
+        }
+      },
+      "editLevelCover": {
+        "item": {
+          "title": "修改关卡封面图"
+        }
+      },
+      "editLevelBgm": {
+        "item": {
+          "title": "修改关卡背景乐"
+        }
+      },
+      "editLevelPreview": {
+        "item": {
+          "title": "修改关卡背景乐预览"
+        }
+      },
+      "editLevelData": {
+        "item": {
+          "title": "修改关卡数据"
+        }
+      },
+      "pinLevel": {
+        "item": {
+          "title": "置顶关卡"
+        }
+      },
+      "unpinLevel": {
+        "item": {
+          "title": "取消置顶关卡"
+        }
+      },
+      "removeLevel": {
+        "item": {
+          "title": "移除关卡"
+        }
+      },
+      "restoreLevel": {
+        "item": {
+          "title": "恢复关卡"
+        }
+      },
+      "approveSkin": {
+        "item": {
+          "title": "批准皮肤"
+        }
+      },
+      "rejectSkin": {
+        "item": {
+          "title": "拒绝皮肤"
+        }
+      },
+      "editSkinTitle": {
+        "item": {
+          "title": "修改皮肤标题"
+        }
+      },
+      "editSkinSubtitle": {
+        "item": {
+          "title": "修改皮肤副标题"
+        }
+      },
+      "editSkinDescription": {
+        "item": {
+          "title": "修改皮肤描述"
+        }
+      },
+      "editSkinKeywords": {
+        "item": {
+          "title": "修改皮肤关键词"
+        }
+      },
+      "editSkinTagIds": {
+        "item": {
+          "title": "修改皮肤标签"
+        }
+      },
+      "editSkinThumbnail": {
+        "item": {
+          "title": "修改皮肤缩略图"
+        }
+      },
+      "editSkinData": {
+        "item": {
+          "title": "修改皮肤数据"
+        }
+      },
+      "editSkinTexture": {
+        "item": {
+          "title": "修改皮肤材质"
+        }
+      },
+      "pinSkin": {
+        "item": {
+          "title": "置顶皮肤"
+        }
+      },
+      "unpinSkin": {
+        "item": {
+          "title": "取消置顶皮肤"
+        }
+      },
+      "removeSkin": {
+        "item": {
+          "title": "移除皮肤"
+        }
+      },
+      "restoreSkin": {
+        "item": {
+          "title": "恢复皮肤"
+        }
+      },
+      "approveBackground": {
+        "item": {
+          "title": "批准背景"
+        }
+      },
+      "rejectBackground": {
+        "item": {
+          "title": "拒绝背景"
+        }
+      },
+      "editBackgroundTitle": {
+        "item": {
+          "title": "修改背景标题"
+        }
+      },
+      "editBackgroundSubtitle": {
+        "item": {
+          "title": "修改背景副标题"
+        }
+      },
+      "editBackgroundDescription": {
+        "item": {
+          "title": "修改背景描述"
+        }
+      },
+      "editBackgroundKeywords": {
+        "item": {
+          "title": "修改背景关键词"
+        }
+      },
+      "editBackgroundTagIds": {
+        "item": {
+          "title": "修改背景标签"
+        }
+      },
+      "editBackgroundThumbnail": {
+        "item": {
+          "title": "修改背景缩略图"
+        }
+      },
+      "editBackgroundImage": {
+        "item": {
+          "title": "修改背景图像"
+        }
+      },
+      "editBackgroundData": {
+        "item": {
+          "title": "修改背景数据"
+        }
+      },
+      "editBackgroundConfiguration": {
+        "item": {
+          "title": "修改背景配置"
+        }
+      },
+      "pinBackground": {
+        "item": {
+          "title": "置顶背景"
+        }
+      },
+      "unpinBackground": {
+        "item": {
+          "title": "取消置顶背景"
+        }
+      },
+      "removeBackground": {
+        "item": {
+          "title": "移除背景"
+        }
+      },
+      "restoreBackground": {
+        "item": {
+          "title": "恢复背景"
+        }
+      },
+      "approveEffect": {
+        "item": {
+          "title": "批准音效"
+        }
+      },
+      "rejectEffect": {
+        "item": {
+          "title": "拒绝音效"
+        }
+      },
+      "editEffectTitle": {
+        "item": {
+          "title": "修改音效标题"
+        }
+      },
+      "editEffectSubtitle": {
+        "item": {
+          "title": "修改音效副标题"
+        }
+      },
+      "editEffectDescription": {
+        "item": {
+          "title": "修改音效描述"
+        }
+      },
+      "editEffectKeywords": {
+        "item": {
+          "title": "修改音效关键词"
+        }
+      },
+      "editEffectTagIds": {
+        "item": {
+          "title": "修改音效标签"
+        }
+      },
+      "editEffectThumbnail": {
+        "item": {
+          "title": "修改音效缩略图"
+        }
+      },
+      "editEffectData": {
+        "item": {
+          "title": "修改音效数据"
+        }
+      },
+      "editEffectAudio": {
+        "item": {
+          "title": "修改音效音频"
+        }
+      },
+      "pinEffect": {
+        "item": {
+          "title": "置顶音效"
+        }
+      },
+      "unpinEffect": {
+        "item": {
+          "title": "取消置顶音效"
+        }
+      },
+      "removeEffect": {
+        "item": {
+          "title": "移除音效"
+        }
+      },
+      "restoreEffect": {
+        "item": {
+          "title": "恢复音效"
+        }
+      },
+      "approveParticle": {
+        "item": {
+          "title": "批准粒子效果"
+        }
+      },
+      "rejectParticle": {
+        "item": {
+          "title": "拒绝粒子效果"
+        }
+      },
+      "editParticleTitle": {
+        "item": {
+          "title": "修改粒子特效标题"
+        }
+      },
+      "editParticleSubtitle": {
+        "item": {
+          "title": "修改粒子特效副标题"
+        }
+      },
+      "editParticleDescription": {
+        "item": {
+          "title": "修改粒子效果描述"
+        }
+      },
+      "editParticleKeywords": {
+        "item": {
+          "title": "修改粒子效果关键词"
+        }
+      },
+      "editParticleTagIds": {
+        "item": {
+          "title": "修改粒子效果标签"
+        }
+      },
+      "editParticleThumbnail": {
+        "item": {
+          "title": "修改粒子特效缩略图"
+        }
+      },
+      "editParticleData": {
+        "item": {
+          "title": "修改粒子效果数据"
+        }
+      },
+      "editParticleTexture": {
+        "item": {
+          "title": "修改粒子效果材质"
+        }
+      },
+      "pinParticle": {
+        "item": {
+          "title": "置顶粒子效果"
+        }
+      },
+      "unpinParticle": {
+        "item": {
+          "title": "取消置顶粒子效果"
+        }
+      },
+      "removeParticle": {
+        "item": {
+          "title": "移除粒子效果"
+        }
+      },
+      "restoreParticle": {
+        "item": {
+          "title": "恢复粒子效果"
+        }
+      },
+      "approveEngine": {
+        "item": {
+          "title": "批准引擎"
+        }
+      },
+      "rejectEngine": {
+        "item": {
+          "title": "拒绝引擎"
+        }
+      },
+      "editEngineTitle": {
+        "item": {
+          "title": "修改引擎标题"
+        }
+      },
+      "editEngineSubtitle": {
+        "item": {
+          "title": "修改引擎副标题"
+        }
+      },
+      "editEngineDescription": {
+        "item": {
+          "title": "修改引擎描述"
+        }
+      },
+      "editEngineKeywords": {
+        "item": {
+          "title": "修改引擎关键词"
+        }
+      },
+      "editEngineTagIds": {
+        "item": {
+          "title": "修改引擎标签"
+        }
+      },
+      "editEngineSkin": {
+        "item": {
+          "title": "修改引擎皮肤"
+        }
+      },
+      "editEngineBackground": {
+        "item": {
+          "title": "修改引擎背景"
+        }
+      },
+      "editEngineEffect": {
+        "item": {
+          "title": "修改引擎音效"
+        }
+      },
+      "editEngineParticle": {
+        "item": {
+          "title": "修改引擎粒子效果"
+        }
+      },
+      "editEngineThumbnail": {
+        "item": {
+          "title": "修改引擎缩略图"
+        }
+      },
+      "editEnginePlayData": {
+        "item": {
+          "title": "修改引擎游玩模式数据"
+        }
+      },
+      "editEngineWatchData": {
+        "item": {
+          "title": "修改引擎观看模式数据"
+        }
+      },
+      "editEnginePreviewData": {
+        "item": {
+          "title": "修改引擎预览模式数据"
+        }
+      },
+      "editEngineTutorialData": {
+        "item": {
+          "title": "修改引擎教程模式数据"
+        }
+      },
+      "editEngineRom": {
+        "item": {
+          "title": "修改引擎ROM"
+        }
+      },
+      "editEngineConfiguration": {
+        "item": {
+          "title": "修改引擎配置"
+        }
+      },
+      "pinEngine": {
+        "item": {
+          "title": "置顶引擎"
+        }
+      },
+      "unpinEngine": {
+        "item": {
+          "title": "取消置顶引擎"
+        }
+      },
+      "removeEngine": {
+        "item": {
+          "title": "移除引擎"
+        }
+      },
+      "restoreEngine": {
+        "item": {
+          "title": "恢复引擎"
+        }
+      },
+      "approveReplay": {
+        "item": {
+          "title": "批准回放"
+        }
+      },
+      "pinReplay": {
+        "item": {
+          "title": "置顶回放"
+        }
+      },
+      "unpinReplay": {
+        "item": {
+          "title": "取消置顶回放"
+        }
+      },
+      "removeReplay": {
+        "item": {
+          "title": "移除回放"
+        }
+      },
+      "restoreReplay": {
+        "item": {
+          "title": "恢复回放"
+        }
+      }
+    }
+  }
+}
