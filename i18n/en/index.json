@@ -78,6 +78,11 @@
                     "title": "Edited Server Banner"
                 }
             },
+            "editServerAnnouncementIds": {
+                "item": {
+                    "title": "Edited Server Announcements"
+                }
+            },
             "editServerHomeItemTypes": {
                 "item": {
                     "title": "Edited Server Home Items"
