@@ -19,6 +19,9 @@
         "placeholder": "Enter player handle...",
         "description": "Player handle.\n\nFor example, enter 1000 for player Burrito#1000."
     },
+    "readBeforeCreating": {
+        "description": "Please read before creating:"
+    },
     "posts": {
         "aboutServer": {
             "item": {
@@ -31,6 +34,10 @@
             "allowCreate": {
                 "title": "Allow Create",
                 "description": "If creating is allowed."
+            },
+            "readBeforeCreating": {
+                "title": "Read Before Creating",
+                "description": "A post which players should read before creating."
             },
             "requireReview": {
                 "title": "Require Review",
@@ -91,6 +98,11 @@
             "editServerAllowCreateTypes": {
                 "item": {
                     "title": "Edited Server Allow Create"
+                }
+            },
+            "editServerReadBeforeCreatingId": {
+                "item": {
+                    "title": "Edited Server Read Before Creating"
                 }
             },
             "editServerRequireReviewTypes": {
