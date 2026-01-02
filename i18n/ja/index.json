@@ -19,6 +19,9 @@
     "placeholder": "例：1000、1073",
     "description": "プレイヤーのハンドル。\n\n例えば、Burrito#1000のハンドルは1000です。"
   },
+  "readBeforeCreating": {
+    "description": "作成前にお読みください"
+  },
   "posts": {
     "aboutServer": {
       "item": {
@@ -31,6 +34,10 @@
       "allowCreate": {
         "title": "作成を許可",
         "description": "作成を許可するか。"
+      },
+      "readBeforeCreating": {
+        "title": "作成前に読むこと",
+        "description": "プレイヤーが作成する前に読むべき投稿。"
       },
       "requireReview": {
         "title": "審査を必須にする",
@@ -78,6 +85,11 @@
           "title": "サーバーのバナーを編集しました"
         }
       },
+      "editServerAnnouncementIds": {
+        "item": {
+          "title": "サーバーアナウンスを編集しました"
+        }
+      },
       "editServerHomeItemTypes": {
         "item": {
           "title": "ホームの要素を編集しました"
@@ -86,6 +98,11 @@
       "editServerAllowCreateTypes": {
         "item": {
           "title": "作成の許可設定を編集しました"
+        }
+      },
+      "editServerReadBeforeCreatingId": {
+        "item": {
+          "title": "サーバーの\"作成前に読むこと\"を編集しました"
         }
       },
       "editServerRequireReviewTypes": {
