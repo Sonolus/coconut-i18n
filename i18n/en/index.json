@@ -255,6 +255,11 @@
                     "title": "Edited Post Description"
                 }
             },
+            "editPostCollaboratorIds": {
+                "item": {
+                    "title": "Edited Post Collaborators"
+                }
+            },
             "editPostKeywords": {
                 "item": {
                     "title": "Edited Post Keywords"
@@ -313,6 +318,11 @@
             "editPlaylistDescription": {
                 "item": {
                     "title": "Edited Playlist Description"
+                }
+            },
+            "editPlaylistCollaboratorIds": {
+                "item": {
+                    "title": "Edited Playlist Collaborators"
                 }
             },
             "editPlaylistKeywords": {
@@ -383,6 +393,11 @@
             "editLevelDescription": {
                 "item": {
                     "title": "Edited Level Description"
+                }
+            },
+            "editLevelCollaboratorIds": {
+                "item": {
+                    "title": "Edited Level Collaborators"
                 }
             },
             "editLevelKeywords": {
@@ -485,6 +500,11 @@
                     "title": "Edited Skin Description"
                 }
             },
+            "editSkinCollaboratorIds": {
+                "item": {
+                    "title": "Edited Skin Collaborators"
+                }
+            },
             "editSkinKeywords": {
                 "item": {
                     "title": "Edited Skin Keywords"
@@ -553,6 +573,11 @@
             "editBackgroundDescription": {
                 "item": {
                     "title": "Edited Background Description"
+                }
+            },
+            "editBackgroundCollaboratorIds": {
+                "item": {
+                    "title": "Edited Background Collaborators"
                 }
             },
             "editBackgroundKeywords": {
@@ -630,6 +655,11 @@
                     "title": "Edited SFX Description"
                 }
             },
+            "editEffectCollaboratorIds": {
+                "item": {
+                    "title": "Edited SFX Collaborators"
+                }
+            },
             "editEffectKeywords": {
                 "item": {
                     "title": "Edited SFX Keywords"
@@ -700,6 +730,11 @@
                     "title": "Edited Particle Description"
                 }
             },
+            "editParticleCollaboratorIds": {
+                "item": {
+                    "title": "Edited Particle Collaborators"
+                }
+            },
             "editParticleKeywords": {
                 "item": {
                     "title": "Edited Particle Keywords"
@@ -768,6 +803,11 @@
             "editEngineDescription": {
                 "item": {
                     "title": "Edited Engine Description"
+                }
+            },
+            "editEngineCollaboratorIds": {
+                "item": {
+                    "title": "Edited Engine Collaborators"
                 }
             },
             "editEngineKeywords": {
