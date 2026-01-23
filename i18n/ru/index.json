@@ -1,726 +1,719 @@
 {
-  "expiration": {
-    "expired": {
-      "message": "Подписка сервера Sonolus Coconut просрочена."
-    }
-  },
-  "storage": {
-    "full": {
-      "message": "Память сервера Sonolus Coconut заполнена."
-    }
-  },
-  "player": {
-    "placeholder": "Введите идентификатор игрока...",
-    "description": "Идентификатор игрока.\n\nДля примера, введите 1000 для игрока Burrito#1000."
-  },
-  "posts": {
-    "aboutServer": {
-      "item": {
-        "title": "О сервере"
-      },
-      "homeItems": {
-        "title": "Главные предметы",
-        "description": "Предметы показанные на домашней странице сервера."
-      },
-      "allowCreate": {
-        "title": "Разрешить создавать",
-        "description": "Если создавать разрешено."
-      },
-      "requireReview": {
-        "title": "Требовать проверку",
-        "description": "Если проверка модератора обязательна до публикации."
-      },
-      "showRandom": {
-        "title": "Показать рандом",
-        "description": "Показать рандомную секцию."
-      }
+    "expiration": {
+        "expired": {
+            "message": "Подписка сервера Sonolus Coconut просрочена."
+        }
     },
-    "inquiry": {
-      "create": {
-        "description": "Создайте запрос, чтобы лично связаться с модераторами сервера."
-      }
+    "storage": {
+        "full": {
+            "message": "Память сервера Sonolus Coconut заполнена."
+        }
     },
-    "log": {
-      "editServerTitle": {
-        "item": {
-          "title": "Изменено название сервера"
+    "posts": {
+        "server": {
+            "homeItems": {
+                "title": "Главные предметы",
+                "description": "Предметы показанные на домашней странице сервера."
+            },
+            "allowCreate": {
+                "title": "Разрешить создавать",
+                "description": "Если создавать разрешено."
+            },
+            "requireReview": {
+                "title": "Требовать проверку",
+                "description": "Если проверка модератора обязательна до публикации."
+            },
+            "showRandom": {
+                "title": "Показать рандом",
+                "description": "Показать рандомную секцию."
+            }
+        },
+        "inquiry": {
+            "create": {
+                "description": "Создайте запрос, чтобы лично связаться с модераторами сервера."
+            }
+        },
+        "log": {
+            "editServerTitle": {
+                "item": {
+                    "title": "Изменено название сервера"
+                }
+            },
+            "editServerDescription": {
+                "item": {
+                    "title": "Изменено описание сервера"
+                }
+            },
+            "editServerBanner": {
+                "item": {
+                    "title": "Изменён баннер сервера"
+                }
+            },
+            "editServerHomeItemTypes": {
+                "item": {
+                    "title": "Изменены главные предметы сервера"
+                }
+            },
+            "editServerAllowCreateTypes": {
+                "item": {
+                    "title": "Изменено разрешение сервера на создание"
+                }
+            },
+            "editServerRequireReviewTypes": {
+                "item": {
+                    "title": "Изменено разрешение сервера на требование проверки"
+                }
+            },
+            "editServerShowRandomTypes": {
+                "item": {
+                    "title": "Изменён показ рандома сервера"
+                }
+            },
+            "addModerator": {
+                "item": {
+                    "title": "Добавлен модератор"
+                }
+            },
+            "removeModerator": {
+                "item": {
+                    "title": "Убран модератор"
+                }
+            },
+            "addBanned": {
+                "item": {
+                    "title": "Добавлен в Забаненные"
+                }
+            },
+            "removeBanned": {
+                "item": {
+                    "title": "Убран из Забаненных"
+                }
+            },
+            "lockInquiry": {
+                "item": {
+                    "title": "Запрос закрыт"
+                }
+            },
+            "unlockInquiry": {
+                "item": {
+                    "title": "Запрос открыт"
+                }
+            },
+            "removeComment": {
+                "item": {
+                    "title": "Комментарий удалён"
+                }
+            },
+            "restoreComment": {
+                "item": {
+                    "title": "Комментарий восстановлен"
+                }
+            },
+            "approvePost": {
+                "item": {
+                    "title": "Пост одобрен"
+                }
+            },
+            "rejectPost": {
+                "item": {
+                    "title": "Пост отклонён"
+                }
+            },
+            "editPostTitle": {
+                "item": {
+                    "title": "Изменено название поста"
+                }
+            },
+            "editPostDescription": {
+                "item": {
+                    "title": "Изменено описание поста"
+                }
+            },
+            "editPostKeywords": {
+                "item": {
+                    "title": "Изменены ключевые слова поста"
+                }
+            },
+            "editPostThumbnail": {
+                "item": {
+                    "title": "Изменена обложка поста"
+                }
+            },
+            "pinPost": {
+                "item": {
+                    "title": "Пост закреплён"
+                }
+            },
+            "unpinPost": {
+                "item": {
+                    "title": "Пост откреплён"
+                }
+            },
+            "removePost": {
+                "item": {
+                    "title": "Пост удалён"
+                }
+            },
+            "restorePost": {
+                "item": {
+                    "title": "Пост восстановлен"
+                }
+            },
+            "approvePlaylist": {
+                "item": {
+                    "title": "Плейлист одобрен"
+                }
+            },
+            "rejectPlaylist": {
+                "item": {
+                    "title": "Плейлист отклонён"
+                }
+            },
+            "editPlaylistTitle": {
+                "item": {
+                    "title": "Изменено название плейлиста"
+                }
+            },
+            "editPlaylistSubtitle": {
+                "item": {
+                    "title": "Изменено под-название плейлиста"
+                }
+            },
+            "editPlaylistDescription": {
+                "item": {
+                    "title": "Изменено описание плейлиста"
+                }
+            },
+            "editPlaylistKeywords": {
+                "item": {
+                    "title": "Изменены ключевые слова плейлиста"
+                }
+            },
+            "editPlaylistLevels": {
+                "item": {
+                    "title": "Изменены уровни плейлиста"
+                }
+            },
+            "editPlaylistThumbnail": {
+                "item": {
+                    "title": "Изменена обложка плейлиста"
+                }
+            },
+            "pinPlaylist": {
+                "item": {
+                    "title": "Плейлист закреплён"
+                }
+            },
+            "unpinPlaylist": {
+                "item": {
+                    "title": "Плейлист откреплён"
+                }
+            },
+            "removePlaylist": {
+                "item": {
+                    "title": "Плейлист удалён"
+                }
+            },
+            "restorePlaylist": {
+                "item": {
+                    "title": "Плейлист восстановлен"
+                }
+            },
+            "approveLevel": {
+                "item": {
+                    "title": "Уровень одобрен"
+                }
+            },
+            "rejectLevel": {
+                "item": {
+                    "title": "Уровень отклонён"
+                }
+            },
+            "editLevelRating": {
+                "item": {
+                    "title": "Изменён рейтинг уровня"
+                }
+            },
+            "editLevelTitle": {
+                "item": {
+                    "title": "Изменено название уровня"
+                }
+            },
+            "editLevelArtists": {
+                "item": {
+                    "title": "Изменены артисты уровня"
+                }
+            },
+            "editLevelDescription": {
+                "item": {
+                    "title": "Изменено описание уровня"
+                }
+            },
+            "editLevelKeywords": {
+                "item": {
+                    "title": "Изменены ключевые слова уровня"
+                }
+            },
+            "editLevelEngine": {
+                "item": {
+                    "title": "Изменён движок уровня"
+                }
+            },
+            "editLevelSkin": {
+                "item": {
+                    "title": "Изменён скин уровня"
+                }
+            },
+            "editLevelBackground": {
+                "item": {
+                    "title": "Изменён задний фон уровня"
+                }
+            },
+            "editLevelEffect": {
+                "item": {
+                    "title": "Изменён SFX уровня"
+                }
+            },
+            "editLevelParticle": {
+                "item": {
+                    "title": "Изменены партиклы уровня"
+                }
+            },
+            "editLevelCover": {
+                "item": {
+                    "title": "Изменён кавер уровня"
+                }
+            },
+            "editLevelBgm": {
+                "item": {
+                    "title": "Изменён BGM уровня"
+                }
+            },
+            "editLevelPreview": {
+                "item": {
+                    "title": "Изменён превью уровня"
+                }
+            },
+            "editLevelData": {
+                "item": {
+                    "title": "Изменены данные уровня"
+                }
+            },
+            "pinLevel": {
+                "item": {
+                    "title": "Уровень закреплён"
+                }
+            },
+            "unpinLevel": {
+                "item": {
+                    "title": "Уровень откреплён"
+                }
+            },
+            "removeLevel": {
+                "item": {
+                    "title": "Уровень удалён"
+                }
+            },
+            "restoreLevel": {
+                "item": {
+                    "title": "Уровень восстановлен"
+                }
+            },
+            "approveSkin": {
+                "item": {
+                    "title": "Скин одобрен"
+                }
+            },
+            "rejectSkin": {
+                "item": {
+                    "title": "Скин отказан"
+                }
+            },
+            "editSkinTitle": {
+                "item": {
+                    "title": "Изменено название скина"
+                }
+            },
+            "editSkinSubtitle": {
+                "item": {
+                    "title": "Изменено под-название скина"
+                }
+            },
+            "editSkinDescription": {
+                "item": {
+                    "title": "Изменено описание скина"
+                }
+            },
+            "editSkinKeywords": {
+                "item": {
+                    "title": "Изменены ключевые слова скина"
+                }
+            },
+            "editSkinThumbnail": {
+                "item": {
+                    "title": "Изменена обложка скина"
+                }
+            },
+            "editSkinData": {
+                "item": {
+                    "title": "Изменены данные скина"
+                }
+            },
+            "editSkinTexture": {
+                "item": {
+                    "title": "Изменены текстуры скина"
+                }
+            },
+            "pinSkin": {
+                "item": {
+                    "title": "Скин закреплён"
+                }
+            },
+            "unpinSkin": {
+                "item": {
+                    "title": "Скин откреплён"
+                }
+            },
+            "removeSkin": {
+                "item": {
+                    "title": "Скин удалён"
+                }
+            },
+            "restoreSkin": {
+                "item": {
+                    "title": "Скин восстановлен"
+                }
+            },
+            "approveBackground": {
+                "item": {
+                    "title": "Задний фон одобрен"
+                }
+            },
+            "rejectBackground": {
+                "item": {
+                    "title": "Задний фон отказан"
+                }
+            },
+            "editBackgroundTitle": {
+                "item": {
+                    "title": "Изменено название заднего фона"
+                }
+            },
+            "editBackgroundSubtitle": {
+                "item": {
+                    "title": "Изменено под-название заднего фона"
+                }
+            },
+            "editBackgroundDescription": {
+                "item": {
+                    "title": "Изменено описание заднего фона"
+                }
+            },
+            "editBackgroundKeywords": {
+                "item": {
+                    "title": "Изменены ключевые слова заднего фона"
+                }
+            },
+            "editBackgroundThumbnail": {
+                "item": {
+                    "title": "Изменена обложка заднего фона"
+                }
+            },
+            "editBackgroundImage": {
+                "item": {
+                    "title": "Изменено фото заднего фона"
+                }
+            },
+            "editBackgroundData": {
+                "item": {
+                    "title": "Изменены данные заднего фона"
+                }
+            },
+            "editBackgroundConfiguration": {
+                "item": {
+                    "title": "Изменена конфигурация заднего фона"
+                }
+            },
+            "pinBackground": {
+                "item": {
+                    "title": "Задний фон закреплён"
+                }
+            },
+            "unpinBackground": {
+                "item": {
+                    "title": "Задний фон откреплён"
+                }
+            },
+            "removeBackground": {
+                "item": {
+                    "title": "Задний фон удалён"
+                }
+            },
+            "restoreBackground": {
+                "item": {
+                    "title": "Задний фон восстановлен"
+                }
+            },
+            "approveEffect": {
+                "item": {
+                    "title": "SFX одобрен"
+                }
+            },
+            "rejectEffect": {
+                "item": {
+                    "title": "SFX отказан"
+                }
+            },
+            "editEffectTitle": {
+                "item": {
+                    "title": "Изменено название SFX"
+                }
+            },
+            "editEffectSubtitle": {
+                "item": {
+                    "title": "Изменено под-название SFX "
+                }
+            },
+            "editEffectDescription": {
+                "item": {
+                    "title": "Изменено описание SFX "
+                }
+            },
+            "editEffectKeywords": {
+                "item": {
+                    "title": "Изменены ключевые слова SFX"
+                }
+            },
+            "editEffectThumbnail": {
+                "item": {
+                    "title": "Изменена обложка SFX"
+                }
+            },
+            "editEffectData": {
+                "item": {
+                    "title": "Изменены данные SFX "
+                }
+            },
+            "editEffectAudio": {
+                "item": {
+                    "title": "Изменено аудио SFX "
+                }
+            },
+            "pinEffect": {
+                "item": {
+                    "title": "SFX закреплён"
+                }
+            },
+            "unpinEffect": {
+                "item": {
+                    "title": "SFX откреплён"
+                }
+            },
+            "removeEffect": {
+                "item": {
+                    "title": "SFX удалён"
+                }
+            },
+            "restoreEffect": {
+                "item": {
+                    "title": "SFX восстановлен"
+                }
+            },
+            "approveParticle": {
+                "item": {
+                    "title": "Партикл одобрен"
+                }
+            },
+            "rejectParticle": {
+                "item": {
+                    "title": "Партикл отказан"
+                }
+            },
+            "editParticleTitle": {
+                "item": {
+                    "title": "Изменено название партикла"
+                }
+            },
+            "editParticleSubtitle": {
+                "item": {
+                    "title": "Изменено под-название партикла"
+                }
+            },
+            "editParticleDescription": {
+                "item": {
+                    "title": "Изменено описание партикла"
+                }
+            },
+            "editParticleKeywords": {
+                "item": {
+                    "title": "Изменены ключевые слова партикла"
+                }
+            },
+            "editParticleThumbnail": {
+                "item": {
+                    "title": "Изменена обложка партикла"
+                }
+            },
+            "editParticleData": {
+                "item": {
+                    "title": "Изменены данные партикла"
+                }
+            },
+            "editParticleTexture": {
+                "item": {
+                    "title": "Изменена текстура партикла"
+                }
+            },
+            "pinParticle": {
+                "item": {
+                    "title": "Партикл закреплён"
+                }
+            },
+            "unpinParticle": {
+                "item": {
+                    "title": "Партикл откреплён"
+                }
+            },
+            "removeParticle": {
+                "item": {
+                    "title": "Партикл удалён"
+                }
+            },
+            "restoreParticle": {
+                "item": {
+                    "title": "Партикл восстановлен"
+                }
+            },
+            "approveEngine": {
+                "item": {
+                    "title": "Движок одобрен"
+                }
+            },
+            "rejectEngine": {
+                "item": {
+                    "title": "Движок отказан"
+                }
+            },
+            "editEngineTitle": {
+                "item": {
+                    "title": "Изменено название движка"
+                }
+            },
+            "editEngineSubtitle": {
+                "item": {
+                    "title": "Изменено под-название движка"
+                }
+            },
+            "editEngineDescription": {
+                "item": {
+                    "title": "Изменено описание движка"
+                }
+            },
+            "editEngineKeywords": {
+                "item": {
+                    "title": "Изменены ключевые слова движка"
+                }
+            },
+            "editEngineSkin": {
+                "item": {
+                    "title": "Изменён скин движка"
+                }
+            },
+            "editEngineBackground": {
+                "item": {
+                    "title": "Изменён задний фон движка"
+                }
+            },
+            "editEngineEffect": {
+                "item": {
+                    "title": "Изменён SFX движка"
+                }
+            },
+            "editEngineParticle": {
+                "item": {
+                    "title": "Изменён партикл движка"
+                }
+            },
+            "editEngineThumbnail": {
+                "item": {
+                    "title": "Изменена обложка движка"
+                }
+            },
+            "editEnginePlayData": {
+                "item": {
+                    "title": "Изменены данные игры движка"
+                }
+            },
+            "editEngineWatchData": {
+                "item": {
+                    "title": "Изменены данные просмотра движка"
+                }
+            },
+            "editEnginePreviewData": {
+                "item": {
+                    "title": "Изменены данные превью движка"
+                }
+            },
+            "editEngineTutorialData": {
+                "item": {
+                    "title": "Изменены данные туториала движка"
+                }
+            },
+            "editEngineRom": {
+                "item": {
+                    "title": "Изменён ROM движка"
+                }
+            },
+            "editEngineConfiguration": {
+                "item": {
+                    "title": "Изменена конфигурация движка"
+                }
+            },
+            "pinEngine": {
+                "item": {
+                    "title": "Движок закреплён"
+                }
+            },
+            "unpinEngine": {
+                "item": {
+                    "title": "Движок откреплён"
+                }
+            },
+            "removeEngine": {
+                "item": {
+                    "title": "Движок удалён"
+                }
+            },
+            "restoreEngine": {
+                "item": {
+                    "title": "Движок восстановлен"
+                }
+            },
+            "approveReplay": {
+                "item": {
+                    "title": "Повтор одобрен"
+                }
+            },
+            "pinReplay": {
+                "item": {
+                    "title": "Повтор закреплён"
+                }
+            },
+            "unpinReplay": {
+                "item": {
+                    "title": "Повтор откреплён"
+                }
+            },
+            "removeReplay": {
+                "item": {
+                    "title": "Повтор удалён"
+                }
+            },
+            "restoreReplay": {
+                "item": {
+                    "title": "Повтор восстановлен"
+                }
+            }
         }
-      },
-      "editServerDescription": {
-        "item": {
-          "title": "Изменено описание сервера"
-        }
-      },
-      "editServerBanner": {
-        "item": {
-          "title": "Изменён баннер сервера"
-        }
-      },
-      "editServerHomeItemTypes": {
-        "item": {
-          "title": "Изменены главные предметы сервера"
-        }
-      },
-      "editServerAllowCreateTypes": {
-        "item": {
-          "title": "Изменено разрешение сервера на создание"
-        }
-      },
-      "editServerRequireReviewTypes": {
-        "item": {
-          "title": "Изменено разрешение сервера на требование проверки"
-        }
-      },
-      "editServerShowRandomTypes": {
-        "item": {
-          "title": "Изменён показ рандома сервера"
-        }
-      },
-      "addModerator": {
-        "item": {
-          "title": "Добавлен модератор"
-        }
-      },
-      "removeModerator": {
-        "item": {
-          "title": "Убран модератор"
-        }
-      },
-      "addBanned": {
-        "item": {
-          "title": "Добавлен в Забаненные"
-        }
-      },
-      "removeBanned": {
-        "item": {
-          "title": "Убран из Забаненных"
-        }
-      },
-      "lockInquiry": {
-        "item": {
-          "title": "Запрос закрыт"
-        }
-      },
-      "unlockInquiry": {
-        "item": {
-          "title": "Запрос открыт"
-        }
-      },
-      "removeComment": {
-        "item": {
-          "title": "Комментарий удалён"
-        }
-      },
-      "restoreComment": {
-        "item": {
-          "title": "Комментарий восстановлен"
-        }
-      },
-      "approvePost": {
-        "item": {
-          "title": "Пост одобрен"
-        }
-      },
-      "rejectPost": {
-        "item": {
-          "title": "Пост отклонён"
-        }
-      },
-      "editPostTitle": {
-        "item": {
-          "title": "Изменено название поста"
-        }
-      },
-      "editPostDescription": {
-        "item": {
-          "title": "Изменено описание поста"
-        }
-      },
-      "editPostKeywords": {
-        "item": {
-          "title": "Изменены ключевые слова поста"
-        }
-      },
-      "editPostThumbnail": {
-        "item": {
-          "title": "Изменена обложка поста"
-        }
-      },
-      "pinPost": {
-        "item": {
-          "title": "Пост закреплён"
-        }
-      },
-      "unpinPost": {
-        "item": {
-          "title": "Пост откреплён"
-        }
-      },
-      "removePost": {
-        "item": {
-          "title": "Пост удалён"
-        }
-      },
-      "restorePost": {
-        "item": {
-          "title": "Пост восстановлен"
-        }
-      },
-      "approvePlaylist": {
-        "item": {
-          "title": "Плейлист одобрен"
-        }
-      },
-      "rejectPlaylist": {
-        "item": {
-          "title": "Плейлист отклонён"
-        }
-      },
-      "editPlaylistTitle": {
-        "item": {
-          "title": "Изменено название плейлиста"
-        }
-      },
-      "editPlaylistSubtitle": {
-        "item": {
-          "title": "Изменено под-название плейлиста"
-        }
-      },
-      "editPlaylistDescription": {
-        "item": {
-          "title": "Изменено описание плейлиста"
-        }
-      },
-      "editPlaylistKeywords": {
-        "item": {
-          "title": "Изменены ключевые слова плейлиста"
-        }
-      },
-      "editPlaylistLevels": {
-        "item": {
-          "title": "Изменены уровни плейлиста"
-        }
-      },
-      "editPlaylistThumbnail": {
-        "item": {
-          "title": "Изменена обложка плейлиста"
-        }
-      },
-      "pinPlaylist": {
-        "item": {
-          "title": "Плейлист закреплён"
-        }
-      },
-      "unpinPlaylist": {
-        "item": {
-          "title": "Плейлист откреплён"
-        }
-      },
-      "removePlaylist": {
-        "item": {
-          "title": "Плейлист удалён"
-        }
-      },
-      "restorePlaylist": {
-        "item": {
-          "title": "Плейлист восстановлен"
-        }
-      },
-      "approveLevel": {
-        "item": {
-          "title": "Уровень одобрен"
-        }
-      },
-      "rejectLevel": {
-        "item": {
-          "title": "Уровень отклонён"
-        }
-      },
-      "editLevelRating": {
-        "item": {
-          "title": "Изменён рейтинг уровня"
-        }
-      },
-      "editLevelTitle": {
-        "item": {
-          "title": "Изменено название уровня"
-        }
-      },
-      "editLevelArtists": {
-        "item": {
-          "title": "Изменены артисты уровня"
-        }
-      },
-      "editLevelDescription": {
-        "item": {
-          "title": "Изменено описание уровня"
-        }
-      },
-      "editLevelKeywords": {
-        "item": {
-          "title": "Изменены ключевые слова уровня"
-        }
-      },
-      "editLevelEngine": {
-        "item": {
-          "title": "Изменён движок уровня"
-        }
-      },
-      "editLevelSkin": {
-        "item": {
-          "title": "Изменён скин уровня"
-        }
-      },
-      "editLevelBackground": {
-        "item": {
-          "title": "Изменён задний фон уровня"
-        }
-      },
-      "editLevelEffect": {
-        "item": {
-          "title": "Изменён SFX уровня"
-        }
-      },
-      "editLevelParticle": {
-        "item": {
-          "title": "Изменены партиклы уровня"
-        }
-      },
-      "editLevelCover": {
-        "item": {
-          "title": "Изменён кавер уровня"
-        }
-      },
-      "editLevelBgm": {
-        "item": {
-          "title": "Изменён BGM уровня"
-        }
-      },
-      "editLevelPreview": {
-        "item": {
-          "title": "Изменён превью уровня"
-        }
-      },
-      "editLevelData": {
-        "item": {
-          "title": "Изменены данные уровня"
-        }
-      },
-      "pinLevel": {
-        "item": {
-          "title": "Уровень закреплён"
-        }
-      },
-      "unpinLevel": {
-        "item": {
-          "title": "Уровень откреплён"
-        }
-      },
-      "removeLevel": {
-        "item": {
-          "title": "Уровень удалён"
-        }
-      },
-      "restoreLevel": {
-        "item": {
-          "title": "Уровень восстановлен"
-        }
-      },
-      "approveSkin": {
-        "item": {
-          "title": "Скин одобрен"
-        }
-      },
-      "rejectSkin": {
-        "item": {
-          "title": "Скин отказан"
-        }
-      },
-      "editSkinTitle": {
-        "item": {
-          "title": "Изменено название скина"
-        }
-      },
-      "editSkinSubtitle": {
-        "item": {
-          "title": "Изменено под-название скина"
-        }
-      },
-      "editSkinDescription": {
-        "item": {
-          "title": "Изменено описание скина"
-        }
-      },
-      "editSkinKeywords": {
-        "item": {
-          "title": "Изменены ключевые слова скина"
-        }
-      },
-      "editSkinThumbnail": {
-        "item": {
-          "title": "Изменена обложка скина"
-        }
-      },
-      "editSkinData": {
-        "item": {
-          "title": "Изменены данные скина"
-        }
-      },
-      "editSkinTexture": {
-        "item": {
-          "title": "Изменены текстуры скина"
-        }
-      },
-      "pinSkin": {
-        "item": {
-          "title": "Скин закреплён"
-        }
-      },
-      "unpinSkin": {
-        "item": {
-          "title": "Скин откреплён"
-        }
-      },
-      "removeSkin": {
-        "item": {
-          "title": "Скин удалён"
-        }
-      },
-      "restoreSkin": {
-        "item": {
-          "title": "Скин восстановлен"
-        }
-      },
-      "approveBackground": {
-        "item": {
-          "title": "Задний фон одобрен"
-        }
-      },
-      "rejectBackground": {
-        "item": {
-          "title": "Задний фон отказан"
-        }
-      },
-      "editBackgroundTitle": {
-        "item": {
-          "title": "Изменено название заднего фона"
-        }
-      },
-      "editBackgroundSubtitle": {
-        "item": {
-          "title": "Изменено под-название заднего фона"
-        }
-      },
-      "editBackgroundDescription": {
-        "item": {
-          "title": "Изменено описание заднего фона"
-        }
-      },
-      "editBackgroundKeywords": {
-        "item": {
-          "title": "Изменены ключевые слова заднего фона"
-        }
-      },
-      "editBackgroundThumbnail": {
-        "item": {
-          "title": "Изменена обложка заднего фона"
-        }
-      },
-      "editBackgroundImage": {
-        "item": {
-          "title": "Изменено фото заднего фона"
-        }
-      },
-      "editBackgroundData": {
-        "item": {
-          "title": "Изменены данные заднего фона"
-        }
-      },
-      "editBackgroundConfiguration": {
-        "item": {
-          "title": "Изменена конфигурация заднего фона"
-        }
-      },
-      "pinBackground": {
-        "item": {
-          "title": "Задний фон закреплён"
-        }
-      },
-      "unpinBackground": {
-        "item": {
-          "title": "Задний фон откреплён"
-        }
-      },
-      "removeBackground": {
-        "item": {
-          "title": "Задний фон удалён"
-        }
-      },
-      "restoreBackground": {
-        "item": {
-          "title": "Задний фон восстановлен"
-        }
-      },
-      "approveEffect": {
-        "item": {
-          "title": "SFX одобрен"
-        }
-      },
-      "rejectEffect": {
-        "item": {
-          "title": "SFX отказан"
-        }
-      },
-      "editEffectTitle": {
-        "item": {
-          "title": "Изменено название SFX"
-        }
-      },
-      "editEffectSubtitle": {
-        "item": {
-          "title": "Изменено под-название SFX "
-        }
-      },
-      "editEffectDescription": {
-        "item": {
-          "title": "Изменено описание SFX "
-        }
-      },
-      "editEffectKeywords": {
-        "item": {
-          "title": "Изменены ключевые слова SFX"
-        }
-      },
-      "editEffectThumbnail": {
-        "item": {
-          "title": "Изменена обложка SFX"
-        }
-      },
-      "editEffectData": {
-        "item": {
-          "title": "Изменены данные SFX "
-        }
-      },
-      "editEffectAudio": {
-        "item": {
-          "title": "Изменено аудио SFX "
-        }
-      },
-      "pinEffect": {
-        "item": {
-          "title": "SFX закреплён"
-        }
-      },
-      "unpinEffect": {
-        "item": {
-          "title": "SFX откреплён"
-        }
-      },
-      "removeEffect": {
-        "item": {
-          "title": "SFX удалён"
-        }
-      },
-      "restoreEffect": {
-        "item": {
-          "title": "SFX восстановлен"
-        }
-      },
-      "approveParticle": {
-        "item": {
-          "title": "Партикл одобрен"
-        }
-      },
-      "rejectParticle": {
-        "item": {
-          "title": "Партикл отказан"
-        }
-      },
-      "editParticleTitle": {
-        "item": {
-          "title": "Изменено название партикла"
-        }
-      },
-      "editParticleSubtitle": {
-        "item": {
-          "title": "Изменено под-название партикла"
-        }
-      },
-      "editParticleDescription": {
-        "item": {
-          "title": "Изменено описание партикла"
-        }
-      },
-      "editParticleKeywords": {
-        "item": {
-          "title": "Изменены ключевые слова партикла"
-        }
-      },
-      "editParticleThumbnail": {
-        "item": {
-          "title": "Изменена обложка партикла"
-        }
-      },
-      "editParticleData": {
-        "item": {
-          "title": "Изменены данные партикла"
-        }
-      },
-      "editParticleTexture": {
-        "item": {
-          "title": "Изменена текстура партикла"
-        }
-      },
-      "pinParticle": {
-        "item": {
-          "title": "Партикл закреплён"
-        }
-      },
-      "unpinParticle": {
-        "item": {
-          "title": "Партикл откреплён"
-        }
-      },
-      "removeParticle": {
-        "item": {
-          "title": "Партикл удалён"
-        }
-      },
-      "restoreParticle": {
-        "item": {
-          "title": "Партикл восстановлен"
-        }
-      },
-      "approveEngine": {
-        "item": {
-          "title": "Движок одобрен"
-        }
-      },
-      "rejectEngine": {
-        "item": {
-          "title": "Движок отказан"
-        }
-      },
-      "editEngineTitle": {
-        "item": {
-          "title": "Изменено название движка"
-        }
-      },
-      "editEngineSubtitle": {
-        "item": {
-          "title": "Изменено под-название движка"
-        }
-      },
-      "editEngineDescription": {
-        "item": {
-          "title": "Изменено описание движка"
-        }
-      },
-      "editEngineKeywords": {
-        "item": {
-          "title": "Изменены ключевые слова движка"
-        }
-      },
-      "editEngineSkin": {
-        "item": {
-          "title": "Изменён скин движка"
-        }
-      },
-      "editEngineBackground": {
-        "item": {
-          "title": "Изменён задний фон движка"
-        }
-      },
-      "editEngineEffect": {
-        "item": {
-          "title": "Изменён SFX движка"
-        }
-      },
-      "editEngineParticle": {
-        "item": {
-          "title": "Изменён партикл движка"
-        }
-      },
-      "editEngineThumbnail": {
-        "item": {
-          "title": "Изменена обложка движка"
-        }
-      },
-      "editEnginePlayData": {
-        "item": {
-          "title": "Изменены данные игры движка"
-        }
-      },
-      "editEngineWatchData": {
-        "item": {
-          "title": "Изменены данные просмотра движка"
-        }
-      },
-      "editEnginePreviewData": {
-        "item": {
-          "title": "Изменены данные превью движка"
-        }
-      },
-      "editEngineTutorialData": {
-        "item": {
-          "title": "Изменены данные туториала движка"
-        }
-      },
-      "editEngineRom": {
-        "item": {
-          "title": "Изменён ROM движка"
-        }
-      },
-      "editEngineConfiguration": {
-        "item": {
-          "title": "Изменена конфигурация движка"
-        }
-      },
-      "pinEngine": {
-        "item": {
-          "title": "Движок закреплён"
-        }
-      },
-      "unpinEngine": {
-        "item": {
-          "title": "Движок откреплён"
-        }
-      },
-      "removeEngine": {
-        "item": {
-          "title": "Движок удалён"
-        }
-      },
-      "restoreEngine": {
-        "item": {
-          "title": "Движок восстановлен"
-        }
-      },
-      "approveReplay": {
-        "item": {
-          "title": "Повтор одобрен"
-        }
-      },
-      "pinReplay": {
-        "item": {
-          "title": "Повтор закреплён"
-        }
-      },
-      "unpinReplay": {
-        "item": {
-          "title": "Повтор откреплён"
-        }
-      },
-      "removeReplay": {
-        "item": {
-          "title": "Повтор удалён"
-        }
-      },
-      "restoreReplay": {
-        "item": {
-          "title": "Повтор восстановлен"
-        }
-      }
     }
-  }
 }

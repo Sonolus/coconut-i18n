@@ -4,29 +4,16 @@
             "message": "Sonolus Coconut server subscription expired."
         }
     },
-    "includeTag": {
-        "title": "Include Tag"
-    },
-    "excludeTag": {
-        "title": "Exclude Tag"
-    },
     "storage": {
         "full": {
             "message": "Sonolus Coconut server storage full."
         }
     },
-    "player": {
-        "placeholder": "Enter player handle...",
-        "description": "Player handle.\n\nFor example, enter 1000 for player Burrito#1000."
-    },
     "readBeforeCreating": {
         "description": "Please read before creating:"
     },
     "posts": {
-        "aboutServer": {
-            "item": {
-                "title": "About Server"
-            },
+        "server": {
             "homeItems": {
                 "title": "Home Items",
                 "description": "Items shown on server homepage."
@@ -55,13 +42,11 @@
         "tags": {
             "usableTags": {
                 "title": "Usable Tags",
-                "description": "Tags players can use.",
-                "placeholder": "Enter list of tag IDs separated by comma..."
+                "description": "Tags players can use."
             },
             "searchableTags": {
                 "title": "Searchable Tags",
-                "description": "Tags players can search.",
-                "placeholder": "Enter list of tag IDs separated by comma..."
+                "description": "Tags players can search."
             }
         },
         "inquiry": {
