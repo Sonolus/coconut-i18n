@@ -1,885 +1,925 @@
 {
-    "expiration": {
-        "expired": {
-            "message": "Sonolus Coconutサーバーの有効期限が切れました。"
-        }
-    },
-    "storage": {
-        "full": {
-            "message": "Sonolus Coconutサーバーのストレージが満杯です。"
-        }
-    },
-    "readBeforeCreating": {
-        "description": "作成前にお読みください"
-    },
-    "posts": {
-        "server": {
-            "homeItems": {
-                "title": "ホームの要素",
-                "description": "サーバーのホームページに表示される要素。"
-            },
-            "allowCreate": {
-                "title": "作成を許可",
-                "description": "作成を許可するか。"
-            },
-            "readBeforeCreating": {
-                "title": "作成前に読むこと",
-                "description": "プレイヤーが作成する前に読むべき投稿。"
-            },
-            "requireReview": {
-                "title": "審査を必須にする",
-                "description": "公開前にモデレーターによる審査を必要にするか。"
-            },
-            "showRandom": {
-                "title": "ランダム欄を表示",
-                "description": "「ランダム」欄を追加します。"
-            },
-            "defaultEngine": {
-                "title": "デフォルトのエンジン",
-                "description": "レベルを作成する際のデフォルトのエンジン。"
-            }
-        },
-        "tags": {
-            "usableTags": {
-                "title": "利用可能なタグ",
-                "description": "プレイヤーが設定できるタグ。"
-            },
-            "searchableTags": {
-                "title": "検索可能なタグ",
-                "description": "プレイヤーが検索できるタグ。"
-            }
-        },
-        "inquiry": {
-            "create": {
-                "description": "サーバーのモデレーターに対して非公開のお問い合わせをします。"
-            }
-        },
-        "log": {
-            "editServerTitle": {
-                "item": {
-                    "title": "サーバーのタイトルを編集しました"
-                }
-            },
-            "editServerDescription": {
-                "item": {
-                    "title": "サーバーの説明を編集しました"
-                }
-            },
-            "editServerBanner": {
-                "item": {
-                    "title": "サーバーのバナーを編集しました"
-                }
-            },
-            "editServerAnnouncementIds": {
-                "item": {
-                    "title": "サーバーアナウンスを編集しました"
-                }
-            },
-            "editServerHomeItemTypes": {
-                "item": {
-                    "title": "ホームの要素を編集しました"
-                }
-            },
-            "editServerAllowCreateTypes": {
-                "item": {
-                    "title": "作成の許可設定を編集しました"
-                }
-            },
-            "editServerReadBeforeCreatingId": {
-                "item": {
-                    "title": "サーバーの\"作成前に読むこと\"を編集しました"
-                }
-            },
-            "editServerRequireReviewTypes": {
-                "item": {
-                    "title": "レビューの必須設定を編集しました"
-                }
-            },
-            "editServerShowRandomTypes": {
-                "item": {
-                    "title": "ランダム欄の表示設定を編集しました"
-                }
-            },
-            "editServerDefaultEngineId": {
-                "item": {
-                    "title": "サーバーのデフォルトのエンジンを編集しました"
-                }
-            },
-            "addModerator": {
-                "item": {
-                    "title": "モデレーターが追加されました"
-                }
-            },
-            "removeModerator": {
-                "item": {
-                    "title": "モデレーターが除名されました"
-                }
-            },
-            "addBanned": {
-                "item": {
-                    "title": "ユーザーがBANされました"
-                }
-            },
-            "removeBanned": {
-                "item": {
-                    "title": "ユーザーのBANが解除されました"
-                }
-            },
-            "addTag": {
-                "item": {
-                    "title": "タグを追加しました"
-                }
-            },
-            "editTagTitle": {
-                "item": {
-                    "title": "タグのタイトルを編集しました"
-                }
-            },
-            "editUsablePostTagIds": {
-                "item": {
-                    "title": "利用可能な投稿のタグを編集しました"
-                }
-            },
-            "editUsablePlaylistTagIds": {
-                "item": {
-                    "title": "利用可能なプレイリストのタグを編集しました"
-                }
-            },
-            "editUsableLevelTagIds": {
-                "item": {
-                    "title": "利用可能なレベルのタグを編集しました"
-                }
-            },
-            "editUsableSkinTagIds": {
-                "item": {
-                    "title": "利用可能なスキンのタグを編集しました"
-                }
-            },
-            "editUsableBackgroundTagIds": {
-                "item": {
-                    "title": "利用可能な背景のタグを編集しました"
-                }
-            },
-            "editUsableEffectTagIds": {
-                "item": {
-                    "title": "利用可能なSEのタグを編集しました"
-                }
-            },
-            "editUsableParticleTagIds": {
-                "item": {
-                    "title": "利用可能なパーティクルのタグを編集しました"
-                }
-            },
-            "editUsableEngineTagIds": {
-                "item": {
-                    "title": "利用可能なエンジンのタグを編集しました"
-                }
-            },
-            "editSearchablePostTagIds": {
-                "item": {
-                    "title": "検索可能な投稿のタグを編集しました"
-                }
-            },
-            "editSearchablePlaylistTagIds": {
-                "item": {
-                    "title": "検索可能なプレイリストのタグを編集しました"
-                }
-            },
-            "editSearchableLevelTagIds": {
-                "item": {
-                    "title": "検索可能なレベルのタグを編集しました"
-                }
-            },
-            "editSearchableSkinTagIds": {
-                "item": {
-                    "title": "検索可能なスキンのタグを編集しました"
-                }
-            },
-            "editSearchableBackgroundTagIds": {
-                "item": {
-                    "title": "検索可能な背景のタグを編集しました"
-                }
-            },
-            "editSearchableEffectTagIds": {
-                "item": {
-                    "title": "検索可能なSEのタグを編集しました"
-                }
-            },
-            "editSearchableParticleTagIds": {
-                "item": {
-                    "title": "検索可能なパーティクルのタグを編集しました"
-                }
-            },
-            "editSearchableEngineTagIds": {
-                "item": {
-                    "title": "検索可能なエンジンのタグを編集しました"
-                }
-            },
-            "lockInquiry": {
-                "item": {
-                    "title": "お問い合わせが停止しました"
-                }
-            },
-            "unlockInquiry": {
-                "item": {
-                    "title": "お問い合わせが再開しました"
-                }
-            },
-            "removeComment": {
-                "item": {
-                    "title": "コメントを削除しました"
-                }
-            },
-            "restoreComment": {
-                "item": {
-                    "title": "コメントを復元しました"
-                }
-            },
-            "approvePost": {
-                "item": {
-                    "title": "投稿を追加しました"
-                }
-            },
-            "rejectPost": {
-                "item": {
-                    "title": "投稿を削除しました"
-                }
-            },
-            "editPostTitle": {
-                "item": {
-                    "title": "投稿のタイトルを編集しました"
-                }
-            },
-            "editPostDescription": {
-                "item": {
-                    "title": "投稿の説明を編集しました"
-                }
-            },
-            "editPostKeywords": {
-                "item": {
-                    "title": "投稿のキーワードを編集しました"
-                }
-            },
-            "editPostTagIds": {
-                "item": {
-                    "title": "投稿のタグを編集しました"
-                }
-            },
-            "editPostThumbnail": {
-                "item": {
-                    "title": "投稿のサムネイルを編集しました"
-                }
-            },
-            "pinPost": {
-                "item": {
-                    "title": "投稿をピン留めしました"
-                }
-            },
-            "unpinPost": {
-                "item": {
-                    "title": "投稿のピン留めを解除しました"
-                }
-            },
-            "removePost": {
-                "item": {
-                    "title": "投稿を削除しました"
-                }
-            },
-            "restorePost": {
-                "item": {
-                    "title": "投稿を復元しました"
-                }
-            },
-            "approvePlaylist": {
-                "item": {
-                    "title": "プレイリストを承認しました"
-                }
-            },
-            "rejectPlaylist": {
-                "item": {
-                    "title": "プレイリストを棄却しました"
-                }
-            },
-            "editPlaylistTitle": {
-                "item": {
-                    "title": "プレイリストのタイトルを編集しました"
-                }
-            },
-            "editPlaylistSubtitle": {
-                "item": {
-                    "title": "プレイリストのサブタイトルを編集しました"
-                }
-            },
-            "editPlaylistDescription": {
-                "item": {
-                    "title": "プレイリストの説明を編集しました"
-                }
-            },
-            "editPlaylistKeywords": {
-                "item": {
-                    "title": "プレイリストのキーワードを編集しました"
-                }
-            },
-            "editPlaylistTagIds": {
-                "item": {
-                    "title": "プレイリストのタグを編集しました"
-                }
-            },
-            "editPlaylistLevels": {
-                "item": {
-                    "title": "プレイリストのレベル一覧を編集しました"
-                }
-            },
-            "editPlaylistThumbnail": {
-                "item": {
-                    "title": "プレイリストのサムネイルを編集しました"
-                }
-            },
-            "pinPlaylist": {
-                "item": {
-                    "title": "プレイリストをピン留めしました"
-                }
-            },
-            "unpinPlaylist": {
-                "item": {
-                    "title": "プレイリストのピン留めを解除しました"
-                }
-            },
-            "removePlaylist": {
-                "item": {
-                    "title": "プレイリストを削除しました"
-                }
-            },
-            "restorePlaylist": {
-                "item": {
-                    "title": "プレイリストを復元しました"
-                }
-            },
-            "approveLevel": {
-                "item": {
-                    "title": "レベルを承認しました"
-                }
-            },
-            "rejectLevel": {
-                "item": {
-                    "title": "レベルを棄却しました"
-                }
-            },
-            "editLevelRating": {
-                "item": {
-                    "title": "レベルの難易度を編集しました"
-                }
-            },
-            "editLevelTitle": {
-                "item": {
-                    "title": "レベルのタイトルを編集しました"
-                }
-            },
-            "editLevelArtists": {
-                "item": {
-                    "title": "レベルのアーティスト欄を編集しました"
-                }
-            },
-            "editLevelDescription": {
-                "item": {
-                    "title": "レベルの説明を編集しました"
-                }
-            },
-            "editLevelKeywords": {
-                "item": {
-                    "title": "レベルのキーワードを編集しました"
-                }
-            },
-            "editLevelTagIds": {
-                "item": {
-                    "title": "レベルのタグを編集しました"
-                }
-            },
-            "editLevelEngine": {
-                "item": {
-                    "title": "レベルのエンジンを変更しました"
-                }
-            },
-            "editLevelSkin": {
-                "item": {
-                    "title": "レベルのスキンを変更しました"
-                }
-            },
-            "editLevelBackground": {
-                "item": {
-                    "title": "レベルの背景を変更しました"
-                }
-            },
-            "editLevelEffect": {
-                "item": {
-                    "title": "レベルのSEを変更しました"
-                }
-            },
-            "editLevelParticle": {
-                "item": {
-                    "title": "レベルのパーティクルを変更しました"
-                }
-            },
-            "editLevelCover": {
-                "item": {
-                    "title": "レベルのジャケットを編集しました"
-                }
-            },
-            "editLevelBgm": {
-                "item": {
-                    "title": "レベルのBGMを編集しました"
-                }
-            },
-            "editLevelPreview": {
-                "item": {
-                    "title": "レベルのプレビューを編集しました"
-                }
-            },
-            "editLevelData": {
-                "item": {
-                    "title": "レベルのデータを編集しました"
-                }
-            },
-            "pinLevel": {
-                "item": {
-                    "title": "レベルをピン留めしました"
-                }
-            },
-            "unpinLevel": {
-                "item": {
-                    "title": "レベルのピン留めを解除しました"
-                }
-            },
-            "removeLevel": {
-                "item": {
-                    "title": "レベルを削除しました"
-                }
-            },
-            "restoreLevel": {
-                "item": {
-                    "title": "レベルを復元しました"
-                }
-            },
-            "approveSkin": {
-                "item": {
-                    "title": "スキンを承認しました"
-                }
-            },
-            "rejectSkin": {
-                "item": {
-                    "title": "スキンを棄却しました"
-                }
-            },
-            "editSkinTitle": {
-                "item": {
-                    "title": "スキンのタイトルを編集しました"
-                }
-            },
-            "editSkinSubtitle": {
-                "item": {
-                    "title": "スキンのサブタイトルを編集しました"
-                }
-            },
-            "editSkinDescription": {
-                "item": {
-                    "title": "スキンの説明を編集しました"
-                }
-            },
-            "editSkinKeywords": {
-                "item": {
-                    "title": "スキンのキーワードを編集しました"
-                }
-            },
-            "editSkinTagIds": {
-                "item": {
-                    "title": "スキンのタグを編集しました"
-                }
-            },
-            "editSkinThumbnail": {
-                "item": {
-                    "title": "スキンのサムネイルを編集しました"
-                }
-            },
-            "editSkinData": {
-                "item": {
-                    "title": "スキンのデータを編集しました"
-                }
-            },
-            "editSkinTexture": {
-                "item": {
-                    "title": "スキンのテクスチャを編集しました"
-                }
-            },
-            "pinSkin": {
-                "item": {
-                    "title": "スキンをピン留めしました"
-                }
-            },
-            "unpinSkin": {
-                "item": {
-                    "title": "スキンのピン留めを解除しました"
-                }
-            },
-            "removeSkin": {
-                "item": {
-                    "title": "スキンを削除しました"
-                }
-            },
-            "restoreSkin": {
-                "item": {
-                    "title": "スキンを復元しました"
-                }
-            },
-            "approveBackground": {
-                "item": {
-                    "title": "背景を承認しました"
-                }
-            },
-            "rejectBackground": {
-                "item": {
-                    "title": "背景を却下しました"
-                }
-            },
-            "editBackgroundTitle": {
-                "item": {
-                    "title": "背景のタイトルを編集しました"
-                }
-            },
-            "editBackgroundSubtitle": {
-                "item": {
-                    "title": "背景のサブタイトルを編集しました"
-                }
-            },
-            "editBackgroundDescription": {
-                "item": {
-                    "title": "背景の説明を編集しました"
-                }
-            },
-            "editBackgroundKeywords": {
-                "item": {
-                    "title": "背景のキーワードを編集しました"
-                }
-            },
-            "editBackgroundTagIds": {
-                "item": {
-                    "title": "背景のタグを編集しました"
-                }
-            },
-            "editBackgroundThumbnail": {
-                "item": {
-                    "title": "背景のサムネイルを編集しました"
-                }
-            },
-            "editBackgroundImage": {
-                "item": {
-                    "title": "背景の画像を編集しました"
-                }
-            },
-            "editBackgroundData": {
-                "item": {
-                    "title": "背景のデータを編集しました"
-                }
-            },
-            "editBackgroundConfiguration": {
-                "item": {
-                    "title": "背景の設定を編集しました"
-                }
-            },
-            "pinBackground": {
-                "item": {
-                    "title": "背景をピン留めしました"
-                }
-            },
-            "unpinBackground": {
-                "item": {
-                    "title": "背景のピン留めを解除しました"
-                }
-            },
-            "removeBackground": {
-                "item": {
-                    "title": "背景を削除しました"
-                }
-            },
-            "restoreBackground": {
-                "item": {
-                    "title": "背景を復元しました"
-                }
-            },
-            "approveEffect": {
-                "item": {
-                    "title": "SEを承認しました"
-                }
-            },
-            "rejectEffect": {
-                "item": {
-                    "title": "SEを棄却しました"
-                }
-            },
-            "editEffectTitle": {
-                "item": {
-                    "title": "SEのタイトルを編集しました"
-                }
-            },
-            "editEffectSubtitle": {
-                "item": {
-                    "title": "SEのサブタイトルを編集しました"
-                }
-            },
-            "editEffectDescription": {
-                "item": {
-                    "title": "SEの説明を編集しました"
-                }
-            },
-            "editEffectKeywords": {
-                "item": {
-                    "title": "SEのキーワードを編集しました"
-                }
-            },
-            "editEffectTagIds": {
-                "item": {
-                    "title": "SEのタグを編集しました"
-                }
-            },
-            "editEffectThumbnail": {
-                "item": {
-                    "title": "SEのサムネイルを編集しました"
-                }
-            },
-            "editEffectData": {
-                "item": {
-                    "title": "SEのデータを編集しました"
-                }
-            },
-            "editEffectAudio": {
-                "item": {
-                    "title": "SEの音源を編集しました"
-                }
-            },
-            "pinEffect": {
-                "item": {
-                    "title": "SEをピン留めしました"
-                }
-            },
-            "unpinEffect": {
-                "item": {
-                    "title": "SEのピン留めを解除しました"
-                }
-            },
-            "removeEffect": {
-                "item": {
-                    "title": "SEを削除しました"
-                }
-            },
-            "restoreEffect": {
-                "item": {
-                    "title": "SEを復元しました"
-                }
-            },
-            "approveParticle": {
-                "item": {
-                    "title": "パーティクルを承認しました"
-                }
-            },
-            "rejectParticle": {
-                "item": {
-                    "title": "パーティクルを棄却しました"
-                }
-            },
-            "editParticleTitle": {
-                "item": {
-                    "title": "パーティクルのタイトルを編集しました"
-                }
-            },
-            "editParticleSubtitle": {
-                "item": {
-                    "title": "パーティクルのサブタイトルを編集しました"
-                }
-            },
-            "editParticleDescription": {
-                "item": {
-                    "title": "パーティクルの説明を編集しました"
-                }
-            },
-            "editParticleKeywords": {
-                "item": {
-                    "title": "パーティクルのキーワードを編集しました"
-                }
-            },
-            "editParticleTagIds": {
-                "item": {
-                    "title": "パーティクルのタグを編集しました"
-                }
-            },
-            "editParticleThumbnail": {
-                "item": {
-                    "title": "パーティクルのサムネイルを編集しました"
-                }
-            },
-            "editParticleData": {
-                "item": {
-                    "title": "パーティクルのデータを編集しました"
-                }
-            },
-            "editParticleTexture": {
-                "item": {
-                    "title": "パーティクルのテクスチャを編集しました"
-                }
-            },
-            "pinParticle": {
-                "item": {
-                    "title": "パーティクルをピン留めしました"
-                }
-            },
-            "unpinParticle": {
-                "item": {
-                    "title": "パーティクルのピン留めを解除しました"
-                }
-            },
-            "removeParticle": {
-                "item": {
-                    "title": "パーティクルを削除しました"
-                }
-            },
-            "restoreParticle": {
-                "item": {
-                    "title": "パーティクルを復元しました"
-                }
-            },
-            "approveEngine": {
-                "item": {
-                    "title": "エンジンを承認しました"
-                }
-            },
-            "rejectEngine": {
-                "item": {
-                    "title": "エンジンを棄却しました"
-                }
-            },
-            "editEngineTitle": {
-                "item": {
-                    "title": "エンジンのタイトルを編集しました"
-                }
-            },
-            "editEngineSubtitle": {
-                "item": {
-                    "title": "エンジンのサブタイトルを編集しました"
-                }
-            },
-            "editEngineDescription": {
-                "item": {
-                    "title": "エンジンの説明を編集しました"
-                }
-            },
-            "editEngineKeywords": {
-                "item": {
-                    "title": "エンジンのキーワードを編集しました"
-                }
-            },
-            "editEngineTagIds": {
-                "item": {
-                    "title": "エンジンのタグを編集しました"
-                }
-            },
-            "editEngineSkin": {
-                "item": {
-                    "title": "エンジンのスキンを変更しました"
-                }
-            },
-            "editEngineBackground": {
-                "item": {
-                    "title": "エンジンの背景を変更しました"
-                }
-            },
-            "editEngineEffect": {
-                "item": {
-                    "title": "エンジンのSEを変更しました"
-                }
-            },
-            "editEngineParticle": {
-                "item": {
-                    "title": "エンジンのパーティクルを変更しました"
-                }
-            },
-            "editEngineThumbnail": {
-                "item": {
-                    "title": "エンジンのサムネイルを編集しました"
-                }
-            },
-            "editEnginePlayData": {
-                "item": {
-                    "title": "エンジンのプレイモードのデータを編集しました"
-                }
-            },
-            "editEngineWatchData": {
-                "item": {
-                    "title": "エンジンの閲覧モードのデータを編集しました"
-                }
-            },
-            "editEnginePreviewData": {
-                "item": {
-                    "title": "エンジンのプレビューモードのデータを編集しました"
-                }
-            },
-            "editEngineTutorialData": {
-                "item": {
-                    "title": "エンジンのチュートリアルのデータを編集しました"
-                }
-            },
-            "editEngineRom": {
-                "item": {
-                    "title": "エンジンのROMを編集しました"
-                }
-            },
-            "editEngineConfiguration": {
-                "item": {
-                    "title": "エンジンの設定を編集しました"
-                }
-            },
-            "pinEngine": {
-                "item": {
-                    "title": "エンジンをピン留めしました"
-                }
-            },
-            "unpinEngine": {
-                "item": {
-                    "title": "エンジンのピン留めを解除しました"
-                }
-            },
-            "removeEngine": {
-                "item": {
-                    "title": "エンジンを削除しました"
-                }
-            },
-            "restoreEngine": {
-                "item": {
-                    "title": "エンジンを復元しました"
-                }
-            },
-            "approveReplay": {
-                "item": {
-                    "title": "リプレイを承認しました"
-                }
-            },
-            "pinReplay": {
-                "item": {
-                    "title": "リプレイをピン留めしました"
-                }
-            },
-            "unpinReplay": {
-                "item": {
-                    "title": "リプレイのピン留めを解除しました"
-                }
-            },
-            "removeReplay": {
-                "item": {
-                    "title": "リプレイを削除しました"
-                }
-            },
-            "restoreReplay": {
-                "item": {
-                    "title": "リプレイを復元しました"
-                }
-            }
-        }
+  "expiration": {
+    "expired": {
+      "message": "Sonolus Coconutサーバーの有効期限が切れました。"
     }
+  },
+  "storage": {
+    "full": {
+      "message": "Sonolus Coconutサーバーのストレージが満杯です。"
+    }
+  },
+  "readBeforeCreating": {
+    "description": "作成前にお読みください"
+  },
+  "posts": {
+    "server": {
+      "homeItems": {
+        "title": "ホームの要素",
+        "description": "サーバーのホームページに表示される要素。"
+      },
+      "allowCreate": {
+        "title": "作成を許可",
+        "description": "作成を許可するか。"
+      },
+      "readBeforeCreating": {
+        "title": "作成前に読むこと",
+        "description": "プレイヤーが作成する前に読むべき投稿。"
+      },
+      "requireReview": {
+        "title": "審査を必須にする",
+        "description": "公開前にモデレーターによる審査を必要にするか。"
+      },
+      "showRandom": {
+        "title": "ランダム欄を表示",
+        "description": "「ランダム」欄を追加します。"
+      },
+      "defaultEngine": {
+        "title": "デフォルトのエンジン",
+        "description": "レベルを作成する際のデフォルトのエンジン。"
+      }
+    },
+    "tags": {
+      "usableTags": {
+        "title": "利用可能なタグ",
+        "description": "プレイヤーが設定できるタグ。"
+      },
+      "searchableTags": {
+        "title": "検索可能なタグ",
+        "description": "プレイヤーが検索できるタグ。"
+      }
+    },
+    "inquiry": {
+      "create": {
+        "description": "サーバーのモデレーターに対して非公開のお問い合わせをします。"
+      }
+    },
+    "log": {
+      "editServerTitle": {
+        "item": {
+          "title": "サーバーのタイトルを編集しました"
+        }
+      },
+      "editServerDescription": {
+        "item": {
+          "title": "サーバーの説明を編集しました"
+        }
+      },
+      "editServerBanner": {
+        "item": {
+          "title": "サーバーのバナーを編集しました"
+        }
+      },
+      "editServerAnnouncementIds": {
+        "item": {
+          "title": "サーバーアナウンスを編集しました"
+        }
+      },
+      "editServerHomeItemTypes": {
+        "item": {
+          "title": "ホームの要素を編集しました"
+        }
+      },
+      "editServerAllowCreateTypes": {
+        "item": {
+          "title": "作成の許可設定を編集しました"
+        }
+      },
+      "editServerReadBeforeCreatingId": {
+        "item": {
+          "title": "サーバーの\"作成前に読むこと\"を編集しました"
+        }
+      },
+      "editServerRequireReviewTypes": {
+        "item": {
+          "title": "レビューの必須設定を編集しました"
+        }
+      },
+      "editServerShowRandomTypes": {
+        "item": {
+          "title": "ランダム欄の表示設定を編集しました"
+        }
+      },
+      "editServerDefaultEngineId": {
+        "item": {
+          "title": "サーバーのデフォルトのエンジンを編集しました"
+        }
+      },
+      "addModerator": {
+        "item": {
+          "title": "モデレーターが追加されました"
+        }
+      },
+      "removeModerator": {
+        "item": {
+          "title": "モデレーターが除名されました"
+        }
+      },
+      "addBanned": {
+        "item": {
+          "title": "ユーザーがBANされました"
+        }
+      },
+      "removeBanned": {
+        "item": {
+          "title": "ユーザーのBANが解除されました"
+        }
+      },
+      "addTag": {
+        "item": {
+          "title": "タグを追加しました"
+        }
+      },
+      "editTagTitle": {
+        "item": {
+          "title": "タグのタイトルを編集しました"
+        }
+      },
+      "editUsablePostTagIds": {
+        "item": {
+          "title": "利用可能な投稿のタグを編集しました"
+        }
+      },
+      "editUsablePlaylistTagIds": {
+        "item": {
+          "title": "利用可能なプレイリストのタグを編集しました"
+        }
+      },
+      "editUsableLevelTagIds": {
+        "item": {
+          "title": "利用可能なレベルのタグを編集しました"
+        }
+      },
+      "editUsableSkinTagIds": {
+        "item": {
+          "title": "利用可能なスキンのタグを編集しました"
+        }
+      },
+      "editUsableBackgroundTagIds": {
+        "item": {
+          "title": "利用可能な背景のタグを編集しました"
+        }
+      },
+      "editUsableEffectTagIds": {
+        "item": {
+          "title": "利用可能なSEのタグを編集しました"
+        }
+      },
+      "editUsableParticleTagIds": {
+        "item": {
+          "title": "利用可能なパーティクルのタグを編集しました"
+        }
+      },
+      "editUsableEngineTagIds": {
+        "item": {
+          "title": "利用可能なエンジンのタグを編集しました"
+        }
+      },
+      "editSearchablePostTagIds": {
+        "item": {
+          "title": "検索可能な投稿のタグを編集しました"
+        }
+      },
+      "editSearchablePlaylistTagIds": {
+        "item": {
+          "title": "検索可能なプレイリストのタグを編集しました"
+        }
+      },
+      "editSearchableLevelTagIds": {
+        "item": {
+          "title": "検索可能なレベルのタグを編集しました"
+        }
+      },
+      "editSearchableSkinTagIds": {
+        "item": {
+          "title": "検索可能なスキンのタグを編集しました"
+        }
+      },
+      "editSearchableBackgroundTagIds": {
+        "item": {
+          "title": "検索可能な背景のタグを編集しました"
+        }
+      },
+      "editSearchableEffectTagIds": {
+        "item": {
+          "title": "検索可能なSEのタグを編集しました"
+        }
+      },
+      "editSearchableParticleTagIds": {
+        "item": {
+          "title": "検索可能なパーティクルのタグを編集しました"
+        }
+      },
+      "editSearchableEngineTagIds": {
+        "item": {
+          "title": "検索可能なエンジンのタグを編集しました"
+        }
+      },
+      "lockInquiry": {
+        "item": {
+          "title": "お問い合わせが停止しました"
+        }
+      },
+      "unlockInquiry": {
+        "item": {
+          "title": "お問い合わせが再開しました"
+        }
+      },
+      "removeComment": {
+        "item": {
+          "title": "コメントを削除しました"
+        }
+      },
+      "restoreComment": {
+        "item": {
+          "title": "コメントを復元しました"
+        }
+      },
+      "approvePost": {
+        "item": {
+          "title": "投稿を追加しました"
+        }
+      },
+      "rejectPost": {
+        "item": {
+          "title": "投稿を削除しました"
+        }
+      },
+      "editPostTitle": {
+        "item": {
+          "title": "投稿のタイトルを編集しました"
+        }
+      },
+      "editPostDescription": {
+        "item": {
+          "title": "投稿の説明を編集しました"
+        }
+      },
+      "editPostCollaboratorIds": {
+        "item": {
+          "title": "投稿のコラボレーターを編集しました"
+        }
+      },
+      "editPostKeywords": {
+        "item": {
+          "title": "投稿のキーワードを編集しました"
+        }
+      },
+      "editPostTagIds": {
+        "item": {
+          "title": "投稿のタグを編集しました"
+        }
+      },
+      "editPostThumbnail": {
+        "item": {
+          "title": "投稿のサムネイルを編集しました"
+        }
+      },
+      "pinPost": {
+        "item": {
+          "title": "投稿をピン留めしました"
+        }
+      },
+      "unpinPost": {
+        "item": {
+          "title": "投稿のピン留めを解除しました"
+        }
+      },
+      "removePost": {
+        "item": {
+          "title": "投稿を削除しました"
+        }
+      },
+      "restorePost": {
+        "item": {
+          "title": "投稿を復元しました"
+        }
+      },
+      "approvePlaylist": {
+        "item": {
+          "title": "プレイリストを承認しました"
+        }
+      },
+      "rejectPlaylist": {
+        "item": {
+          "title": "プレイリストを棄却しました"
+        }
+      },
+      "editPlaylistTitle": {
+        "item": {
+          "title": "プレイリストのタイトルを編集しました"
+        }
+      },
+      "editPlaylistSubtitle": {
+        "item": {
+          "title": "プレイリストのサブタイトルを編集しました"
+        }
+      },
+      "editPlaylistDescription": {
+        "item": {
+          "title": "プレイリストの説明を編集しました"
+        }
+      },
+      "editPlaylistCollaboratorIds": {
+        "item": {
+          "title": "プレイリストのコラボレーターを編集しました"
+        }
+      },
+      "editPlaylistKeywords": {
+        "item": {
+          "title": "プレイリストのキーワードを編集しました"
+        }
+      },
+      "editPlaylistTagIds": {
+        "item": {
+          "title": "プレイリストのタグを編集しました"
+        }
+      },
+      "editPlaylistLevels": {
+        "item": {
+          "title": "プレイリストのレベル一覧を編集しました"
+        }
+      },
+      "editPlaylistThumbnail": {
+        "item": {
+          "title": "プレイリストのサムネイルを編集しました"
+        }
+      },
+      "pinPlaylist": {
+        "item": {
+          "title": "プレイリストをピン留めしました"
+        }
+      },
+      "unpinPlaylist": {
+        "item": {
+          "title": "プレイリストのピン留めを解除しました"
+        }
+      },
+      "removePlaylist": {
+        "item": {
+          "title": "プレイリストを削除しました"
+        }
+      },
+      "restorePlaylist": {
+        "item": {
+          "title": "プレイリストを復元しました"
+        }
+      },
+      "approveLevel": {
+        "item": {
+          "title": "レベルを承認しました"
+        }
+      },
+      "rejectLevel": {
+        "item": {
+          "title": "レベルを棄却しました"
+        }
+      },
+      "editLevelRating": {
+        "item": {
+          "title": "レベルの難易度を編集しました"
+        }
+      },
+      "editLevelTitle": {
+        "item": {
+          "title": "レベルのタイトルを編集しました"
+        }
+      },
+      "editLevelArtists": {
+        "item": {
+          "title": "レベルのアーティスト欄を編集しました"
+        }
+      },
+      "editLevelDescription": {
+        "item": {
+          "title": "レベルの説明を編集しました"
+        }
+      },
+      "editLevelCollaboratorIds": {
+        "item": {
+          "title": "レベルのコラボレーターを編集しました"
+        }
+      },
+      "editLevelKeywords": {
+        "item": {
+          "title": "レベルのキーワードを編集しました"
+        }
+      },
+      "editLevelTagIds": {
+        "item": {
+          "title": "レベルのタグを編集しました"
+        }
+      },
+      "editLevelEngine": {
+        "item": {
+          "title": "レベルのエンジンを変更しました"
+        }
+      },
+      "editLevelSkin": {
+        "item": {
+          "title": "レベルのスキンを変更しました"
+        }
+      },
+      "editLevelBackground": {
+        "item": {
+          "title": "レベルの背景を変更しました"
+        }
+      },
+      "editLevelEffect": {
+        "item": {
+          "title": "レベルのSEを変更しました"
+        }
+      },
+      "editLevelParticle": {
+        "item": {
+          "title": "レベルのパーティクルを変更しました"
+        }
+      },
+      "editLevelCover": {
+        "item": {
+          "title": "レベルのジャケットを編集しました"
+        }
+      },
+      "editLevelBgm": {
+        "item": {
+          "title": "レベルのBGMを編集しました"
+        }
+      },
+      "editLevelPreview": {
+        "item": {
+          "title": "レベルのプレビューを編集しました"
+        }
+      },
+      "editLevelData": {
+        "item": {
+          "title": "レベルのデータを編集しました"
+        }
+      },
+      "pinLevel": {
+        "item": {
+          "title": "レベルをピン留めしました"
+        }
+      },
+      "unpinLevel": {
+        "item": {
+          "title": "レベルのピン留めを解除しました"
+        }
+      },
+      "removeLevel": {
+        "item": {
+          "title": "レベルを削除しました"
+        }
+      },
+      "restoreLevel": {
+        "item": {
+          "title": "レベルを復元しました"
+        }
+      },
+      "approveSkin": {
+        "item": {
+          "title": "スキンを承認しました"
+        }
+      },
+      "rejectSkin": {
+        "item": {
+          "title": "スキンを棄却しました"
+        }
+      },
+      "editSkinTitle": {
+        "item": {
+          "title": "スキンのタイトルを編集しました"
+        }
+      },
+      "editSkinSubtitle": {
+        "item": {
+          "title": "スキンのサブタイトルを編集しました"
+        }
+      },
+      "editSkinDescription": {
+        "item": {
+          "title": "スキンの説明を編集しました"
+        }
+      },
+      "editSkinCollaboratorIds": {
+        "item": {
+          "title": "スキンのコラボレーターを編集しました"
+        }
+      },
+      "editSkinKeywords": {
+        "item": {
+          "title": "スキンのキーワードを編集しました"
+        }
+      },
+      "editSkinTagIds": {
+        "item": {
+          "title": "スキンのタグを編集しました"
+        }
+      },
+      "editSkinThumbnail": {
+        "item": {
+          "title": "スキンのサムネイルを編集しました"
+        }
+      },
+      "editSkinData": {
+        "item": {
+          "title": "スキンのデータを編集しました"
+        }
+      },
+      "editSkinTexture": {
+        "item": {
+          "title": "スキンのテクスチャを編集しました"
+        }
+      },
+      "pinSkin": {
+        "item": {
+          "title": "スキンをピン留めしました"
+        }
+      },
+      "unpinSkin": {
+        "item": {
+          "title": "スキンのピン留めを解除しました"
+        }
+      },
+      "removeSkin": {
+        "item": {
+          "title": "スキンを削除しました"
+        }
+      },
+      "restoreSkin": {
+        "item": {
+          "title": "スキンを復元しました"
+        }
+      },
+      "approveBackground": {
+        "item": {
+          "title": "背景を承認しました"
+        }
+      },
+      "rejectBackground": {
+        "item": {
+          "title": "背景を却下しました"
+        }
+      },
+      "editBackgroundTitle": {
+        "item": {
+          "title": "背景のタイトルを編集しました"
+        }
+      },
+      "editBackgroundSubtitle": {
+        "item": {
+          "title": "背景のサブタイトルを編集しました"
+        }
+      },
+      "editBackgroundDescription": {
+        "item": {
+          "title": "背景の説明を編集しました"
+        }
+      },
+      "editBackgroundCollaboratorIds": {
+        "item": {
+          "title": "背景のコラボレーターを編集しました"
+        }
+      },
+      "editBackgroundKeywords": {
+        "item": {
+          "title": "背景のキーワードを編集しました"
+        }
+      },
+      "editBackgroundTagIds": {
+        "item": {
+          "title": "背景のタグを編集しました"
+        }
+      },
+      "editBackgroundThumbnail": {
+        "item": {
+          "title": "背景のサムネイルを編集しました"
+        }
+      },
+      "editBackgroundImage": {
+        "item": {
+          "title": "背景の画像を編集しました"
+        }
+      },
+      "editBackgroundData": {
+        "item": {
+          "title": "背景のデータを編集しました"
+        }
+      },
+      "editBackgroundConfiguration": {
+        "item": {
+          "title": "背景の設定を編集しました"
+        }
+      },
+      "pinBackground": {
+        "item": {
+          "title": "背景をピン留めしました"
+        }
+      },
+      "unpinBackground": {
+        "item": {
+          "title": "背景のピン留めを解除しました"
+        }
+      },
+      "removeBackground": {
+        "item": {
+          "title": "背景を削除しました"
+        }
+      },
+      "restoreBackground": {
+        "item": {
+          "title": "背景を復元しました"
+        }
+      },
+      "approveEffect": {
+        "item": {
+          "title": "SEを承認しました"
+        }
+      },
+      "rejectEffect": {
+        "item": {
+          "title": "SEを棄却しました"
+        }
+      },
+      "editEffectTitle": {
+        "item": {
+          "title": "SEのタイトルを編集しました"
+        }
+      },
+      "editEffectSubtitle": {
+        "item": {
+          "title": "SEのサブタイトルを編集しました"
+        }
+      },
+      "editEffectDescription": {
+        "item": {
+          "title": "SEの説明を編集しました"
+        }
+      },
+      "editEffectCollaboratorIds": {
+        "item": {
+          "title": "SEのコラボレーターを編集しました"
+        }
+      },
+      "editEffectKeywords": {
+        "item": {
+          "title": "SEのキーワードを編集しました"
+        }
+      },
+      "editEffectTagIds": {
+        "item": {
+          "title": "SEのタグを編集しました"
+        }
+      },
+      "editEffectThumbnail": {
+        "item": {
+          "title": "SEのサムネイルを編集しました"
+        }
+      },
+      "editEffectData": {
+        "item": {
+          "title": "SEのデータを編集しました"
+        }
+      },
+      "editEffectAudio": {
+        "item": {
+          "title": "SEの音源を編集しました"
+        }
+      },
+      "pinEffect": {
+        "item": {
+          "title": "SEをピン留めしました"
+        }
+      },
+      "unpinEffect": {
+        "item": {
+          "title": "SEのピン留めを解除しました"
+        }
+      },
+      "removeEffect": {
+        "item": {
+          "title": "SEを削除しました"
+        }
+      },
+      "restoreEffect": {
+        "item": {
+          "title": "SEを復元しました"
+        }
+      },
+      "approveParticle": {
+        "item": {
+          "title": "パーティクルを承認しました"
+        }
+      },
+      "rejectParticle": {
+        "item": {
+          "title": "パーティクルを棄却しました"
+        }
+      },
+      "editParticleTitle": {
+        "item": {
+          "title": "パーティクルのタイトルを編集しました"
+        }
+      },
+      "editParticleSubtitle": {
+        "item": {
+          "title": "パーティクルのサブタイトルを編集しました"
+        }
+      },
+      "editParticleDescription": {
+        "item": {
+          "title": "パーティクルの説明を編集しました"
+        }
+      },
+      "editParticleCollaboratorIds": {
+        "item": {
+          "title": "パーティクルのコラボレーターを編集しました"
+        }
+      },
+      "editParticleKeywords": {
+        "item": {
+          "title": "パーティクルのキーワードを編集しました"
+        }
+      },
+      "editParticleTagIds": {
+        "item": {
+          "title": "パーティクルのタグを編集しました"
+        }
+      },
+      "editParticleThumbnail": {
+        "item": {
+          "title": "パーティクルのサムネイルを編集しました"
+        }
+      },
+      "editParticleData": {
+        "item": {
+          "title": "パーティクルのデータを編集しました"
+        }
+      },
+      "editParticleTexture": {
+        "item": {
+          "title": "パーティクルのテクスチャを編集しました"
+        }
+      },
+      "pinParticle": {
+        "item": {
+          "title": "パーティクルをピン留めしました"
+        }
+      },
+      "unpinParticle": {
+        "item": {
+          "title": "パーティクルのピン留めを解除しました"
+        }
+      },
+      "removeParticle": {
+        "item": {
+          "title": "パーティクルを削除しました"
+        }
+      },
+      "restoreParticle": {
+        "item": {
+          "title": "パーティクルを復元しました"
+        }
+      },
+      "approveEngine": {
+        "item": {
+          "title": "エンジンを承認しました"
+        }
+      },
+      "rejectEngine": {
+        "item": {
+          "title": "エンジンを棄却しました"
+        }
+      },
+      "editEngineTitle": {
+        "item": {
+          "title": "エンジンのタイトルを編集しました"
+        }
+      },
+      "editEngineSubtitle": {
+        "item": {
+          "title": "エンジンのサブタイトルを編集しました"
+        }
+      },
+      "editEngineDescription": {
+        "item": {
+          "title": "エンジンの説明を編集しました"
+        }
+      },
+      "editEngineCollaboratorIds": {
+        "item": {
+          "title": "エンジンのコラボレーターを編集しました"
+        }
+      },
+      "editEngineKeywords": {
+        "item": {
+          "title": "エンジンのキーワードを編集しました"
+        }
+      },
+      "editEngineTagIds": {
+        "item": {
+          "title": "エンジンのタグを編集しました"
+        }
+      },
+      "editEngineSkin": {
+        "item": {
+          "title": "エンジンのスキンを変更しました"
+        }
+      },
+      "editEngineBackground": {
+        "item": {
+          "title": "エンジンの背景を変更しました"
+        }
+      },
+      "editEngineEffect": {
+        "item": {
+          "title": "エンジンのSEを変更しました"
+        }
+      },
+      "editEngineParticle": {
+        "item": {
+          "title": "エンジンのパーティクルを変更しました"
+        }
+      },
+      "editEngineThumbnail": {
+        "item": {
+          "title": "エンジンのサムネイルを編集しました"
+        }
+      },
+      "editEnginePlayData": {
+        "item": {
+          "title": "エンジンのプレイモードのデータを編集しました"
+        }
+      },
+      "editEngineWatchData": {
+        "item": {
+          "title": "エンジンの閲覧モードのデータを編集しました"
+        }
+      },
+      "editEnginePreviewData": {
+        "item": {
+          "title": "エンジンのプレビューモードのデータを編集しました"
+        }
+      },
+      "editEngineTutorialData": {
+        "item": {
+          "title": "エンジンのチュートリアルのデータを編集しました"
+        }
+      },
+      "editEngineRom": {
+        "item": {
+          "title": "エンジンのROMを編集しました"
+        }
+      },
+      "editEngineConfiguration": {
+        "item": {
+          "title": "エンジンの設定を編集しました"
+        }
+      },
+      "pinEngine": {
+        "item": {
+          "title": "エンジンをピン留めしました"
+        }
+      },
+      "unpinEngine": {
+        "item": {
+          "title": "エンジンのピン留めを解除しました"
+        }
+      },
+      "removeEngine": {
+        "item": {
+          "title": "エンジンを削除しました"
+        }
+      },
+      "restoreEngine": {
+        "item": {
+          "title": "エンジンを復元しました"
+        }
+      },
+      "approveReplay": {
+        "item": {
+          "title": "リプレイを承認しました"
+        }
+      },
+      "pinReplay": {
+        "item": {
+          "title": "リプレイをピン留めしました"
+        }
+      },
+      "unpinReplay": {
+        "item": {
+          "title": "リプレイのピン留めを解除しました"
+        }
+      },
+      "removeReplay": {
+        "item": {
+          "title": "リプレイを削除しました"
+        }
+      },
+      "restoreReplay": {
+        "item": {
+          "title": "リプレイを復元しました"
+        }
+      }
+    }
+  }
 }
