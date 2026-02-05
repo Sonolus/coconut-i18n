@@ -1,868 +1,925 @@
 {
-    "expiration": {
-        "expired": {
-            "message": "Sonolus Coconut 서버 구독이 만료되었습니다."
-        }
-    },
-    "storage": {
-        "full": {
-            "message": "Sonolus Coconut 서버 저장소가 가득 찼습니다."
-        }
-    },
-    "posts": {
-        "server": {
-            "homeItems": {
-                "title": "홈 요소",
-                "description": "서버 홈페이지에 보일 요소입니다."
-            },
-            "allowCreate": {
-                "title": "생성 허용",
-                "description": "생성 허용 여부입니다."
-            },
-            "requireReview": {
-                "title": "검토 필요",
-                "description": "공개 전 관리자의 검토가 필요한 지 여부입니다."
-            },
-            "showRandom": {
-                "title": "무작위 표시",
-                "description": "무작위로 선택하여 표시합니다."
-            },
-            "defaultEngine": {
-                "title": "기본 엔진",
-                "description": "레벨을 생성할 때의 기본 엔진입니다."
-            }
-        },
-        "tags": {
-            "usableTags": {
-                "title": "유용한 태그",
-                "description": "플레이어가 사용할 수 있는 태그입니다."
-            },
-            "searchableTags": {
-                "title": "검색 가능한 태그",
-                "description": "플레이어가 검색할 수 있는 태그입니다."
-            }
-        },
-        "inquiry": {
-            "create": {
-                "description": "개인적으로 서버 관리자에게 문의할 수 있도록 질문지를 생성하십시오."
-            }
-        },
-        "log": {
-            "editServerTitle": {
-                "item": {
-                    "title": "서버 제목 수정됨"
-                }
-            },
-            "editServerDescription": {
-                "item": {
-                    "title": "서버 설명 수정됨"
-                }
-            },
-            "editServerBanner": {
-                "item": {
-                    "title": "서버 배너 수정됨"
-                }
-            },
-            "editServerHomeItemTypes": {
-                "item": {
-                    "title": "서버 홈 요소 수정됨"
-                }
-            },
-            "editServerAllowCreateTypes": {
-                "item": {
-                    "title": "서버 생성 허용 수정됨"
-                }
-            },
-            "editServerRequireReviewTypes": {
-                "item": {
-                    "title": "서버 검토 필요 수정됨"
-                }
-            },
-            "editServerShowRandomTypes": {
-                "item": {
-                    "title": "서버 무작위 표시 수정됨"
-                }
-            },
-            "editServerDefaultEngineId": {
-                "item": {
-                    "title": "서버 기본 엔진 수정됨"
-                }
-            },
-            "addModerator": {
-                "item": {
-                    "title": "관리자 추가됨"
-                }
-            },
-            "removeModerator": {
-                "item": {
-                    "title": "관리자 제거됨"
-                }
-            },
-            "addBanned": {
-                "item": {
-                    "title": "제재 추가됨"
-                }
-            },
-            "removeBanned": {
-                "item": {
-                    "title": "제재 제거됨"
-                }
-            },
-            "addTag": {
-                "item": {
-                    "title": "태그 추가됨"
-                }
-            },
-            "editTagTitle": {
-                "item": {
-                    "title": "태그 이름 수정됨"
-                }
-            },
-            "editUsablePostTagIds": {
-                "item": {
-                    "title": "유용한 게시물 태그 수정됨"
-                }
-            },
-            "editUsablePlaylistTagIds": {
-                "item": {
-                    "title": "유용한 재생목록 태그 수정됨"
-                }
-            },
-            "editUsableLevelTagIds": {
-                "item": {
-                    "title": "유용한 레벨 태그 수정됨"
-                }
-            },
-            "editUsableSkinTagIds": {
-                "item": {
-                    "title": "유용한 스킨 태그 수정됨"
-                }
-            },
-            "editUsableBackgroundTagIds": {
-                "item": {
-                    "title": "유용한 배경 태그 수정됨"
-                }
-            },
-            "editUsableEffectTagIds": {
-                "item": {
-                    "title": "유용한 효과음 태그 수정됨"
-                }
-            },
-            "editUsableParticleTagIds": {
-                "item": {
-                    "title": "유용한 입자 태그 수정됨"
-                }
-            },
-            "editUsableEngineTagIds": {
-                "item": {
-                    "title": "유용한 엔진 태그 수정됨"
-                }
-            },
-            "editSearchablePostTagIds": {
-                "item": {
-                    "title": "검색 가능한 게시물 태그 수정됨"
-                }
-            },
-            "editSearchablePlaylistTagIds": {
-                "item": {
-                    "title": "검색 가능한 재생목록 태그 수정됨"
-                }
-            },
-            "editSearchableLevelTagIds": {
-                "item": {
-                    "title": "검색 가능한 레벨 태그 수정됨"
-                }
-            },
-            "editSearchableSkinTagIds": {
-                "item": {
-                    "title": "검색 가능한 스킨 태그 수정됨"
-                }
-            },
-            "editSearchableBackgroundTagIds": {
-                "item": {
-                    "title": "검색 가능한 배경 태그 수정됨"
-                }
-            },
-            "editSearchableEffectTagIds": {
-                "item": {
-                    "title": "검색 가능한 효과음 태그 수정됨"
-                }
-            },
-            "editSearchableParticleTagIds": {
-                "item": {
-                    "title": "검색 가능한 입자 태그 수정됨"
-                }
-            },
-            "editSearchableEngineTagIds": {
-                "item": {
-                    "title": "검색 가능한 엔진 태그 수정됨"
-                }
-            },
-            "lockInquiry": {
-                "item": {
-                    "title": "문의 잠김"
-                }
-            },
-            "unlockInquiry": {
-                "item": {
-                    "title": "문의 잠금 해제됨"
-                }
-            },
-            "removeComment": {
-                "item": {
-                    "title": "댓글 제거됨"
-                }
-            },
-            "restoreComment": {
-                "item": {
-                    "title": "댓글 복구됨"
-                }
-            },
-            "approvePost": {
-                "item": {
-                    "title": "게시물 승인됨"
-                }
-            },
-            "rejectPost": {
-                "item": {
-                    "title": "게시물 거부됨"
-                }
-            },
-            "editPostTitle": {
-                "item": {
-                    "title": "게시물 제목 수정됨"
-                }
-            },
-            "editPostDescription": {
-                "item": {
-                    "title": "게시물 설명 수정됨"
-                }
-            },
-            "editPostKeywords": {
-                "item": {
-                    "title": "게시물 핵심 단어 수정됨"
-                }
-            },
-            "editPostTagIds": {
-                "item": {
-                    "title": "게시물 태그 수정됨"
-                }
-            },
-            "editPostThumbnail": {
-                "item": {
-                    "title": "게시물 미리보기 이미지 수정됨"
-                }
-            },
-            "pinPost": {
-                "item": {
-                    "title": "게시물 고정됨"
-                }
-            },
-            "unpinPost": {
-                "item": {
-                    "title": "게시물 고정 해제됨"
-                }
-            },
-            "removePost": {
-                "item": {
-                    "title": "게시물 제거됨"
-                }
-            },
-            "restorePost": {
-                "item": {
-                    "title": "게시물 복구됨"
-                }
-            },
-            "approvePlaylist": {
-                "item": {
-                    "title": "재생목록 승인됨"
-                }
-            },
-            "rejectPlaylist": {
-                "item": {
-                    "title": "재생목록 거부됨"
-                }
-            },
-            "editPlaylistTitle": {
-                "item": {
-                    "title": "재생목록 제목 수정됨"
-                }
-            },
-            "editPlaylistSubtitle": {
-                "item": {
-                    "title": "재생목록 부제목 수정됨"
-                }
-            },
-            "editPlaylistDescription": {
-                "item": {
-                    "title": "재생목록 설명 수정됨"
-                }
-            },
-            "editPlaylistKeywords": {
-                "item": {
-                    "title": "재생목록 핵심 단어 수정됨"
-                }
-            },
-            "editPlaylistTagIds": {
-                "item": {
-                    "title": "재생목록 태그 수정됨"
-                }
-            },
-            "editPlaylistLevels": {
-                "item": {
-                    "title": "재생목록 레벨 수정됨"
-                }
-            },
-            "editPlaylistThumbnail": {
-                "item": {
-                    "title": "재생목록 미리보기 이미지 수정됨"
-                }
-            },
-            "pinPlaylist": {
-                "item": {
-                    "title": "재생목록 고정됨"
-                }
-            },
-            "unpinPlaylist": {
-                "item": {
-                    "title": "재생목록 고정 해제됨"
-                }
-            },
-            "removePlaylist": {
-                "item": {
-                    "title": "재생목록 제거됨"
-                }
-            },
-            "restorePlaylist": {
-                "item": {
-                    "title": "재생목록 복구됨"
-                }
-            },
-            "approveLevel": {
-                "item": {
-                    "title": "레벨 승인됨"
-                }
-            },
-            "rejectLevel": {
-                "item": {
-                    "title": "레벨 거부됨"
-                }
-            },
-            "editLevelRating": {
-                "item": {
-                    "title": "레벨 난이도 수정됨"
-                }
-            },
-            "editLevelTitle": {
-                "item": {
-                    "title": "레벨 제목 수정됨"
-                }
-            },
-            "editLevelArtists": {
-                "item": {
-                    "title": "레벨 작곡가 수정됨"
-                }
-            },
-            "editLevelDescription": {
-                "item": {
-                    "title": "레벨 설명 수정됨"
-                }
-            },
-            "editLevelKeywords": {
-                "item": {
-                    "title": "레벨 핵심 단어 수정됨"
-                }
-            },
-            "editLevelTagIds": {
-                "item": {
-                    "title": "레벨 태그 수정됨"
-                }
-            },
-            "editLevelEngine": {
-                "item": {
-                    "title": "레벨 엔진 수정됨"
-                }
-            },
-            "editLevelSkin": {
-                "item": {
-                    "title": "레벨 스킨 수정됨"
-                }
-            },
-            "editLevelBackground": {
-                "item": {
-                    "title": "레벨 배경 수정됨"
-                }
-            },
-            "editLevelEffect": {
-                "item": {
-                    "title": "레벨 효과음 수정됨"
-                }
-            },
-            "editLevelParticle": {
-                "item": {
-                    "title": "레벨 입자 수정됨"
-                }
-            },
-            "editLevelCover": {
-                "item": {
-                    "title": "레벨 커버 수정됨"
-                }
-            },
-            "editLevelBgm": {
-                "item": {
-                    "title": "레벨 배경음 수정됨"
-                }
-            },
-            "editLevelPreview": {
-                "item": {
-                    "title": "레벨 미리보기 수정됨"
-                }
-            },
-            "editLevelData": {
-                "item": {
-                    "title": "레벨 데이터 수정됨"
-                }
-            },
-            "pinLevel": {
-                "item": {
-                    "title": "레벨 고정됨"
-                }
-            },
-            "unpinLevel": {
-                "item": {
-                    "title": "레벨 고정 해제됨"
-                }
-            },
-            "removeLevel": {
-                "item": {
-                    "title": "레벨 제거됨"
-                }
-            },
-            "restoreLevel": {
-                "item": {
-                    "title": "레벨 복구됨"
-                }
-            },
-            "approveSkin": {
-                "item": {
-                    "title": "스킨 승인됨"
-                }
-            },
-            "rejectSkin": {
-                "item": {
-                    "title": "스킨 거부됨"
-                }
-            },
-            "editSkinTitle": {
-                "item": {
-                    "title": "스킨 제목 수정됨"
-                }
-            },
-            "editSkinSubtitle": {
-                "item": {
-                    "title": "스킨 부제목 수정됨"
-                }
-            },
-            "editSkinDescription": {
-                "item": {
-                    "title": "스킨 설명 수정됨"
-                }
-            },
-            "editSkinKeywords": {
-                "item": {
-                    "title": "스킨 핵심 단어 수정됨"
-                }
-            },
-            "editSkinTagIds": {
-                "item": {
-                    "title": "스킨 태그 수정됨"
-                }
-            },
-            "editSkinThumbnail": {
-                "item": {
-                    "title": "스킨 미리보기 이미지 수정됨"
-                }
-            },
-            "editSkinData": {
-                "item": {
-                    "title": "스킨 데이터 수정됨"
-                }
-            },
-            "editSkinTexture": {
-                "item": {
-                    "title": "스킨 텍스처 수정됨"
-                }
-            },
-            "pinSkin": {
-                "item": {
-                    "title": "스킨 고정됨"
-                }
-            },
-            "unpinSkin": {
-                "item": {
-                    "title": "스킨 고정 해제됨"
-                }
-            },
-            "removeSkin": {
-                "item": {
-                    "title": "스킨 제거됨"
-                }
-            },
-            "restoreSkin": {
-                "item": {
-                    "title": "스킨 복구됨"
-                }
-            },
-            "approveBackground": {
-                "item": {
-                    "title": "배경 승인됨"
-                }
-            },
-            "rejectBackground": {
-                "item": {
-                    "title": "배경 거부됨"
-                }
-            },
-            "editBackgroundTitle": {
-                "item": {
-                    "title": "배경 제목 수정됨"
-                }
-            },
-            "editBackgroundSubtitle": {
-                "item": {
-                    "title": "배경 부제목 수정됨"
-                }
-            },
-            "editBackgroundDescription": {
-                "item": {
-                    "title": "배경 설명 수정됨"
-                }
-            },
-            "editBackgroundKeywords": {
-                "item": {
-                    "title": "배경 핵심 단어 수정됨"
-                }
-            },
-            "editBackgroundTagIds": {
-                "item": {
-                    "title": "배경 태그 수정됨"
-                }
-            },
-            "editBackgroundThumbnail": {
-                "item": {
-                    "title": "배경 미리보기 이미지 수정됨"
-                }
-            },
-            "editBackgroundImage": {
-                "item": {
-                    "title": "배경 이미지 수정됨"
-                }
-            },
-            "editBackgroundData": {
-                "item": {
-                    "title": "배경 데이터 수정됨"
-                }
-            },
-            "editBackgroundConfiguration": {
-                "item": {
-                    "title": "배경 구성 수정됨"
-                }
-            },
-            "pinBackground": {
-                "item": {
-                    "title": "배경 고정됨"
-                }
-            },
-            "unpinBackground": {
-                "item": {
-                    "title": "배경 고정 해제됨"
-                }
-            },
-            "removeBackground": {
-                "item": {
-                    "title": "배경 제거됨"
-                }
-            },
-            "restoreBackground": {
-                "item": {
-                    "title": "배경 복구됨"
-                }
-            },
-            "approveEffect": {
-                "item": {
-                    "title": "효과음 승인됨"
-                }
-            },
-            "rejectEffect": {
-                "item": {
-                    "title": "효과음 거부됨"
-                }
-            },
-            "editEffectTitle": {
-                "item": {
-                    "title": "효과음 제목 수정됨"
-                }
-            },
-            "editEffectSubtitle": {
-                "item": {
-                    "title": "효과음 부제목 수정됨"
-                }
-            },
-            "editEffectDescription": {
-                "item": {
-                    "title": "효과음 설명 수정됨"
-                }
-            },
-            "editEffectKeywords": {
-                "item": {
-                    "title": "효과음 핵심 단어 수정됨"
-                }
-            },
-            "editEffectTagIds": {
-                "item": {
-                    "title": "효과음 태그 수정됨"
-                }
-            },
-            "editEffectThumbnail": {
-                "item": {
-                    "title": "효과음 미리보기 이미지 수정됨"
-                }
-            },
-            "editEffectData": {
-                "item": {
-                    "title": "효과음 데이터 수정됨"
-                }
-            },
-            "editEffectAudio": {
-                "item": {
-                    "title": "효과음 오디오 수정됨"
-                }
-            },
-            "pinEffect": {
-                "item": {
-                    "title": "효과음 고정됨"
-                }
-            },
-            "unpinEffect": {
-                "item": {
-                    "title": "효과음 고정 해제됨"
-                }
-            },
-            "removeEffect": {
-                "item": {
-                    "title": "효과음 제거됨"
-                }
-            },
-            "restoreEffect": {
-                "item": {
-                    "title": "효과음 복구됨"
-                }
-            },
-            "approveParticle": {
-                "item": {
-                    "title": "입자 승인됨"
-                }
-            },
-            "rejectParticle": {
-                "item": {
-                    "title": "입자 거부됨"
-                }
-            },
-            "editParticleTitle": {
-                "item": {
-                    "title": "입자 제목 수정됨"
-                }
-            },
-            "editParticleSubtitle": {
-                "item": {
-                    "title": "입자 부제목 수정됨"
-                }
-            },
-            "editParticleDescription": {
-                "item": {
-                    "title": "입자 설명 수정됨"
-                }
-            },
-            "editParticleKeywords": {
-                "item": {
-                    "title": "입자 핵심 단어 수정됨"
-                }
-            },
-            "editParticleTagIds": {
-                "item": {
-                    "title": "입자 태그 수정됨"
-                }
-            },
-            "editParticleThumbnail": {
-                "item": {
-                    "title": "입자 미리보기 이미지 수정됨"
-                }
-            },
-            "editParticleData": {
-                "item": {
-                    "title": "입자 데이터 수정됨"
-                }
-            },
-            "editParticleTexture": {
-                "item": {
-                    "title": "입자 텍스처 수정됨"
-                }
-            },
-            "pinParticle": {
-                "item": {
-                    "title": "입자 고정됨"
-                }
-            },
-            "unpinParticle": {
-                "item": {
-                    "title": "입자 고정 해제됨"
-                }
-            },
-            "removeParticle": {
-                "item": {
-                    "title": "입제 제거됨"
-                }
-            },
-            "restoreParticle": {
-                "item": {
-                    "title": "입자 복구됨"
-                }
-            },
-            "approveEngine": {
-                "item": {
-                    "title": "엔진 승인됨"
-                }
-            },
-            "rejectEngine": {
-                "item": {
-                    "title": "엔진 거부됨"
-                }
-            },
-            "editEngineTitle": {
-                "item": {
-                    "title": "엔진 제목 수정됨"
-                }
-            },
-            "editEngineSubtitle": {
-                "item": {
-                    "title": "엔진 부제목 수정됨"
-                }
-            },
-            "editEngineDescription": {
-                "item": {
-                    "title": "엔진 설명 수정됨"
-                }
-            },
-            "editEngineKeywords": {
-                "item": {
-                    "title": "엔진 핵심 단어 수정됨"
-                }
-            },
-            "editEngineTagIds": {
-                "item": {
-                    "title": "엔진 태그 수정됨"
-                }
-            },
-            "editEngineSkin": {
-                "item": {
-                    "title": "엔진 스킨 수정됨"
-                }
-            },
-            "editEngineBackground": {
-                "item": {
-                    "title": "엔진 배경 수정됨"
-                }
-            },
-            "editEngineEffect": {
-                "item": {
-                    "title": "엔진 효과음 수정됨"
-                }
-            },
-            "editEngineParticle": {
-                "item": {
-                    "title": "엔진 입자 수정됨"
-                }
-            },
-            "editEngineThumbnail": {
-                "item": {
-                    "title": "엔진 미리보기 이미지 수정됨"
-                }
-            },
-            "editEnginePlayData": {
-                "item": {
-                    "title": "엔진 플레이 데이터 수정됨"
-                }
-            },
-            "editEngineWatchData": {
-                "item": {
-                    "title": "엔진 시청 데이터 수정됨"
-                }
-            },
-            "editEnginePreviewData": {
-                "item": {
-                    "title": "엔진 미리보기 데이터 수정됨"
-                }
-            },
-            "editEngineTutorialData": {
-                "item": {
-                    "title": "엔진 튜토리얼 데이터 수정됨"
-                }
-            },
-            "editEngineRom": {
-                "item": {
-                    "title": "엔진 롬 수정됨"
-                }
-            },
-            "editEngineConfiguration": {
-                "item": {
-                    "title": "엔진 구성 수정됨"
-                }
-            },
-            "pinEngine": {
-                "item": {
-                    "title": "엔진 고정됨"
-                }
-            },
-            "unpinEngine": {
-                "item": {
-                    "title": "엔진 고정 해제됨"
-                }
-            },
-            "removeEngine": {
-                "item": {
-                    "title": "엔진 제거됨"
-                }
-            },
-            "restoreEngine": {
-                "item": {
-                    "title": "엔진 복구됨"
-                }
-            },
-            "approveReplay": {
-                "item": {
-                    "title": "다시보기 승인됨"
-                }
-            },
-            "pinReplay": {
-                "item": {
-                    "title": "다시보기 고정됨"
-                }
-            },
-            "unpinReplay": {
-                "item": {
-                    "title": "다시보기 고정 해제됨"
-                }
-            },
-            "removeReplay": {
-                "item": {
-                    "title": "다시보기 제거됨"
-                }
-            },
-            "restoreReplay": {
-                "item": {
-                    "title": "다시보기 복구됨"
-                }
-            }
-        }
+  "expiration": {
+    "expired": {
+      "message": "Sonolus Coconut 서버 구독이 만료되었습니다."
     }
+  },
+  "storage": {
+    "full": {
+      "message": "Sonolus Coconut 서버 저장소가 가득 찼습니다."
+    }
+  },
+  "readBeforeCreating": {
+    "description": "생성 전 읽어주십시오:"
+  },
+  "posts": {
+    "server": {
+      "homeItems": {
+        "title": "홈 요소",
+        "description": "서버 홈페이지에 보일 요소입니다."
+      },
+      "allowCreate": {
+        "title": "생성 허용",
+        "description": "생성 허용 여부입니다."
+      },
+      "readBeforeCreating": {
+        "title": "생성 전 읽기",
+        "description": "플레이어가 생성하기 전 읽어야 할 게시물입니다."
+      },
+      "requireReview": {
+        "title": "검토 필요",
+        "description": "공개 전 관리자의 검토가 필요한 지 여부입니다."
+      },
+      "showRandom": {
+        "title": "무작위 표시",
+        "description": "무작위로 선택하여 표시합니다."
+      },
+      "defaultEngine": {
+        "title": "기본 엔진",
+        "description": "레벨을 생성할 때의 기본 엔진입니다."
+      }
+    },
+    "tags": {
+      "usableTags": {
+        "title": "유용한 태그",
+        "description": "플레이어가 사용할 수 있는 태그입니다."
+      },
+      "searchableTags": {
+        "title": "검색 가능한 태그",
+        "description": "플레이어가 검색할 수 있는 태그입니다."
+      }
+    },
+    "inquiry": {
+      "create": {
+        "description": "개인적으로 서버 관리자에게 문의할 수 있도록 질문지를 생성하십시오."
+      }
+    },
+    "log": {
+      "editServerTitle": {
+        "item": {
+          "title": "서버 제목 수정됨"
+        }
+      },
+      "editServerDescription": {
+        "item": {
+          "title": "서버 설명 수정됨"
+        }
+      },
+      "editServerBanner": {
+        "item": {
+          "title": "서버 배너 수정됨"
+        }
+      },
+      "editServerAnnouncementIds": {
+        "item": {
+          "title": "서버 공지 수정됨"
+        }
+      },
+      "editServerHomeItemTypes": {
+        "item": {
+          "title": "서버 홈 요소 수정됨"
+        }
+      },
+      "editServerAllowCreateTypes": {
+        "item": {
+          "title": "서버 생성 허용 수정됨"
+        }
+      },
+      "editServerReadBeforeCreatingId": {
+        "item": {
+          "title": "서버 생성 전 읽기 수정됨"
+        }
+      },
+      "editServerRequireReviewTypes": {
+        "item": {
+          "title": "서버 검토 필요 수정됨"
+        }
+      },
+      "editServerShowRandomTypes": {
+        "item": {
+          "title": "서버 무작위 표시 수정됨"
+        }
+      },
+      "editServerDefaultEngineId": {
+        "item": {
+          "title": "서버 기본 엔진 수정됨"
+        }
+      },
+      "addModerator": {
+        "item": {
+          "title": "관리자 추가됨"
+        }
+      },
+      "removeModerator": {
+        "item": {
+          "title": "관리자 제거됨"
+        }
+      },
+      "addBanned": {
+        "item": {
+          "title": "제재 추가됨"
+        }
+      },
+      "removeBanned": {
+        "item": {
+          "title": "제재 제거됨"
+        }
+      },
+      "addTag": {
+        "item": {
+          "title": "태그 추가됨"
+        }
+      },
+      "editTagTitle": {
+        "item": {
+          "title": "태그 이름 수정됨"
+        }
+      },
+      "editUsablePostTagIds": {
+        "item": {
+          "title": "유용한 게시물 태그 수정됨"
+        }
+      },
+      "editUsablePlaylistTagIds": {
+        "item": {
+          "title": "유용한 재생목록 태그 수정됨"
+        }
+      },
+      "editUsableLevelTagIds": {
+        "item": {
+          "title": "유용한 레벨 태그 수정됨"
+        }
+      },
+      "editUsableSkinTagIds": {
+        "item": {
+          "title": "유용한 스킨 태그 수정됨"
+        }
+      },
+      "editUsableBackgroundTagIds": {
+        "item": {
+          "title": "유용한 배경 태그 수정됨"
+        }
+      },
+      "editUsableEffectTagIds": {
+        "item": {
+          "title": "유용한 효과음 태그 수정됨"
+        }
+      },
+      "editUsableParticleTagIds": {
+        "item": {
+          "title": "유용한 입자 태그 수정됨"
+        }
+      },
+      "editUsableEngineTagIds": {
+        "item": {
+          "title": "유용한 엔진 태그 수정됨"
+        }
+      },
+      "editSearchablePostTagIds": {
+        "item": {
+          "title": "검색 가능한 게시물 태그 수정됨"
+        }
+      },
+      "editSearchablePlaylistTagIds": {
+        "item": {
+          "title": "검색 가능한 재생목록 태그 수정됨"
+        }
+      },
+      "editSearchableLevelTagIds": {
+        "item": {
+          "title": "검색 가능한 레벨 태그 수정됨"
+        }
+      },
+      "editSearchableSkinTagIds": {
+        "item": {
+          "title": "검색 가능한 스킨 태그 수정됨"
+        }
+      },
+      "editSearchableBackgroundTagIds": {
+        "item": {
+          "title": "검색 가능한 배경 태그 수정됨"
+        }
+      },
+      "editSearchableEffectTagIds": {
+        "item": {
+          "title": "검색 가능한 효과음 태그 수정됨"
+        }
+      },
+      "editSearchableParticleTagIds": {
+        "item": {
+          "title": "검색 가능한 입자 태그 수정됨"
+        }
+      },
+      "editSearchableEngineTagIds": {
+        "item": {
+          "title": "검색 가능한 엔진 태그 수정됨"
+        }
+      },
+      "lockInquiry": {
+        "item": {
+          "title": "문의 잠김"
+        }
+      },
+      "unlockInquiry": {
+        "item": {
+          "title": "문의 잠금 해제됨"
+        }
+      },
+      "removeComment": {
+        "item": {
+          "title": "댓글 제거됨"
+        }
+      },
+      "restoreComment": {
+        "item": {
+          "title": "댓글 복구됨"
+        }
+      },
+      "approvePost": {
+        "item": {
+          "title": "게시물 승인됨"
+        }
+      },
+      "rejectPost": {
+        "item": {
+          "title": "게시물 거부됨"
+        }
+      },
+      "editPostTitle": {
+        "item": {
+          "title": "게시물 제목 수정됨"
+        }
+      },
+      "editPostDescription": {
+        "item": {
+          "title": "게시물 설명 수정됨"
+        }
+      },
+      "editPostCollaboratorIds": {
+        "item": {
+          "title": "게시물 협력자 수정됨"
+        }
+      },
+      "editPostKeywords": {
+        "item": {
+          "title": "게시물 핵심 단어 수정됨"
+        }
+      },
+      "editPostTagIds": {
+        "item": {
+          "title": "게시물 태그 수정됨"
+        }
+      },
+      "editPostThumbnail": {
+        "item": {
+          "title": "게시물 미리보기 이미지 수정됨"
+        }
+      },
+      "pinPost": {
+        "item": {
+          "title": "게시물 고정됨"
+        }
+      },
+      "unpinPost": {
+        "item": {
+          "title": "게시물 고정 해제됨"
+        }
+      },
+      "removePost": {
+        "item": {
+          "title": "게시물 제거됨"
+        }
+      },
+      "restorePost": {
+        "item": {
+          "title": "게시물 복구됨"
+        }
+      },
+      "approvePlaylist": {
+        "item": {
+          "title": "재생목록 승인됨"
+        }
+      },
+      "rejectPlaylist": {
+        "item": {
+          "title": "재생목록 거부됨"
+        }
+      },
+      "editPlaylistTitle": {
+        "item": {
+          "title": "재생목록 제목 수정됨"
+        }
+      },
+      "editPlaylistSubtitle": {
+        "item": {
+          "title": "재생목록 부제목 수정됨"
+        }
+      },
+      "editPlaylistDescription": {
+        "item": {
+          "title": "재생목록 설명 수정됨"
+        }
+      },
+      "editPlaylistCollaboratorIds": {
+        "item": {
+          "title": "재생목록 협력자 수정됨"
+        }
+      },
+      "editPlaylistKeywords": {
+        "item": {
+          "title": "재생목록 핵심 단어 수정됨"
+        }
+      },
+      "editPlaylistTagIds": {
+        "item": {
+          "title": "재생목록 태그 수정됨"
+        }
+      },
+      "editPlaylistLevels": {
+        "item": {
+          "title": "재생목록 레벨 수정됨"
+        }
+      },
+      "editPlaylistThumbnail": {
+        "item": {
+          "title": "재생목록 미리보기 이미지 수정됨"
+        }
+      },
+      "pinPlaylist": {
+        "item": {
+          "title": "재생목록 고정됨"
+        }
+      },
+      "unpinPlaylist": {
+        "item": {
+          "title": "재생목록 고정 해제됨"
+        }
+      },
+      "removePlaylist": {
+        "item": {
+          "title": "재생목록 제거됨"
+        }
+      },
+      "restorePlaylist": {
+        "item": {
+          "title": "재생목록 복구됨"
+        }
+      },
+      "approveLevel": {
+        "item": {
+          "title": "레벨 승인됨"
+        }
+      },
+      "rejectLevel": {
+        "item": {
+          "title": "레벨 거부됨"
+        }
+      },
+      "editLevelRating": {
+        "item": {
+          "title": "레벨 난이도 수정됨"
+        }
+      },
+      "editLevelTitle": {
+        "item": {
+          "title": "레벨 제목 수정됨"
+        }
+      },
+      "editLevelArtists": {
+        "item": {
+          "title": "레벨 작곡가 수정됨"
+        }
+      },
+      "editLevelDescription": {
+        "item": {
+          "title": "레벨 설명 수정됨"
+        }
+      },
+      "editLevelCollaboratorIds": {
+        "item": {
+          "title": "레벨 협력자 수정됨"
+        }
+      },
+      "editLevelKeywords": {
+        "item": {
+          "title": "레벨 핵심 단어 수정됨"
+        }
+      },
+      "editLevelTagIds": {
+        "item": {
+          "title": "레벨 태그 수정됨"
+        }
+      },
+      "editLevelEngine": {
+        "item": {
+          "title": "레벨 엔진 수정됨"
+        }
+      },
+      "editLevelSkin": {
+        "item": {
+          "title": "레벨 스킨 수정됨"
+        }
+      },
+      "editLevelBackground": {
+        "item": {
+          "title": "레벨 배경 수정됨"
+        }
+      },
+      "editLevelEffect": {
+        "item": {
+          "title": "레벨 효과음 수정됨"
+        }
+      },
+      "editLevelParticle": {
+        "item": {
+          "title": "레벨 입자 수정됨"
+        }
+      },
+      "editLevelCover": {
+        "item": {
+          "title": "레벨 커버 수정됨"
+        }
+      },
+      "editLevelBgm": {
+        "item": {
+          "title": "레벨 배경음 수정됨"
+        }
+      },
+      "editLevelPreview": {
+        "item": {
+          "title": "레벨 미리보기 수정됨"
+        }
+      },
+      "editLevelData": {
+        "item": {
+          "title": "레벨 데이터 수정됨"
+        }
+      },
+      "pinLevel": {
+        "item": {
+          "title": "레벨 고정됨"
+        }
+      },
+      "unpinLevel": {
+        "item": {
+          "title": "레벨 고정 해제됨"
+        }
+      },
+      "removeLevel": {
+        "item": {
+          "title": "레벨 제거됨"
+        }
+      },
+      "restoreLevel": {
+        "item": {
+          "title": "레벨 복구됨"
+        }
+      },
+      "approveSkin": {
+        "item": {
+          "title": "스킨 승인됨"
+        }
+      },
+      "rejectSkin": {
+        "item": {
+          "title": "스킨 거부됨"
+        }
+      },
+      "editSkinTitle": {
+        "item": {
+          "title": "스킨 제목 수정됨"
+        }
+      },
+      "editSkinSubtitle": {
+        "item": {
+          "title": "스킨 부제목 수정됨"
+        }
+      },
+      "editSkinDescription": {
+        "item": {
+          "title": "스킨 설명 수정됨"
+        }
+      },
+      "editSkinCollaboratorIds": {
+        "item": {
+          "title": "스킨 협력자 수정됨"
+        }
+      },
+      "editSkinKeywords": {
+        "item": {
+          "title": "스킨 핵심 단어 수정됨"
+        }
+      },
+      "editSkinTagIds": {
+        "item": {
+          "title": "스킨 태그 수정됨"
+        }
+      },
+      "editSkinThumbnail": {
+        "item": {
+          "title": "스킨 미리보기 이미지 수정됨"
+        }
+      },
+      "editSkinData": {
+        "item": {
+          "title": "스킨 데이터 수정됨"
+        }
+      },
+      "editSkinTexture": {
+        "item": {
+          "title": "스킨 텍스처 수정됨"
+        }
+      },
+      "pinSkin": {
+        "item": {
+          "title": "스킨 고정됨"
+        }
+      },
+      "unpinSkin": {
+        "item": {
+          "title": "스킨 고정 해제됨"
+        }
+      },
+      "removeSkin": {
+        "item": {
+          "title": "스킨 제거됨"
+        }
+      },
+      "restoreSkin": {
+        "item": {
+          "title": "스킨 복구됨"
+        }
+      },
+      "approveBackground": {
+        "item": {
+          "title": "배경 승인됨"
+        }
+      },
+      "rejectBackground": {
+        "item": {
+          "title": "배경 거부됨"
+        }
+      },
+      "editBackgroundTitle": {
+        "item": {
+          "title": "배경 제목 수정됨"
+        }
+      },
+      "editBackgroundSubtitle": {
+        "item": {
+          "title": "배경 부제목 수정됨"
+        }
+      },
+      "editBackgroundDescription": {
+        "item": {
+          "title": "배경 설명 수정됨"
+        }
+      },
+      "editBackgroundCollaboratorIds": {
+        "item": {
+          "title": "배경 협력자 수정됨"
+        }
+      },
+      "editBackgroundKeywords": {
+        "item": {
+          "title": "배경 핵심 단어 수정됨"
+        }
+      },
+      "editBackgroundTagIds": {
+        "item": {
+          "title": "배경 태그 수정됨"
+        }
+      },
+      "editBackgroundThumbnail": {
+        "item": {
+          "title": "배경 미리보기 이미지 수정됨"
+        }
+      },
+      "editBackgroundImage": {
+        "item": {
+          "title": "배경 이미지 수정됨"
+        }
+      },
+      "editBackgroundData": {
+        "item": {
+          "title": "배경 데이터 수정됨"
+        }
+      },
+      "editBackgroundConfiguration": {
+        "item": {
+          "title": "배경 구성 수정됨"
+        }
+      },
+      "pinBackground": {
+        "item": {
+          "title": "배경 고정됨"
+        }
+      },
+      "unpinBackground": {
+        "item": {
+          "title": "배경 고정 해제됨"
+        }
+      },
+      "removeBackground": {
+        "item": {
+          "title": "배경 제거됨"
+        }
+      },
+      "restoreBackground": {
+        "item": {
+          "title": "배경 복구됨"
+        }
+      },
+      "approveEffect": {
+        "item": {
+          "title": "효과음 승인됨"
+        }
+      },
+      "rejectEffect": {
+        "item": {
+          "title": "효과음 거부됨"
+        }
+      },
+      "editEffectTitle": {
+        "item": {
+          "title": "효과음 제목 수정됨"
+        }
+      },
+      "editEffectSubtitle": {
+        "item": {
+          "title": "효과음 부제목 수정됨"
+        }
+      },
+      "editEffectDescription": {
+        "item": {
+          "title": "효과음 설명 수정됨"
+        }
+      },
+      "editEffectCollaboratorIds": {
+        "item": {
+          "title": "효과음 협력자 수정됨"
+        }
+      },
+      "editEffectKeywords": {
+        "item": {
+          "title": "효과음 핵심 단어 수정됨"
+        }
+      },
+      "editEffectTagIds": {
+        "item": {
+          "title": "효과음 태그 수정됨"
+        }
+      },
+      "editEffectThumbnail": {
+        "item": {
+          "title": "효과음 미리보기 이미지 수정됨"
+        }
+      },
+      "editEffectData": {
+        "item": {
+          "title": "효과음 데이터 수정됨"
+        }
+      },
+      "editEffectAudio": {
+        "item": {
+          "title": "효과음 오디오 수정됨"
+        }
+      },
+      "pinEffect": {
+        "item": {
+          "title": "효과음 고정됨"
+        }
+      },
+      "unpinEffect": {
+        "item": {
+          "title": "효과음 고정 해제됨"
+        }
+      },
+      "removeEffect": {
+        "item": {
+          "title": "효과음 제거됨"
+        }
+      },
+      "restoreEffect": {
+        "item": {
+          "title": "효과음 복구됨"
+        }
+      },
+      "approveParticle": {
+        "item": {
+          "title": "입자 승인됨"
+        }
+      },
+      "rejectParticle": {
+        "item": {
+          "title": "입자 거부됨"
+        }
+      },
+      "editParticleTitle": {
+        "item": {
+          "title": "입자 제목 수정됨"
+        }
+      },
+      "editParticleSubtitle": {
+        "item": {
+          "title": "입자 부제목 수정됨"
+        }
+      },
+      "editParticleDescription": {
+        "item": {
+          "title": "입자 설명 수정됨"
+        }
+      },
+      "editParticleCollaboratorIds": {
+        "item": {
+          "title": "입자 협력자 수정됨"
+        }
+      },
+      "editParticleKeywords": {
+        "item": {
+          "title": "입자 핵심 단어 수정됨"
+        }
+      },
+      "editParticleTagIds": {
+        "item": {
+          "title": "입자 태그 수정됨"
+        }
+      },
+      "editParticleThumbnail": {
+        "item": {
+          "title": "입자 미리보기 이미지 수정됨"
+        }
+      },
+      "editParticleData": {
+        "item": {
+          "title": "입자 데이터 수정됨"
+        }
+      },
+      "editParticleTexture": {
+        "item": {
+          "title": "입자 텍스처 수정됨"
+        }
+      },
+      "pinParticle": {
+        "item": {
+          "title": "입자 고정됨"
+        }
+      },
+      "unpinParticle": {
+        "item": {
+          "title": "입자 고정 해제됨"
+        }
+      },
+      "removeParticle": {
+        "item": {
+          "title": "입제 제거됨"
+        }
+      },
+      "restoreParticle": {
+        "item": {
+          "title": "입자 복구됨"
+        }
+      },
+      "approveEngine": {
+        "item": {
+          "title": "엔진 승인됨"
+        }
+      },
+      "rejectEngine": {
+        "item": {
+          "title": "엔진 거부됨"
+        }
+      },
+      "editEngineTitle": {
+        "item": {
+          "title": "엔진 제목 수정됨"
+        }
+      },
+      "editEngineSubtitle": {
+        "item": {
+          "title": "엔진 부제목 수정됨"
+        }
+      },
+      "editEngineDescription": {
+        "item": {
+          "title": "엔진 설명 수정됨"
+        }
+      },
+      "editEngineCollaboratorIds": {
+        "item": {
+          "title": "엔진 협력자 수정됨"
+        }
+      },
+      "editEngineKeywords": {
+        "item": {
+          "title": "엔진 핵심 단어 수정됨"
+        }
+      },
+      "editEngineTagIds": {
+        "item": {
+          "title": "엔진 태그 수정됨"
+        }
+      },
+      "editEngineSkin": {
+        "item": {
+          "title": "엔진 스킨 수정됨"
+        }
+      },
+      "editEngineBackground": {
+        "item": {
+          "title": "엔진 배경 수정됨"
+        }
+      },
+      "editEngineEffect": {
+        "item": {
+          "title": "엔진 효과음 수정됨"
+        }
+      },
+      "editEngineParticle": {
+        "item": {
+          "title": "엔진 입자 수정됨"
+        }
+      },
+      "editEngineThumbnail": {
+        "item": {
+          "title": "엔진 미리보기 이미지 수정됨"
+        }
+      },
+      "editEnginePlayData": {
+        "item": {
+          "title": "엔진 플레이 데이터 수정됨"
+        }
+      },
+      "editEngineWatchData": {
+        "item": {
+          "title": "엔진 시청 데이터 수정됨"
+        }
+      },
+      "editEnginePreviewData": {
+        "item": {
+          "title": "엔진 미리보기 데이터 수정됨"
+        }
+      },
+      "editEngineTutorialData": {
+        "item": {
+          "title": "엔진 튜토리얼 데이터 수정됨"
+        }
+      },
+      "editEngineRom": {
+        "item": {
+          "title": "엔진 롬 수정됨"
+        }
+      },
+      "editEngineConfiguration": {
+        "item": {
+          "title": "엔진 구성 수정됨"
+        }
+      },
+      "pinEngine": {
+        "item": {
+          "title": "엔진 고정됨"
+        }
+      },
+      "unpinEngine": {
+        "item": {
+          "title": "엔진 고정 해제됨"
+        }
+      },
+      "removeEngine": {
+        "item": {
+          "title": "엔진 제거됨"
+        }
+      },
+      "restoreEngine": {
+        "item": {
+          "title": "엔진 복구됨"
+        }
+      },
+      "approveReplay": {
+        "item": {
+          "title": "다시보기 승인됨"
+        }
+      },
+      "pinReplay": {
+        "item": {
+          "title": "다시보기 고정됨"
+        }
+      },
+      "unpinReplay": {
+        "item": {
+          "title": "다시보기 고정 해제됨"
+        }
+      },
+      "removeReplay": {
+        "item": {
+          "title": "다시보기 제거됨"
+        }
+      },
+      "restoreReplay": {
+        "item": {
+          "title": "다시보기 복구됨"
+        }
+      }
+    }
+  }
 }
