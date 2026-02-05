@@ -1,868 +1,925 @@
 {
-    "expiration": {
-        "expired": {
-            "message": "La suscripción al servidor de Sonolus Coconut ha expirado."
-        }
-    },
-    "storage": {
-        "full": {
-            "message": "El almacenamiento del servidor de Sonolus Coconut está lleno."
-        }
-    },
-    "posts": {
-        "server": {
-            "homeItems": {
-                "title": "Elementos de inicio",
-                "description": "Elementos que se muestran en la página de inicio del servidor."
-            },
-            "allowCreate": {
-                "title": "Permitir crear",
-                "description": "Si se permite crear."
-            },
-            "requireReview": {
-                "title": "Requerir revisión",
-                "description": "Si se requiere revisión del moderador antes de publicar."
-            },
-            "showRandom": {
-                "title": "Mostrar aleatorio",
-                "description": "Mostrar sección aleatoria."
-            },
-            "defaultEngine": {
-                "title": "Motor predeterminado",
-                "description": "Motor predeterminado al crear un nivel."
-            }
-        },
-        "tags": {
-            "usableTags": {
-                "title": "Etiquetas utilizables",
-                "description": "Etiquetas que los jugadores pueden utilizar."
-            },
-            "searchableTags": {
-                "title": "Etiquetas de búsqueda",
-                "description": "Etiquetas que los jugadores pueden buscar."
-            }
-        },
-        "inquiry": {
-            "create": {
-                "description": "Crea una consulta para contactar de forma privada a los moderadores del servidor."
-            }
-        },
-        "log": {
-            "editServerTitle": {
-                "item": {
-                    "title": "Título del servidor editado"
-                }
-            },
-            "editServerDescription": {
-                "item": {
-                    "title": "Descripción del servidor editada"
-                }
-            },
-            "editServerBanner": {
-                "item": {
-                    "title": "Banner del servidor editado"
-                }
-            },
-            "editServerHomeItemTypes": {
-                "item": {
-                    "title": "Elementos de inicio del servidor editados"
-                }
-            },
-            "editServerAllowCreateTypes": {
-                "item": {
-                    "title": "Servidor editado: Permitir crear"
-                }
-            },
-            "editServerRequireReviewTypes": {
-                "item": {
-                    "title": "Servidor editado: Requerir revisión"
-                }
-            },
-            "editServerShowRandomTypes": {
-                "item": {
-                    "title": "Servidor editado: Mostrar aleatorio"
-                }
-            },
-            "editServerDefaultEngineId": {
-                "item": {
-                    "title": "Servidor editado: Motor predeterminado"
-                }
-            },
-            "addModerator": {
-                "item": {
-                    "title": "Moderador añadido"
-                }
-            },
-            "removeModerator": {
-                "item": {
-                    "title": "Moderador eliminado"
-                }
-            },
-            "addBanned": {
-                "item": {
-                    "title": "Ban añadido"
-                }
-            },
-            "removeBanned": {
-                "item": {
-                    "title": "Ban eliminado"
-                }
-            },
-            "addTag": {
-                "item": {
-                    "title": "Etiqueta añadida"
-                }
-            },
-            "editTagTitle": {
-                "item": {
-                    "title": "Título de etiqueta editado"
-                }
-            },
-            "editUsablePostTagIds": {
-                "item": {
-                    "title": "Etiquetas de publicación utilizables editadas"
-                }
-            },
-            "editUsablePlaylistTagIds": {
-                "item": {
-                    "title": "Etiquetas de listas de reproducción utilizables editadas"
-                }
-            },
-            "editUsableLevelTagIds": {
-                "item": {
-                    "title": "Etiquetas de nivel utilizables editadas"
-                }
-            },
-            "editUsableSkinTagIds": {
-                "item": {
-                    "title": "Etiquetas de skin utilizables editadas"
-                }
-            },
-            "editUsableBackgroundTagIds": {
-                "item": {
-                    "title": "Etiquetas de fondo utilizables editadas"
-                }
-            },
-            "editUsableEffectTagIds": {
-                "item": {
-                    "title": "Etiquetas de efectos de sonido utilizables editadas"
-                }
-            },
-            "editUsableParticleTagIds": {
-                "item": {
-                    "title": "Etiquetas de partículas utilizables editadas"
-                }
-            },
-            "editUsableEngineTagIds": {
-                "item": {
-                    "title": "Etiquetas de motor utilizables editadas"
-                }
-            },
-            "editSearchablePostTagIds": {
-                "item": {
-                    "title": "Etiquetas de publicaciones con función de búsqueda editadas"
-                }
-            },
-            "editSearchablePlaylistTagIds": {
-                "item": {
-                    "title": "Etiquetas de listas de reproducción con función de búsqueda editadas"
-                }
-            },
-            "editSearchableLevelTagIds": {
-                "item": {
-                    "title": "Etiquetas de niveles con función de búsqueda editadas"
-                }
-            },
-            "editSearchableSkinTagIds": {
-                "item": {
-                    "title": "Etiquetas de skins con función de búsqueda editables"
-                }
-            },
-            "editSearchableBackgroundTagIds": {
-                "item": {
-                    "title": "Etiquetas de fondos con función de búsqueda editadas"
-                }
-            },
-            "editSearchableEffectTagIds": {
-                "item": {
-                    "title": "Etiquetas de efectos de sonido con función de búsqueda editadas"
-                }
-            },
-            "editSearchableParticleTagIds": {
-                "item": {
-                    "title": "Etiquetas de partículas con función de búsqueda editadas"
-                }
-            },
-            "editSearchableEngineTagIds": {
-                "item": {
-                    "title": "Etiquetas de motores con función de búsqueda editadas"
-                }
-            },
-            "lockInquiry": {
-                "item": {
-                    "title": "Consulta bloqueada"
-                }
-            },
-            "unlockInquiry": {
-                "item": {
-                    "title": "Consulta desbloqueada"
-                }
-            },
-            "removeComment": {
-                "item": {
-                    "title": "Comentario eliminado"
-                }
-            },
-            "restoreComment": {
-                "item": {
-                    "title": "Comentario restaurado"
-                }
-            },
-            "approvePost": {
-                "item": {
-                    "title": "Publicación aprobada"
-                }
-            },
-            "rejectPost": {
-                "item": {
-                    "title": "Publicación rechazada"
-                }
-            },
-            "editPostTitle": {
-                "item": {
-                    "title": "Título de la publicación editado"
-                }
-            },
-            "editPostDescription": {
-                "item": {
-                    "title": "Descripción de la publicación editada"
-                }
-            },
-            "editPostKeywords": {
-                "item": {
-                    "title": "Palabras clave de publicación editadas"
-                }
-            },
-            "editPostTagIds": {
-                "item": {
-                    "title": "Etiquetas de publicación editadas"
-                }
-            },
-            "editPostThumbnail": {
-                "item": {
-                    "title": "Miniatura de publicación editada"
-                }
-            },
-            "pinPost": {
-                "item": {
-                    "title": "Publicación fijada"
-                }
-            },
-            "unpinPost": {
-                "item": {
-                    "title": "Publicación desfijada"
-                }
-            },
-            "removePost": {
-                "item": {
-                    "title": "Publicación eliminada"
-                }
-            },
-            "restorePost": {
-                "item": {
-                    "title": "Publicación restaurada"
-                }
-            },
-            "approvePlaylist": {
-                "item": {
-                    "title": "Lista de reproducción aprobada"
-                }
-            },
-            "rejectPlaylist": {
-                "item": {
-                    "title": "Lista de reproducción rechazada"
-                }
-            },
-            "editPlaylistTitle": {
-                "item": {
-                    "title": "Título de la lista de reproducción editado"
-                }
-            },
-            "editPlaylistSubtitle": {
-                "item": {
-                    "title": "Subtítulo de la lista de reproducción editado"
-                }
-            },
-            "editPlaylistDescription": {
-                "item": {
-                    "title": "Descripción de la lista de reproducción editada"
-                }
-            },
-            "editPlaylistKeywords": {
-                "item": {
-                    "title": "Palabras clave de la lista de reproducción editadas"
-                }
-            },
-            "editPlaylistTagIds": {
-                "item": {
-                    "title": "Etiquetas de la lista de reproducción editadas"
-                }
-            },
-            "editPlaylistLevels": {
-                "item": {
-                    "title": "Niveles de la lista de reproducción editados"
-                }
-            },
-            "editPlaylistThumbnail": {
-                "item": {
-                    "title": "Miniatura de la lista de reproducción editada"
-                }
-            },
-            "pinPlaylist": {
-                "item": {
-                    "title": "Lista de reproducción fijada"
-                }
-            },
-            "unpinPlaylist": {
-                "item": {
-                    "title": "Lista de reproducción desfijada"
-                }
-            },
-            "removePlaylist": {
-                "item": {
-                    "title": "Lista de reproducción eliminada"
-                }
-            },
-            "restorePlaylist": {
-                "item": {
-                    "title": "Lista de reproducción restaurada"
-                }
-            },
-            "approveLevel": {
-                "item": {
-                    "title": "Nivel aprobado"
-                }
-            },
-            "rejectLevel": {
-                "item": {
-                    "title": "Nivel rechazado"
-                }
-            },
-            "editLevelRating": {
-                "item": {
-                    "title": "Clasificación del nivel editada"
-                }
-            },
-            "editLevelTitle": {
-                "item": {
-                    "title": "Título del nivel editado"
-                }
-            },
-            "editLevelArtists": {
-                "item": {
-                    "title": "Artistas del nivel editados"
-                }
-            },
-            "editLevelDescription": {
-                "item": {
-                    "title": "Descripción del nivel editada"
-                }
-            },
-            "editLevelKeywords": {
-                "item": {
-                    "title": "Palabras clave del nivel editado"
-                }
-            },
-            "editLevelTagIds": {
-                "item": {
-                    "title": "Etiquetas del nivel editadas"
-                }
-            },
-            "editLevelEngine": {
-                "item": {
-                    "title": "Motor del nivel editado"
-                }
-            },
-            "editLevelSkin": {
-                "item": {
-                    "title": "Skin del nivel editado"
-                }
-            },
-            "editLevelBackground": {
-                "item": {
-                    "title": "Fondo del nivel editado"
-                }
-            },
-            "editLevelEffect": {
-                "item": {
-                    "title": "Efectos de sonido del nivel editados"
-                }
-            },
-            "editLevelParticle": {
-                "item": {
-                    "title": "Partículas de nivel editadas"
-                }
-            },
-            "editLevelCover": {
-                "item": {
-                    "title": "Portada del nivel editada"
-                }
-            },
-            "editLevelBgm": {
-                "item": {
-                    "title": "Música de fondo del nivel editada"
-                }
-            },
-            "editLevelPreview": {
-                "item": {
-                    "title": "Vista previa del nivel editada"
-                }
-            },
-            "editLevelData": {
-                "item": {
-                    "title": "Datos del nivel editados"
-                }
-            },
-            "pinLevel": {
-                "item": {
-                    "title": "Nivel fijado"
-                }
-            },
-            "unpinLevel": {
-                "item": {
-                    "title": "Nivel desfijado"
-                }
-            },
-            "removeLevel": {
-                "item": {
-                    "title": "Nivel eliminado"
-                }
-            },
-            "restoreLevel": {
-                "item": {
-                    "title": "Nivel restaurado"
-                }
-            },
-            "approveSkin": {
-                "item": {
-                    "title": "Skin aprobada"
-                }
-            },
-            "rejectSkin": {
-                "item": {
-                    "title": "Skin rechazada"
-                }
-            },
-            "editSkinTitle": {
-                "item": {
-                    "title": "Título de la skin editado"
-                }
-            },
-            "editSkinSubtitle": {
-                "item": {
-                    "title": "Subtítulo de la skin editado"
-                }
-            },
-            "editSkinDescription": {
-                "item": {
-                    "title": "Descripción de la skin editada"
-                }
-            },
-            "editSkinKeywords": {
-                "item": {
-                    "title": "Palabras clave de la skin editadas"
-                }
-            },
-            "editSkinTagIds": {
-                "item": {
-                    "title": "Etiquetas de la skin editadas"
-                }
-            },
-            "editSkinThumbnail": {
-                "item": {
-                    "title": "Miniatura de la skin editada"
-                }
-            },
-            "editSkinData": {
-                "item": {
-                    "title": "Datos de la skin editados"
-                }
-            },
-            "editSkinTexture": {
-                "item": {
-                    "title": "Textura de la skin editada"
-                }
-            },
-            "pinSkin": {
-                "item": {
-                    "title": "Skin fijada"
-                }
-            },
-            "unpinSkin": {
-                "item": {
-                    "title": "Skin desfijada"
-                }
-            },
-            "removeSkin": {
-                "item": {
-                    "title": "Skin eliminada"
-                }
-            },
-            "restoreSkin": {
-                "item": {
-                    "title": "Skin restaurada"
-                }
-            },
-            "approveBackground": {
-                "item": {
-                    "title": "Fondo aprobado"
-                }
-            },
-            "rejectBackground": {
-                "item": {
-                    "title": "Fondo rechazado"
-                }
-            },
-            "editBackgroundTitle": {
-                "item": {
-                    "title": "Título del fondo editado"
-                }
-            },
-            "editBackgroundSubtitle": {
-                "item": {
-                    "title": "Subtítulo del fondo editado"
-                }
-            },
-            "editBackgroundDescription": {
-                "item": {
-                    "title": "Descripción del fondo editada"
-                }
-            },
-            "editBackgroundKeywords": {
-                "item": {
-                    "title": "Palabras clave del fondo editadas"
-                }
-            },
-            "editBackgroundTagIds": {
-                "item": {
-                    "title": "Etiquetas del fondo editadas"
-                }
-            },
-            "editBackgroundThumbnail": {
-                "item": {
-                    "title": "Miniatura del fondo editada"
-                }
-            },
-            "editBackgroundImage": {
-                "item": {
-                    "title": "Imagen del fondo editada"
-                }
-            },
-            "editBackgroundData": {
-                "item": {
-                    "title": "Datos del fondo editados"
-                }
-            },
-            "editBackgroundConfiguration": {
-                "item": {
-                    "title": "Configuración del fondo editada"
-                }
-            },
-            "pinBackground": {
-                "item": {
-                    "title": "Fondo fijado"
-                }
-            },
-            "unpinBackground": {
-                "item": {
-                    "title": "Fondo desfijado"
-                }
-            },
-            "removeBackground": {
-                "item": {
-                    "title": "Fondo eliminado"
-                }
-            },
-            "restoreBackground": {
-                "item": {
-                    "title": "Fondo restaurado"
-                }
-            },
-            "approveEffect": {
-                "item": {
-                    "title": "Efectos de sonido aprobados"
-                }
-            },
-            "rejectEffect": {
-                "item": {
-                    "title": "Efectos de sonido rechazados"
-                }
-            },
-            "editEffectTitle": {
-                "item": {
-                    "title": "Título de efectos de sonido editado"
-                }
-            },
-            "editEffectSubtitle": {
-                "item": {
-                    "title": "Subtítulo de efectos de sonido editado"
-                }
-            },
-            "editEffectDescription": {
-                "item": {
-                    "title": "Descripción de efectos de sonido editados"
-                }
-            },
-            "editEffectKeywords": {
-                "item": {
-                    "title": "Palabras clave de efectos de sonido editados"
-                }
-            },
-            "editEffectTagIds": {
-                "item": {
-                    "title": "Etiquetas de efectos de sonido editadas"
-                }
-            },
-            "editEffectThumbnail": {
-                "item": {
-                    "title": "Miniatura de efectos de sonido editada"
-                }
-            },
-            "editEffectData": {
-                "item": {
-                    "title": "Datos de efectos de sonido editados"
-                }
-            },
-            "editEffectAudio": {
-                "item": {
-                    "title": "Audio de efectos de sonido editado"
-                }
-            },
-            "pinEffect": {
-                "item": {
-                    "title": "Efectos de sonido fijados"
-                }
-            },
-            "unpinEffect": {
-                "item": {
-                    "title": "Efectos de sonido desfijados"
-                }
-            },
-            "removeEffect": {
-                "item": {
-                    "title": "Efectos de sonido eliminados"
-                }
-            },
-            "restoreEffect": {
-                "item": {
-                    "title": "Efectos de sonido restaurados"
-                }
-            },
-            "approveParticle": {
-                "item": {
-                    "title": "Partícula aprobada"
-                }
-            },
-            "rejectParticle": {
-                "item": {
-                    "title": "Partícula rechazada"
-                }
-            },
-            "editParticleTitle": {
-                "item": {
-                    "title": "Título de partícula editado"
-                }
-            },
-            "editParticleSubtitle": {
-                "item": {
-                    "title": "Subtítulo de partícula editado"
-                }
-            },
-            "editParticleDescription": {
-                "item": {
-                    "title": "Descripción de partícula editada"
-                }
-            },
-            "editParticleKeywords": {
-                "item": {
-                    "title": "Palabras clave de partícula editadas"
-                }
-            },
-            "editParticleTagIds": {
-                "item": {
-                    "title": "Etiquetas de partícula editadas"
-                }
-            },
-            "editParticleThumbnail": {
-                "item": {
-                    "title": "Miniatura de partícula editada"
-                }
-            },
-            "editParticleData": {
-                "item": {
-                    "title": "Datos de partícula editados"
-                }
-            },
-            "editParticleTexture": {
-                "item": {
-                    "title": "Textura de partícula editada"
-                }
-            },
-            "pinParticle": {
-                "item": {
-                    "title": "Partícula fijada"
-                }
-            },
-            "unpinParticle": {
-                "item": {
-                    "title": "Partícula no fijada"
-                }
-            },
-            "removeParticle": {
-                "item": {
-                    "title": "Partícula eliminada"
-                }
-            },
-            "restoreParticle": {
-                "item": {
-                    "title": "Partícula restaurada"
-                }
-            },
-            "approveEngine": {
-                "item": {
-                    "title": "Motor aprobado"
-                }
-            },
-            "rejectEngine": {
-                "item": {
-                    "title": "Motor rechazado"
-                }
-            },
-            "editEngineTitle": {
-                "item": {
-                    "title": "Título del motor editado"
-                }
-            },
-            "editEngineSubtitle": {
-                "item": {
-                    "title": "Subtítulo del motor editado"
-                }
-            },
-            "editEngineDescription": {
-                "item": {
-                    "title": "Descripción del motor editada"
-                }
-            },
-            "editEngineKeywords": {
-                "item": {
-                    "title": "Palabras clave del motor editadas"
-                }
-            },
-            "editEngineTagIds": {
-                "item": {
-                    "title": "Etiquetas de motor editadas"
-                }
-            },
-            "editEngineSkin": {
-                "item": {
-                    "title": "Skin de motor editado"
-                }
-            },
-            "editEngineBackground": {
-                "item": {
-                    "title": "Fondo del motor editado"
-                }
-            },
-            "editEngineEffect": {
-                "item": {
-                    "title": "Efectos de sonido del motor editados"
-                }
-            },
-            "editEngineParticle": {
-                "item": {
-                    "title": "Partícula de motor editada"
-                }
-            },
-            "editEngineThumbnail": {
-                "item": {
-                    "title": "Miniatura del motor editada"
-                }
-            },
-            "editEnginePlayData": {
-                "item": {
-                    "title": "Datos de reproducción del motor editados"
-                }
-            },
-            "editEngineWatchData": {
-                "item": {
-                    "title": "Datos de observación del motor editados"
-                }
-            },
-            "editEnginePreviewData": {
-                "item": {
-                    "title": "Datos de vista previa del motor editados"
-                }
-            },
-            "editEngineTutorialData": {
-                "item": {
-                    "title": "Datos del tutorial del motor editados"
-                }
-            },
-            "editEngineRom": {
-                "item": {
-                    "title": "ROM del motor editada"
-                }
-            },
-            "editEngineConfiguration": {
-                "item": {
-                    "title": "Configuración del motor editada"
-                }
-            },
-            "pinEngine": {
-                "item": {
-                    "title": "Motor fijado"
-                }
-            },
-            "unpinEngine": {
-                "item": {
-                    "title": "Motor desfijado"
-                }
-            },
-            "removeEngine": {
-                "item": {
-                    "title": "Motor eliminado"
-                }
-            },
-            "restoreEngine": {
-                "item": {
-                    "title": "Motor restaurado"
-                }
-            },
-            "approveReplay": {
-                "item": {
-                    "title": "Repetición aprobada"
-                }
-            },
-            "pinReplay": {
-                "item": {
-                    "title": "Repetición fijada"
-                }
-            },
-            "unpinReplay": {
-                "item": {
-                    "title": "Repetición no fijada"
-                }
-            },
-            "removeReplay": {
-                "item": {
-                    "title": "Repetición eliminada"
-                }
-            },
-            "restoreReplay": {
-                "item": {
-                    "title": "Repetición restaurada"
-                }
-            }
-        }
+  "expiration": {
+    "expired": {
+      "message": "La suscripción al servidor de Sonolus Coconut ha expirado."
     }
+  },
+  "storage": {
+    "full": {
+      "message": "El almacenamiento del servidor de Sonolus Coconut está lleno."
+    }
+  },
+  "readBeforeCreating": {
+    "description": "Por favor lea antes de crear:"
+  },
+  "posts": {
+    "server": {
+      "homeItems": {
+        "title": "Elementos de inicio",
+        "description": "Elementos que se muestran en la página de inicio del servidor."
+      },
+      "allowCreate": {
+        "title": "Permitir crear",
+        "description": "Si se permite crear."
+      },
+      "readBeforeCreating": {
+        "title": "Leer antes de crear",
+        "description": "Una publicación que los jugadores deben leer antes de crear."
+      },
+      "requireReview": {
+        "title": "Requerir revisión",
+        "description": "Si se requiere revisión del moderador antes de publicar."
+      },
+      "showRandom": {
+        "title": "Mostrar aleatorio",
+        "description": "Mostrar sección aleatoria."
+      },
+      "defaultEngine": {
+        "title": "Motor predeterminado",
+        "description": "Motor predeterminado al crear un nivel."
+      }
+    },
+    "tags": {
+      "usableTags": {
+        "title": "Etiquetas utilizables",
+        "description": "Etiquetas que los jugadores pueden utilizar."
+      },
+      "searchableTags": {
+        "title": "Etiquetas de búsqueda",
+        "description": "Etiquetas que los jugadores pueden buscar."
+      }
+    },
+    "inquiry": {
+      "create": {
+        "description": "Crea una consulta para contactar de forma privada a los moderadores del servidor."
+      }
+    },
+    "log": {
+      "editServerTitle": {
+        "item": {
+          "title": "Título del servidor editado"
+        }
+      },
+      "editServerDescription": {
+        "item": {
+          "title": "Descripción del servidor editada"
+        }
+      },
+      "editServerBanner": {
+        "item": {
+          "title": "Banner del servidor editado"
+        }
+      },
+      "editServerAnnouncementIds": {
+        "item": {
+          "title": "Anuncios del servidor editados"
+        }
+      },
+      "editServerHomeItemTypes": {
+        "item": {
+          "title": "Elementos de inicio del servidor editados"
+        }
+      },
+      "editServerAllowCreateTypes": {
+        "item": {
+          "title": "Servidor editado: Permitir crear"
+        }
+      },
+      "editServerReadBeforeCreatingId": {
+        "item": {
+          "title": "Leer antes de crear del servidor editado"
+        }
+      },
+      "editServerRequireReviewTypes": {
+        "item": {
+          "title": "Servidor editado: Requerir revisión"
+        }
+      },
+      "editServerShowRandomTypes": {
+        "item": {
+          "title": "Servidor editado: Mostrar aleatorio"
+        }
+      },
+      "editServerDefaultEngineId": {
+        "item": {
+          "title": "Servidor editado: Motor predeterminado"
+        }
+      },
+      "addModerator": {
+        "item": {
+          "title": "Moderador añadido"
+        }
+      },
+      "removeModerator": {
+        "item": {
+          "title": "Moderador eliminado"
+        }
+      },
+      "addBanned": {
+        "item": {
+          "title": "Ban añadido"
+        }
+      },
+      "removeBanned": {
+        "item": {
+          "title": "Ban eliminado"
+        }
+      },
+      "addTag": {
+        "item": {
+          "title": "Etiqueta añadida"
+        }
+      },
+      "editTagTitle": {
+        "item": {
+          "title": "Título de etiqueta editado"
+        }
+      },
+      "editUsablePostTagIds": {
+        "item": {
+          "title": "Etiquetas de publicación utilizables editadas"
+        }
+      },
+      "editUsablePlaylistTagIds": {
+        "item": {
+          "title": "Etiquetas de listas de reproducción utilizables editadas"
+        }
+      },
+      "editUsableLevelTagIds": {
+        "item": {
+          "title": "Etiquetas de nivel utilizables editadas"
+        }
+      },
+      "editUsableSkinTagIds": {
+        "item": {
+          "title": "Etiquetas de skin utilizables editadas"
+        }
+      },
+      "editUsableBackgroundTagIds": {
+        "item": {
+          "title": "Etiquetas de fondo utilizables editadas"
+        }
+      },
+      "editUsableEffectTagIds": {
+        "item": {
+          "title": "Etiquetas de efectos de sonido utilizables editadas"
+        }
+      },
+      "editUsableParticleTagIds": {
+        "item": {
+          "title": "Etiquetas de partículas utilizables editadas"
+        }
+      },
+      "editUsableEngineTagIds": {
+        "item": {
+          "title": "Etiquetas de motor utilizables editadas"
+        }
+      },
+      "editSearchablePostTagIds": {
+        "item": {
+          "title": "Etiquetas de publicaciones con función de búsqueda editadas"
+        }
+      },
+      "editSearchablePlaylistTagIds": {
+        "item": {
+          "title": "Etiquetas de listas de reproducción con función de búsqueda editadas"
+        }
+      },
+      "editSearchableLevelTagIds": {
+        "item": {
+          "title": "Etiquetas de niveles con función de búsqueda editadas"
+        }
+      },
+      "editSearchableSkinTagIds": {
+        "item": {
+          "title": "Etiquetas de skins con función de búsqueda editables"
+        }
+      },
+      "editSearchableBackgroundTagIds": {
+        "item": {
+          "title": "Etiquetas de fondos con función de búsqueda editadas"
+        }
+      },
+      "editSearchableEffectTagIds": {
+        "item": {
+          "title": "Etiquetas de efectos de sonido con función de búsqueda editadas"
+        }
+      },
+      "editSearchableParticleTagIds": {
+        "item": {
+          "title": "Etiquetas de partículas con función de búsqueda editadas"
+        }
+      },
+      "editSearchableEngineTagIds": {
+        "item": {
+          "title": "Etiquetas de motores con función de búsqueda editadas"
+        }
+      },
+      "lockInquiry": {
+        "item": {
+          "title": "Consulta bloqueada"
+        }
+      },
+      "unlockInquiry": {
+        "item": {
+          "title": "Consulta desbloqueada"
+        }
+      },
+      "removeComment": {
+        "item": {
+          "title": "Comentario eliminado"
+        }
+      },
+      "restoreComment": {
+        "item": {
+          "title": "Comentario restaurado"
+        }
+      },
+      "approvePost": {
+        "item": {
+          "title": "Publicación aprobada"
+        }
+      },
+      "rejectPost": {
+        "item": {
+          "title": "Publicación rechazada"
+        }
+      },
+      "editPostTitle": {
+        "item": {
+          "title": "Título de la publicación editado"
+        }
+      },
+      "editPostDescription": {
+        "item": {
+          "title": "Descripción de la publicación editada"
+        }
+      },
+      "editPostCollaboratorIds": {
+        "item": {
+          "title": "Colaboradores de publicación editados"
+        }
+      },
+      "editPostKeywords": {
+        "item": {
+          "title": "Palabras clave de publicación editadas"
+        }
+      },
+      "editPostTagIds": {
+        "item": {
+          "title": "Etiquetas de publicación editadas"
+        }
+      },
+      "editPostThumbnail": {
+        "item": {
+          "title": "Miniatura de publicación editada"
+        }
+      },
+      "pinPost": {
+        "item": {
+          "title": "Publicación fijada"
+        }
+      },
+      "unpinPost": {
+        "item": {
+          "title": "Publicación desfijada"
+        }
+      },
+      "removePost": {
+        "item": {
+          "title": "Publicación eliminada"
+        }
+      },
+      "restorePost": {
+        "item": {
+          "title": "Publicación restaurada"
+        }
+      },
+      "approvePlaylist": {
+        "item": {
+          "title": "Lista de reproducción aprobada"
+        }
+      },
+      "rejectPlaylist": {
+        "item": {
+          "title": "Lista de reproducción rechazada"
+        }
+      },
+      "editPlaylistTitle": {
+        "item": {
+          "title": "Título de la lista de reproducción editado"
+        }
+      },
+      "editPlaylistSubtitle": {
+        "item": {
+          "title": "Subtítulo de la lista de reproducción editado"
+        }
+      },
+      "editPlaylistDescription": {
+        "item": {
+          "title": "Descripción de la lista de reproducción editada"
+        }
+      },
+      "editPlaylistCollaboratorIds": {
+        "item": {
+          "title": "Colaboradores de lista de reproducción editados"
+        }
+      },
+      "editPlaylistKeywords": {
+        "item": {
+          "title": "Palabras clave de la lista de reproducción editadas"
+        }
+      },
+      "editPlaylistTagIds": {
+        "item": {
+          "title": "Etiquetas de la lista de reproducción editadas"
+        }
+      },
+      "editPlaylistLevels": {
+        "item": {
+          "title": "Niveles de la lista de reproducción editados"
+        }
+      },
+      "editPlaylistThumbnail": {
+        "item": {
+          "title": "Miniatura de la lista de reproducción editada"
+        }
+      },
+      "pinPlaylist": {
+        "item": {
+          "title": "Lista de reproducción fijada"
+        }
+      },
+      "unpinPlaylist": {
+        "item": {
+          "title": "Lista de reproducción desfijada"
+        }
+      },
+      "removePlaylist": {
+        "item": {
+          "title": "Lista de reproducción eliminada"
+        }
+      },
+      "restorePlaylist": {
+        "item": {
+          "title": "Lista de reproducción restaurada"
+        }
+      },
+      "approveLevel": {
+        "item": {
+          "title": "Nivel aprobado"
+        }
+      },
+      "rejectLevel": {
+        "item": {
+          "title": "Nivel rechazado"
+        }
+      },
+      "editLevelRating": {
+        "item": {
+          "title": "Clasificación del nivel editada"
+        }
+      },
+      "editLevelTitle": {
+        "item": {
+          "title": "Título del nivel editado"
+        }
+      },
+      "editLevelArtists": {
+        "item": {
+          "title": "Artistas del nivel editados"
+        }
+      },
+      "editLevelDescription": {
+        "item": {
+          "title": "Descripción del nivel editada"
+        }
+      },
+      "editLevelCollaboratorIds": {
+        "item": {
+          "title": "Colaboradores de nivel editados"
+        }
+      },
+      "editLevelKeywords": {
+        "item": {
+          "title": "Palabras clave del nivel editado"
+        }
+      },
+      "editLevelTagIds": {
+        "item": {
+          "title": "Etiquetas del nivel editadas"
+        }
+      },
+      "editLevelEngine": {
+        "item": {
+          "title": "Motor del nivel editado"
+        }
+      },
+      "editLevelSkin": {
+        "item": {
+          "title": "Skin del nivel editado"
+        }
+      },
+      "editLevelBackground": {
+        "item": {
+          "title": "Fondo del nivel editado"
+        }
+      },
+      "editLevelEffect": {
+        "item": {
+          "title": "Efectos de sonido del nivel editados"
+        }
+      },
+      "editLevelParticle": {
+        "item": {
+          "title": "Partículas de nivel editadas"
+        }
+      },
+      "editLevelCover": {
+        "item": {
+          "title": "Portada del nivel editada"
+        }
+      },
+      "editLevelBgm": {
+        "item": {
+          "title": "Música de fondo del nivel editada"
+        }
+      },
+      "editLevelPreview": {
+        "item": {
+          "title": "Vista previa del nivel editada"
+        }
+      },
+      "editLevelData": {
+        "item": {
+          "title": "Datos del nivel editados"
+        }
+      },
+      "pinLevel": {
+        "item": {
+          "title": "Nivel fijado"
+        }
+      },
+      "unpinLevel": {
+        "item": {
+          "title": "Nivel desfijado"
+        }
+      },
+      "removeLevel": {
+        "item": {
+          "title": "Nivel eliminado"
+        }
+      },
+      "restoreLevel": {
+        "item": {
+          "title": "Nivel restaurado"
+        }
+      },
+      "approveSkin": {
+        "item": {
+          "title": "Skin aprobada"
+        }
+      },
+      "rejectSkin": {
+        "item": {
+          "title": "Skin rechazada"
+        }
+      },
+      "editSkinTitle": {
+        "item": {
+          "title": "Título de la skin editado"
+        }
+      },
+      "editSkinSubtitle": {
+        "item": {
+          "title": "Subtítulo de la skin editado"
+        }
+      },
+      "editSkinDescription": {
+        "item": {
+          "title": "Descripción de la skin editada"
+        }
+      },
+      "editSkinCollaboratorIds": {
+        "item": {
+          "title": "Colaboradores de skin editados"
+        }
+      },
+      "editSkinKeywords": {
+        "item": {
+          "title": "Palabras clave de la skin editadas"
+        }
+      },
+      "editSkinTagIds": {
+        "item": {
+          "title": "Etiquetas de la skin editadas"
+        }
+      },
+      "editSkinThumbnail": {
+        "item": {
+          "title": "Miniatura de la skin editada"
+        }
+      },
+      "editSkinData": {
+        "item": {
+          "title": "Datos de la skin editados"
+        }
+      },
+      "editSkinTexture": {
+        "item": {
+          "title": "Textura de la skin editada"
+        }
+      },
+      "pinSkin": {
+        "item": {
+          "title": "Skin fijada"
+        }
+      },
+      "unpinSkin": {
+        "item": {
+          "title": "Skin desfijada"
+        }
+      },
+      "removeSkin": {
+        "item": {
+          "title": "Skin eliminada"
+        }
+      },
+      "restoreSkin": {
+        "item": {
+          "title": "Skin restaurada"
+        }
+      },
+      "approveBackground": {
+        "item": {
+          "title": "Fondo aprobado"
+        }
+      },
+      "rejectBackground": {
+        "item": {
+          "title": "Fondo rechazado"
+        }
+      },
+      "editBackgroundTitle": {
+        "item": {
+          "title": "Título del fondo editado"
+        }
+      },
+      "editBackgroundSubtitle": {
+        "item": {
+          "title": "Subtítulo del fondo editado"
+        }
+      },
+      "editBackgroundDescription": {
+        "item": {
+          "title": "Descripción del fondo editada"
+        }
+      },
+      "editBackgroundCollaboratorIds": {
+        "item": {
+          "title": "Colaboradores de fondo editados"
+        }
+      },
+      "editBackgroundKeywords": {
+        "item": {
+          "title": "Palabras clave del fondo editadas"
+        }
+      },
+      "editBackgroundTagIds": {
+        "item": {
+          "title": "Etiquetas del fondo editadas"
+        }
+      },
+      "editBackgroundThumbnail": {
+        "item": {
+          "title": "Miniatura del fondo editada"
+        }
+      },
+      "editBackgroundImage": {
+        "item": {
+          "title": "Imagen del fondo editada"
+        }
+      },
+      "editBackgroundData": {
+        "item": {
+          "title": "Datos del fondo editados"
+        }
+      },
+      "editBackgroundConfiguration": {
+        "item": {
+          "title": "Configuración del fondo editada"
+        }
+      },
+      "pinBackground": {
+        "item": {
+          "title": "Fondo fijado"
+        }
+      },
+      "unpinBackground": {
+        "item": {
+          "title": "Fondo desfijado"
+        }
+      },
+      "removeBackground": {
+        "item": {
+          "title": "Fondo eliminado"
+        }
+      },
+      "restoreBackground": {
+        "item": {
+          "title": "Fondo restaurado"
+        }
+      },
+      "approveEffect": {
+        "item": {
+          "title": "Efectos de sonido aprobados"
+        }
+      },
+      "rejectEffect": {
+        "item": {
+          "title": "Efectos de sonido rechazados"
+        }
+      },
+      "editEffectTitle": {
+        "item": {
+          "title": "Título de efectos de sonido editado"
+        }
+      },
+      "editEffectSubtitle": {
+        "item": {
+          "title": "Subtítulo de efectos de sonido editado"
+        }
+      },
+      "editEffectDescription": {
+        "item": {
+          "title": "Descripción de efectos de sonido editados"
+        }
+      },
+      "editEffectCollaboratorIds": {
+        "item": {
+          "title": "Colaboradores de efectos editados"
+        }
+      },
+      "editEffectKeywords": {
+        "item": {
+          "title": "Palabras clave de efectos de sonido editados"
+        }
+      },
+      "editEffectTagIds": {
+        "item": {
+          "title": "Etiquetas de efectos de sonido editadas"
+        }
+      },
+      "editEffectThumbnail": {
+        "item": {
+          "title": "Miniatura de efectos de sonido editada"
+        }
+      },
+      "editEffectData": {
+        "item": {
+          "title": "Datos de efectos de sonido editados"
+        }
+      },
+      "editEffectAudio": {
+        "item": {
+          "title": "Audio de efectos de sonido editado"
+        }
+      },
+      "pinEffect": {
+        "item": {
+          "title": "Efectos de sonido fijados"
+        }
+      },
+      "unpinEffect": {
+        "item": {
+          "title": "Efectos de sonido desfijados"
+        }
+      },
+      "removeEffect": {
+        "item": {
+          "title": "Efectos de sonido eliminados"
+        }
+      },
+      "restoreEffect": {
+        "item": {
+          "title": "Efectos de sonido restaurados"
+        }
+      },
+      "approveParticle": {
+        "item": {
+          "title": "Partícula aprobada"
+        }
+      },
+      "rejectParticle": {
+        "item": {
+          "title": "Partícula rechazada"
+        }
+      },
+      "editParticleTitle": {
+        "item": {
+          "title": "Título de partícula editado"
+        }
+      },
+      "editParticleSubtitle": {
+        "item": {
+          "title": "Subtítulo de partícula editado"
+        }
+      },
+      "editParticleDescription": {
+        "item": {
+          "title": "Descripción de partícula editada"
+        }
+      },
+      "editParticleCollaboratorIds": {
+        "item": {
+          "title": "Colaboradores de partículas editados"
+        }
+      },
+      "editParticleKeywords": {
+        "item": {
+          "title": "Palabras clave de partícula editadas"
+        }
+      },
+      "editParticleTagIds": {
+        "item": {
+          "title": "Etiquetas de partícula editadas"
+        }
+      },
+      "editParticleThumbnail": {
+        "item": {
+          "title": "Miniatura de partícula editada"
+        }
+      },
+      "editParticleData": {
+        "item": {
+          "title": "Datos de partícula editados"
+        }
+      },
+      "editParticleTexture": {
+        "item": {
+          "title": "Textura de partícula editada"
+        }
+      },
+      "pinParticle": {
+        "item": {
+          "title": "Partícula fijada"
+        }
+      },
+      "unpinParticle": {
+        "item": {
+          "title": "Partícula no fijada"
+        }
+      },
+      "removeParticle": {
+        "item": {
+          "title": "Partícula eliminada"
+        }
+      },
+      "restoreParticle": {
+        "item": {
+          "title": "Partícula restaurada"
+        }
+      },
+      "approveEngine": {
+        "item": {
+          "title": "Motor aprobado"
+        }
+      },
+      "rejectEngine": {
+        "item": {
+          "title": "Motor rechazado"
+        }
+      },
+      "editEngineTitle": {
+        "item": {
+          "title": "Título del motor editado"
+        }
+      },
+      "editEngineSubtitle": {
+        "item": {
+          "title": "Subtítulo del motor editado"
+        }
+      },
+      "editEngineDescription": {
+        "item": {
+          "title": "Descripción del motor editada"
+        }
+      },
+      "editEngineCollaboratorIds": {
+        "item": {
+          "title": "Colaboradores de motor editados"
+        }
+      },
+      "editEngineKeywords": {
+        "item": {
+          "title": "Palabras clave del motor editadas"
+        }
+      },
+      "editEngineTagIds": {
+        "item": {
+          "title": "Etiquetas de motor editadas"
+        }
+      },
+      "editEngineSkin": {
+        "item": {
+          "title": "Skin de motor editado"
+        }
+      },
+      "editEngineBackground": {
+        "item": {
+          "title": "Fondo del motor editado"
+        }
+      },
+      "editEngineEffect": {
+        "item": {
+          "title": "Efectos de sonido del motor editados"
+        }
+      },
+      "editEngineParticle": {
+        "item": {
+          "title": "Partícula de motor editada"
+        }
+      },
+      "editEngineThumbnail": {
+        "item": {
+          "title": "Miniatura del motor editada"
+        }
+      },
+      "editEnginePlayData": {
+        "item": {
+          "title": "Datos de reproducción del motor editados"
+        }
+      },
+      "editEngineWatchData": {
+        "item": {
+          "title": "Datos de observación del motor editados"
+        }
+      },
+      "editEnginePreviewData": {
+        "item": {
+          "title": "Datos de vista previa del motor editados"
+        }
+      },
+      "editEngineTutorialData": {
+        "item": {
+          "title": "Datos del tutorial del motor editados"
+        }
+      },
+      "editEngineRom": {
+        "item": {
+          "title": "ROM del motor editada"
+        }
+      },
+      "editEngineConfiguration": {
+        "item": {
+          "title": "Configuración del motor editada"
+        }
+      },
+      "pinEngine": {
+        "item": {
+          "title": "Motor fijado"
+        }
+      },
+      "unpinEngine": {
+        "item": {
+          "title": "Motor desfijado"
+        }
+      },
+      "removeEngine": {
+        "item": {
+          "title": "Motor eliminado"
+        }
+      },
+      "restoreEngine": {
+        "item": {
+          "title": "Motor restaurado"
+        }
+      },
+      "approveReplay": {
+        "item": {
+          "title": "Repetición aprobada"
+        }
+      },
+      "pinReplay": {
+        "item": {
+          "title": "Repetición fijada"
+        }
+      },
+      "unpinReplay": {
+        "item": {
+          "title": "Repetición no fijada"
+        }
+      },
+      "removeReplay": {
+        "item": {
+          "title": "Repetición eliminada"
+        }
+      },
+      "restoreReplay": {
+        "item": {
+          "title": "Repetición restaurada"
+        }
+      }
+    }
+  }
 }
