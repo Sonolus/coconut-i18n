@@ -37,6 +37,9 @@
             "defaultEngine": {
                 "title": "Default Engine",
                 "description": "Default engine when creating a level."
+            },
+            "defaultLeaderboard": {
+                "title": "Default Leaderboard"
             }
         },
         "tags": {
@@ -103,6 +106,11 @@
             "editServerDefaultEngineId": {
                 "item": {
                     "title": "Edited Server Default Engine"
+                }
+            },
+            "editServerDefaultLeaderboard": {
+                "item": {
+                    "title": "Edited Server Default Leaderboard"
                 }
             },
             "addModerator": {
