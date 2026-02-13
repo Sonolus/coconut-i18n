@@ -130,6 +130,11 @@
                     "title": "Added Tag"
                 }
             },
+            "editTagIcon": {
+                "item": {
+                    "title": "Edited Tag Icon"
+                }
+            },
             "editTagTitle": {
                 "item": {
                     "title": "Edited Tag Title"
