@@ -12,6 +12,9 @@
     "readBeforeCreating": {
         "description": "Please read before creating:"
     },
+    "private": {
+        "description": "Private items may get removed after some time."
+    },
     "posts": {
         "server": {
             "themeColor": {
