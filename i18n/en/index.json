@@ -940,6 +940,11 @@
                     "title": "Removed Replay"
                 }
             },
+            "removeBrokenReplay": {
+                "item": {
+                    "title": "Removed Broken Replay"
+                }
+            },
             "restoreReplay": {
                 "item": {
                     "title": "Restored Replay"
