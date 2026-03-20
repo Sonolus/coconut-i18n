@@ -12,8 +12,15 @@
   "readBeforeCreating": {
     "description": "请在创建前先阅读："
   },
+  "private": {
+    "description": "私人物品可能会在一段时间后被移除。"
+  },
   "posts": {
     "server": {
+      "themeColor": {
+        "title": "主题颜色",
+        "description": "网站嵌入的主题颜色。"
+      },
       "homeItems": {
         "title": "主页项目",
         "description": "服务器首页显示的项目。"
@@ -37,6 +44,9 @@
       "defaultEngine": {
         "title": "默认引擎",
         "description": "创建关卡时的默认引擎。"
+      },
+      "defaultLeaderboard": {
+        "title": "默认排行榜"
       }
     },
     "tags": {
@@ -68,6 +78,11 @@
       "editServerBanner": {
         "item": {
           "title": "修改服务器横幅"
+        }
+      },
+      "editServerThemeColor": {
+        "item": {
+          "title": "编辑服务器主题颜色"
         }
       },
       "editServerAnnouncementIds": {
@@ -105,6 +120,11 @@
           "title": "修改服务器默认引擎"
         }
       },
+      "editServerDefaultLeaderboard": {
+        "item": {
+          "title": "编辑服务器默认排行榜"
+        }
+      },
       "addModerator": {
         "item": {
           "title": "添加管理员"
@@ -128,6 +148,11 @@
       "addTag": {
         "item": {
           "title": "添加标签"
+        }
+      },
+      "editTagIcon": {
+        "item": {
+          "title": "编辑标签图标"
         }
       },
       "editTagTitle": {
@@ -913,6 +938,11 @@
       "removeReplay": {
         "item": {
           "title": "移除回放"
+        }
+      },
+      "removeBrokenReplay": {
+        "item": {
+          "title": "已移除损坏的重放"
         }
       },
       "restoreReplay": {
