@@ -12,8 +12,15 @@
   "readBeforeCreating": {
     "description": "作成前にお読みください"
   },
+  "private": {
+    "description": "プライベートアイテムは一定期間後に削除される場合があります。"
+  },
   "posts": {
     "server": {
+      "themeColor": {
+        "title": "テーマカラー",
+        "description": "ウェブサイトに埋め込まれるテーマカラー。"
+      },
       "homeItems": {
         "title": "ホームの要素",
         "description": "サーバーのホームページに表示される要素。"
@@ -37,6 +44,9 @@
       "defaultEngine": {
         "title": "デフォルトのエンジン",
         "description": "レベルを作成する際のデフォルトのエンジン。"
+      },
+      "defaultLeaderboard": {
+        "title": "デフォルトのリーダーボード"
       }
     },
     "tags": {
@@ -68,6 +78,11 @@
       "editServerBanner": {
         "item": {
           "title": "サーバーのバナーを編集しました"
+        }
+      },
+      "editServerThemeColor": {
+        "item": {
+          "title": "サーバーのテーマカラーを編集しました"
         }
       },
       "editServerAnnouncementIds": {
@@ -105,6 +120,11 @@
           "title": "サーバーのデフォルトのエンジンを編集しました"
         }
       },
+      "editServerDefaultLeaderboard": {
+        "item": {
+          "title": "サーバーのデフォルトのリーダーボードを編集しました"
+        }
+      },
       "addModerator": {
         "item": {
           "title": "モデレーターが追加されました"
@@ -128,6 +148,11 @@
       "addTag": {
         "item": {
           "title": "タグを追加しました"
+        }
+      },
+      "editTagIcon": {
+        "item": {
+          "title": "タグアイコンを編集しました"
         }
       },
       "editTagTitle": {
@@ -913,6 +938,11 @@
       "removeReplay": {
         "item": {
           "title": "リプレイを削除しました"
+        }
+      },
+      "removeBrokenReplay": {
+        "item": {
+          "title": "破損したリプレイを削除しました"
         }
       },
       "restoreReplay": {
