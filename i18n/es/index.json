@@ -12,8 +12,15 @@
   "readBeforeCreating": {
     "description": "Por favor lea antes de crear:"
   },
+  "private": {
+    "description": "Los artículos privados pueden ser eliminados después de un tiempo."
+  },
   "posts": {
     "server": {
+      "themeColor": {
+        "title": "Color del tema",
+        "description": "Color del tema para contenido incrustado."
+      },
       "homeItems": {
         "title": "Elementos de inicio",
         "description": "Elementos que se muestran en la página de inicio del servidor."
@@ -37,6 +44,9 @@
       "defaultEngine": {
         "title": "Motor predeterminado",
         "description": "Motor predeterminado al crear un nivel."
+      },
+      "defaultLeaderboard": {
+        "title": "Tabla de clasificación predeterminada"
       }
     },
     "tags": {
@@ -68,6 +78,11 @@
       "editServerBanner": {
         "item": {
           "title": "Banner del servidor editado"
+        }
+      },
+      "editServerThemeColor": {
+        "item": {
+          "title": "Color del tema del servidor editado"
         }
       },
       "editServerAnnouncementIds": {
@@ -102,7 +117,12 @@
       },
       "editServerDefaultEngineId": {
         "item": {
-          "title": "Servidor editado: Motor predeterminado"
+          "title": "Motor predeterminado del servidor editado"
+        }
+      },
+      "editServerDefaultLeaderboard": {
+        "item": {
+          "title": "Tabla de clasificación predeterminada del servidor editada"
         }
       },
       "addModerator": {
@@ -128,6 +148,11 @@
       "addTag": {
         "item": {
           "title": "Etiqueta añadida"
+        }
+      },
+      "editTagIcon": {
+        "item": {
+          "title": "Icono de etiqueta editada"
         }
       },
       "editTagTitle": {
@@ -913,6 +938,11 @@
       "removeReplay": {
         "item": {
           "title": "Repetición eliminada"
+        }
+      },
+      "removeBrokenReplay": {
+        "item": {
+          "title": "Repetición defectuosa eliminada"
         }
       },
       "restoreReplay": {
