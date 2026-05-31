@@ -1,337 +1,518 @@
 {
     "expiration": {
         "expired": {
-            "message": "Đăng ký máy chủ Sonolus Coconut đã hết hạn."
+            "message": "Gói đăng ký Server Sonolus Coconut đã hết hạn."
         }
     },
     "storage": {
         "full": {
-            "message": "Dung lượng lưu trữ máy chủ Sonolus Coconut đã đầy."
+            "message": "Dung lượng lưu trữ Server Sonolus Coconut đã đầy."
         }
     },
+    "readBeforeCreating": {
+        "description": "Vui lòng đọc trước khi tạo:"
+    },
+    "private": {
+        "description": "Các mục riêng tư có thể bị xóa sau một thời gian."
+    },
     "posts": {
-        "server": {
+        "Server": {
+            "themeColor": {
+                "title": "Màu chủ đề",
+                "description": "Màu chủ đề để nhúng vào trang web."
+            },
             "homeItems": {
-                "title": "Trang chủ",
-                "description": "Các mục hiển thị trên trang chủ của máy chủ."
+                "title": "Các mục Trang chủ",
+                "description": "Các mục được hiển thị trên Trang chủ Server."
             },
             "allowCreate": {
-                "title": "Cho phép Tạo",
-                "description": "Nếu được phép tạo."
+                "title": "Cho phép tạo",
+                "description": "Chọn để cho phép người dùng tạo mục mới."
+            },
+            "readBeforeCreating": {
+                "title": "Đọc trước khi tạo",
+                "description": "Một bài đăng mà người chơi nên đọc trước khi tạo."
             },
             "requireReview": {
                 "title": "Yêu cầu đánh giá",
-                "description": "Có cần người kiểm duyệt đánh giá trước khi đăng bài không."
+                "description": "Chọn nếu cần kiểm duyệt viên đánh giá trước khi xuất bản."
             },
             "showRandom": {
                 "title": "Hiển thị ngẫu nhiên",
-                "description": "Hiển thị phần ngẫu nhiên."
+                "description": "Hiển thị mục ngẫu nhiên."
+            },
+            "defaultEngine": {
+                "title": "Engine mặc định",
+                "description": "Chọn Engine mặc định khi tạo Màn chơi."
+            },
+            "defaultLeaderboard": {
+                "title": "Bảng xếp hạng mặc định"
+            }
+        },
+        "tags": {
+            "usableTags": {
+                "title": "Tag​ có thể sử dụng",
+                "description": "Danh sách các Tag​ người chơi có thể sử dụng."
+            },
+            "searchableTags": {
+                "title": "Tag​ có thể tìm kiếm",
+                "description": "Danh sách các Tag​ người chơi có thể tìm kiếm."
             }
         },
         "inquiry": {
             "create": {
-                "description": "Tạo yêu cầu để liên hệ riêng với người kiểm duyệt máy chủ."
+                "description": "Tạo yêu cầu để liên hệ riêng với người điều hành Server."
             }
         },
         "log": {
             "editServerTitle": {
                 "item": {
-                    "title": "Tiêu đề máy chủ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa tiêu đề Server"
                 }
             },
             "editServerDescription": {
                 "item": {
-                    "title": "Mô tả máy chủ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa mô tả Server"
                 }
             },
             "editServerBanner": {
                 "item": {
-                    "title": "Biểu ngữ máy chủ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Banner Server"
+                }
+            },
+            "editServerThemeColor": {
+                "item": {
+                    "title": "Đã chỉnh sửa màu chủ đề Server"
+                }
+            },
+            "editServerAnnouncementIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tin tức Server"
                 }
             },
             "editServerHomeItemTypes": {
                 "item": {
-                    "title": "Đã chỉnh sửa mục Trang chủ Máy chủ"
+                    "title": "Đã chỉnh sửa các mục Trang chủ Server"
                 }
             },
             "editServerAllowCreateTypes": {
                 "item": {
-                    "title": "Máy chủ đã chỉnh sửa Cho phép tạo"
+                    "title": "Đã chỉnh sửa quyền cho phép tạo của Server"
+                }
+            },
+            "editServerReadBeforeCreatingId": {
+                "item": {
+                    "title": "Đã chỉnh sửa mục đọc trước khi tạo của Server"
                 }
             },
             "editServerRequireReviewTypes": {
                 "item": {
-                    "title": "Máy chủ đã chỉnh sửa Yêu cầu xem xét"
+                    "title": "Đã chỉnh sửa yêu cầu đánh giá của Server"
                 }
             },
             "editServerShowRandomTypes": {
                 "item": {
-                    "title": "Máy chủ đã chỉnh sửa Hiển thị ngẫu nhiên"
+                    "title": "Đã chỉnh sửa hiển thị ngẫu nhiên của Server"
+                }
+            },
+            "editServerDefaultEngineId": {
+                "item": {
+                    "title": "Đã chỉnh sửa Engine mặc định của Server"
+                }
+            },
+            "editServerDefaultLeaderboard": {
+                "item": {
+                    "title": "Đã chỉnh sửa bảng xếp hạng mặc định của Server"
                 }
             },
             "addModerator": {
                 "item": {
-                    "title": "Đã thêm Người điều hành"
+                    "title": "Đã thêm kiểm duyệt viên"
                 }
             },
             "removeModerator": {
                 "item": {
-                    "title": "Đã xóa Người điều hành"
+                    "title": "Đã xóa kiểm duyệt viên"
                 }
             },
             "addBanned": {
                 "item": {
-                    "title": "Đã thêm Cấm"
+                    "title": "Đã thêm mục bị cấm"
                 }
             },
             "removeBanned": {
                 "item": {
-                    "title": "Đã xóa Đã cấm"
+                    "title": "Đã xóa mục bị cấm"
+                }
+            },
+            "addTag": {
+                "item": {
+                    "title": "Đã thêm Tag​"
+                }
+            },
+            "editTagIcon": {
+                "item": {
+                    "title": "Đã chỉnh sửa biểu tượng Tag​"
+                }
+            },
+            "editTagTitle": {
+                "item": {
+                    "title": "Đã chỉnh sửa tiêu đề Tag​"
+                }
+            },
+            "editUsablePostTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Bài đăng có thể sử dụng"
+                }
+            },
+            "editUsablePlaylistTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Danh sách phát có thể sử dụng"
+                }
+            },
+            "editUsableLevelTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Màn chơi có thể sử dụng"
+                }
+            },
+            "editUsableSkinTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Skin có thể sử dụng"
+                }
+            },
+            "editUsableBackgroundTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Ảnh nền có thể sử dụng"
+                }
+            },
+            "editUsableEffectTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ SFX có thể sử dụng"
+                }
+            },
+            "editUsableParticleTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Particle có thể sử dụng"
+                }
+            },
+            "editUsableEngineTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Engine có thể sử dụng"
+                }
+            },
+            "editSearchablePostTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Bài đăng có thể tìm kiếm"
+                }
+            },
+            "editSearchablePlaylistTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Danh sách phát có thể tìm kiếm"
+                }
+            },
+            "editSearchableLevelTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Màn chơi có thể tìm kiếm"
+                }
+            },
+            "editSearchableSkinTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Skin có thể tìm kiếm"
+                }
+            },
+            "editSearchableBackgroundTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Ảnh nền có thể tìm kiếm"
+                }
+            },
+            "editSearchableEffectTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ SFX có thể tìm kiếm"
+                }
+            },
+            "editSearchableParticleTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Particle có thể tìm kiếm"
+                }
+            },
+            "editSearchableEngineTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Engine có thể tìm kiếm"
                 }
             },
             "lockInquiry": {
                 "item": {
-                    "title": "Yêu cầu bị khóa"
+                    "title": "Đã khóa Yêu cầu"
                 }
             },
             "unlockInquiry": {
                 "item": {
-                    "title": "Yêu cầu mở khóa"
+                    "title": "Đã mở khóa Yêu cầu"
                 }
             },
             "removeComment": {
                 "item": {
-                    "title": "Bình luận đã xóa"
+                    "title": "Đã xóa Bình luận"
                 }
             },
             "restoreComment": {
                 "item": {
-                    "title": "Bình luận được khôi phục"
+                    "title": "Đã khôi phục Bình luận"
                 }
             },
             "approvePost": {
                 "item": {
-                    "title": "Bài đăng đã được chấp thuận"
+                    "title": "Đã phê duyệt Bài đăng"
                 }
             },
             "rejectPost": {
                 "item": {
-                    "title": "Bài viết bị từ chối"
+                    "title": "Đã từ chối Bài đăng"
                 }
             },
             "editPostTitle": {
                 "item": {
-                    "title": "Tiêu đề bài viết đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa tiêu đề Bài đăng"
                 }
             },
             "editPostDescription": {
                 "item": {
-                    "title": "Mô tả bài viết đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa mô tả Bài đăng"
+                }
+            },
+            "editPostCollaboratorIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa cộng tác viên Bài đăng"
                 }
             },
             "editPostKeywords": {
                 "item": {
-                    "title": "Từ khóa bài viết đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa từ khóa Bài đăng"
+                }
+            },
+            "editPostTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Bài đăng"
                 }
             },
             "editPostThumbnail": {
                 "item": {
-                    "title": "Hình thu nhỏ bài viết đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Ảnh thu nhỏ Bài đăng"
                 }
             },
             "pinPost": {
                 "item": {
-                    "title": "Bài viết được ghim"
+                    "title": "Đã ghim Bài đăng"
                 }
             },
             "unpinPost": {
                 "item": {
-                    "title": "Bài đăng chưa ghim"
+                    "title": "Đã bỏ ghim Bài đăng"
                 }
             },
             "removePost": {
                 "item": {
-                    "title": "Bài viết đã xóa"
+                    "title": "Đã xóa Bài đăng"
                 }
             },
             "restorePost": {
                 "item": {
-                    "title": "Bài đăng đã khôi phục"
+                    "title": "Đã khôi phục Bài đăng"
                 }
             },
             "approvePlaylist": {
                 "item": {
-                    "title": "Danh sách phát đã được chấp thuận"
+                    "title": "Đã phê duyệt Danh sách phát"
                 }
             },
             "rejectPlaylist": {
                 "item": {
-                    "title": "Danh sách phát bị từ chối"
+                    "title": "Đã từ chối Danh sách phát"
                 }
             },
             "editPlaylistTitle": {
                 "item": {
-                    "title": "Tiêu đề danh sách phát đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa tiêu đề Danh sách phát"
                 }
             },
             "editPlaylistSubtitle": {
                 "item": {
-                    "title": "Phụ đề danh sách phát đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa phụ đề Danh sách phát"
                 }
             },
             "editPlaylistDescription": {
                 "item": {
-                    "title": "Mô tả danh sách phát đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa mô tả Danh sách phát"
+                }
+            },
+            "editPlaylistCollaboratorIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa cộng tác viên Danh sách phát"
                 }
             },
             "editPlaylistKeywords": {
                 "item": {
-                    "title": "Từ khóa danh sách phát đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa từ khóa Danh sách phát"
+                }
+            },
+            "editPlaylistTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Danh sách phát"
                 }
             },
             "editPlaylistLevels": {
                 "item": {
-                    "title": "Các cấp độ danh sách phát đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Màn chơi của Danh sách phát"
                 }
             },
             "editPlaylistThumbnail": {
                 "item": {
-                    "title": "Hình thu nhỏ danh sách phát đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Ảnh thu nhỏ Danh sách phát"
                 }
             },
             "pinPlaylist": {
                 "item": {
-                    "title": "Danh sách phát được ghim"
+                    "title": "Đã ghim Danh sách phát"
                 }
             },
             "unpinPlaylist": {
                 "item": {
-                    "title": "Danh sách phát chưa ghim"
+                    "title": "Đã bỏ ghim Danh sách phát"
                 }
             },
             "removePlaylist": {
                 "item": {
-                    "title": "Đã xóa danh sách phát"
+                    "title": "Đã xóa Danh sách phát"
                 }
             },
             "restorePlaylist": {
                 "item": {
-                    "title": "Danh sách phát đã khôi phục"
+                    "title": "Đã khôi phục Danh sách phát"
                 }
             },
             "approveLevel": {
                 "item": {
-                    "title": "Mức độ được chấp thuận"
+                    "title": "Đã phê duyệt Màn chơi"
                 }
             },
             "rejectLevel": {
                 "item": {
-                    "title": "Mức độ bị từ chối"
+                    "title": "Đã từ chối Màn chơi"
                 }
             },
             "editLevelRating": {
                 "item": {
-                    "title": "Xếp hạng cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa đánh giá Màn chơi"
                 }
             },
             "editLevelTitle": {
                 "item": {
-                    "title": "Tiêu đề cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa tiêu đề Màn chơi"
                 }
             },
             "editLevelArtists": {
                 "item": {
-                    "title": "Nghệ sĩ cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Nghệ sĩ Màn chơi"
                 }
             },
             "editLevelDescription": {
                 "item": {
-                    "title": "Mô tả cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa mô tả Màn chơi"
+                }
+            },
+            "editLevelCollaboratorIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa cộng tác viên Màn chơi"
                 }
             },
             "editLevelKeywords": {
                 "item": {
-                    "title": "Từ khóa cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa từ khóa Màn chơi"
+                }
+            },
+            "editLevelTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Màn chơi"
                 }
             },
             "editLevelEngine": {
                 "item": {
-                    "title": "Công cụ chỉnh sửa cấp độ"
+                    "title": "Đã chỉnh sửa Engine Màn chơi"
                 }
             },
             "editLevelSkin": {
                 "item": {
-                    "title": "Skin Cấp Độ Đã Chỉnh Sửa"
+                    "title": "Đã chỉnh sửa Skin Màn chơi"
                 }
             },
             "editLevelBackground": {
                 "item": {
-                    "title": "Nền tảng cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Ảnh nền Màn chơi"
                 }
             },
             "editLevelEffect": {
                 "item": {
-                    "title": "SFX cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa SFX Màn chơi"
                 }
             },
             "editLevelParticle": {
                 "item": {
-                    "title": "Hạt cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Particle Màn chơi"
                 }
             },
             "editLevelCover": {
                 "item": {
-                    "title": "Bìa cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa ảnh bìa Màn chơi"
                 }
             },
             "editLevelBgm": {
                 "item": {
-                    "title": "BGM cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Nhạc nền Màn chơi"
                 }
             },
             "editLevelPreview": {
                 "item": {
-                    "title": "Bản xem trước cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa bản xem trước Màn chơi"
                 }
             },
             "editLevelData": {
                 "item": {
-                    "title": "Dữ liệu cấp độ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa dữ liệu Màn chơi"
                 }
             },
             "pinLevel": {
                 "item": {
-                    "title": "Mức độ ghim"
+                    "title": "Đã ghim Màn chơi"
                 }
             },
             "unpinLevel": {
                 "item": {
-                    "title": "Mức độ chưa ghim"
+                    "title": "Đã bỏ ghim Màn chơi"
                 }
             },
             "removeLevel": {
                 "item": {
-                    "title": "Đã xóa cấp độ"
+                    "title": "Đã xóa Màn chơi"
                 }
             },
             "restoreLevel": {
                 "item": {
-                    "title": "Cấp độ được khôi phục"
+                    "title": "Đã khôi phục Màn chơi"
                 }
             },
             "approveSkin": {
                 "item": {
-                    "title": "Da được chấp thuận"
+                    "title": "Đã phê duyệt Skin"
                 }
             },
             "rejectSkin": {
                 "item": {
-                    "title": "Da bị từ chối"
+                    "title": "Đã từ chối Skin"
                 }
             },
             "editSkinTitle": {
                 "item": {
-                    "title": "Tiêu đề Skin đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa tiêu đề Skin"
                 }
             },
             "editSkinSubtitle": {
@@ -341,172 +522,202 @@
             },
             "editSkinDescription": {
                 "item": {
-                    "title": "Mô tả Skin đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa mô tả Skin"
+                }
+            },
+            "editSkinCollaboratorIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa cộng tác viên Skin"
                 }
             },
             "editSkinKeywords": {
                 "item": {
-                    "title": "Từ khóa Skin đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa từ khóa Skin"
+                }
+            },
+            "editSkinTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Skin"
                 }
             },
             "editSkinThumbnail": {
                 "item": {
-                    "title": "Hình thu nhỏ Skin đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Ảnh thu nhỏ Skin"
                 }
             },
             "editSkinData": {
                 "item": {
-                    "title": "Dữ liệu da đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa dữ liệu Skin"
                 }
             },
             "editSkinTexture": {
                 "item": {
-                    "title": "Kết cấu da đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa texture Skin"
                 }
             },
             "pinSkin": {
                 "item": {
-                    "title": "Da ghim"
+                    "title": "Đã ghim Skin"
                 }
             },
             "unpinSkin": {
                 "item": {
-                    "title": "Da không ghim"
+                    "title": "Đã bỏ ghim Skin"
                 }
             },
             "removeSkin": {
                 "item": {
-                    "title": "Da đã loại bỏ"
+                    "title": "Đã xóa Skin"
                 }
             },
             "restoreSkin": {
                 "item": {
-                    "title": "Da được phục hồi"
+                    "title": "Đã khôi phục Skin"
                 }
             },
             "approveBackground": {
                 "item": {
-                    "title": "Nền tảng được chấp thuận"
+                    "title": "Đã phê duyệt Ảnh nền"
                 }
             },
             "rejectBackground": {
                 "item": {
-                    "title": "Bối cảnh bị từ chối"
+                    "title": "Đã từ chối Ảnh nền"
                 }
             },
             "editBackgroundTitle": {
                 "item": {
-                    "title": "Tiêu đề nền đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa tiêu đề Ảnh nền"
                 }
             },
             "editBackgroundSubtitle": {
                 "item": {
-                    "title": "Phụ đề nền đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa phụ đề Ảnh nền"
                 }
             },
             "editBackgroundDescription": {
                 "item": {
-                    "title": "Mô tả nền đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa mô tả Ảnh nền"
+                }
+            },
+            "editBackgroundCollaboratorIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa cộng tác viên Ảnh nền"
                 }
             },
             "editBackgroundKeywords": {
                 "item": {
-                    "title": "Từ khóa nền đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa từ khóa Ảnh nền"
+                }
+            },
+            "editBackgroundTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Ảnh nền"
                 }
             },
             "editBackgroundThumbnail": {
                 "item": {
-                    "title": "Hình nền thu nhỏ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Ảnh thu nhỏ Ảnh nền"
                 }
             },
             "editBackgroundImage": {
                 "item": {
-                    "title": "Hình nền đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa hình ảnh Ảnh nền"
                 }
             },
             "editBackgroundData": {
                 "item": {
-                    "title": "Dữ liệu nền đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa dữ liệu Ảnh nền"
                 }
             },
             "editBackgroundConfiguration": {
                 "item": {
-                    "title": "Cấu hình nền đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa cấu hình Ảnh nền"
                 }
             },
             "pinBackground": {
                 "item": {
-                    "title": "Nền được ghim"
+                    "title": "Đã ghim Ảnh nền"
                 }
             },
             "unpinBackground": {
                 "item": {
-                    "title": "Nền chưa ghim"
+                    "title": "Đã bỏ ghim Ảnh nền"
                 }
             },
             "removeBackground": {
                 "item": {
-                    "title": "Đã xóa nền"
+                    "title": "Đã xóa Ảnh nền"
                 }
             },
             "restoreBackground": {
                 "item": {
-                    "title": "Nền được phục hồi"
+                    "title": "Đã khôi phục Ảnh nền"
                 }
             },
             "approveEffect": {
                 "item": {
-                    "title": "SFX đã được chấp thuận"
+                    "title": "Đã phê duyệt SFX"
                 }
             },
             "rejectEffect": {
                 "item": {
-                    "title": "SFX bị từ chối"
+                    "title": "Đã từ chối SFX"
                 }
             },
             "editEffectTitle": {
                 "item": {
-                    "title": "Tiêu đề SFX đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa tiêu đề SFX"
                 }
             },
             "editEffectSubtitle": {
                 "item": {
-                    "title": "Phụ đề SFX đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa phụ đề SFX"
                 }
             },
             "editEffectDescription": {
                 "item": {
-                    "title": "Mô tả SFX đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa mô tả SFX"
+                }
+            },
+            "editEffectCollaboratorIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa cộng tác viên SFX"
                 }
             },
             "editEffectKeywords": {
                 "item": {
-                    "title": "Từ khóa SFX đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa từ khóa SFX"
+                }
+            },
+            "editEffectTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ SFX"
                 }
             },
             "editEffectThumbnail": {
                 "item": {
-                    "title": "Hình thu nhỏ SFX đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Ảnh thu nhỏ SFX"
                 }
             },
             "editEffectData": {
                 "item": {
-                    "title": "Dữ liệu SFX đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa dữ liệu SFX"
                 }
             },
             "editEffectAudio": {
                 "item": {
-                    "title": "Âm thanh SFX đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa âm thanh SFX"
                 }
             },
             "pinEffect": {
                 "item": {
-                    "title": "SFX được ghim"
+                    "title": "Đã ghim SFX"
                 }
             },
             "unpinEffect": {
                 "item": {
-                    "title": "SFX chưa ghim"
+                    "title": "Đã bỏ ghim SFX"
                 }
             },
             "removeEffect": {
@@ -521,142 +732,162 @@
             },
             "approveParticle": {
                 "item": {
-                    "title": "Hạt được chấp thuận"
+                    "title": "Đã phê duyệt Particle"
                 }
             },
             "rejectParticle": {
                 "item": {
-                    "title": "Hạt bị từ chối"
+                    "title": "Đã từ chối Particle"
                 }
             },
             "editParticleTitle": {
                 "item": {
-                    "title": "Tiêu đề hạt đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa tiêu đề Particle"
                 }
             },
             "editParticleSubtitle": {
                 "item": {
-                    "title": "Tiêu đề phụ của hạt đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa phụ đề Particle"
                 }
             },
             "editParticleDescription": {
                 "item": {
-                    "title": "Mô tả hạt đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa mô tả Particle"
+                }
+            },
+            "editParticleCollaboratorIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa cộng tác viên Particle"
                 }
             },
             "editParticleKeywords": {
                 "item": {
-                    "title": "Từ khóa hạt đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa từ khóa Particle"
+                }
+            },
+            "editParticleTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Particle"
                 }
             },
             "editParticleThumbnail": {
                 "item": {
-                    "title": "Hình thu nhỏ hạt đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Ảnh thu nhỏ Particle"
                 }
             },
             "editParticleData": {
                 "item": {
-                    "title": "Dữ liệu hạt đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa dữ liệu Particle"
                 }
             },
             "editParticleTexture": {
                 "item": {
-                    "title": "Kết cấu hạt đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa texture Particle"
                 }
             },
             "pinParticle": {
                 "item": {
-                    "title": "Hạt ghim"
+                    "title": "Đã ghim Particle"
                 }
             },
             "unpinParticle": {
                 "item": {
-                    "title": "Hạt không ghim"
+                    "title": "Đã bỏ ghim Particle"
                 }
             },
             "removeParticle": {
                 "item": {
-                    "title": "Hạt đã loại bỏ"
+                    "title": "Đã xóa Particle"
                 }
             },
             "restoreParticle": {
                 "item": {
-                    "title": "Hạt được phục hồi"
+                    "title": "Đã khôi phục Particle"
                 }
             },
             "approveEngine": {
                 "item": {
-                    "title": "Động cơ được chấp thuận"
+                    "title": "Đã phê duyệt Engine"
                 }
             },
             "rejectEngine": {
                 "item": {
-                    "title": "Động cơ bị từ chối"
+                    "title": "Đã từ chối Engine"
                 }
             },
             "editEngineTitle": {
                 "item": {
-                    "title": "Tiêu đề động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa tiêu đề Engine"
                 }
             },
             "editEngineSubtitle": {
                 "item": {
-                    "title": "Phụ đề động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa phụ đề Engine"
                 }
             },
             "editEngineDescription": {
                 "item": {
-                    "title": "Mô tả động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa mô tả Engine"
+                }
+            },
+            "editEngineCollaboratorIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa cộng tác viên Engine"
                 }
             },
             "editEngineKeywords": {
                 "item": {
-                    "title": "Từ khóa công cụ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa từ khóa Engine"
+                }
+            },
+            "editEngineTagIds": {
+                "item": {
+                    "title": "Đã chỉnh sửa Tag​ Engine"
                 }
             },
             "editEngineSkin": {
                 "item": {
-                    "title": "Skin động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Skin Engine"
                 }
             },
             "editEngineBackground": {
                 "item": {
-                    "title": "Nền tảng động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Ảnh nền Engine"
                 }
             },
             "editEngineEffect": {
                 "item": {
-                    "title": "Hiệu ứng động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa SFX Engine"
                 }
             },
             "editEngineParticle": {
                 "item": {
-                    "title": "Hạt động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Particle Engine"
                 }
             },
             "editEngineThumbnail": {
                 "item": {
-                    "title": "Hình thu nhỏ của Engine đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa Ảnh thu nhỏ Engine"
                 }
             },
             "editEnginePlayData": {
                 "item": {
-                    "title": "Dữ liệu phát động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa dữ liệu chơi Engine"
                 }
             },
             "editEngineWatchData": {
                 "item": {
-                    "title": "Dữ liệu theo dõi động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa dữ liệu xem Engine"
                 }
             },
             "editEnginePreviewData": {
                 "item": {
-                    "title": "Dữ liệu xem trước của Engine đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa dữ liệu xem trước Engine"
                 }
             },
             "editEngineTutorialData": {
                 "item": {
-                    "title": "Dữ liệu hướng dẫn động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa dữ liệu hướng dẫn Engine"
                 }
             },
             "editEngineRom": {
@@ -666,52 +897,57 @@
             },
             "editEngineConfiguration": {
                 "item": {
-                    "title": "Cấu hình động cơ đã chỉnh sửa"
+                    "title": "Đã chỉnh sửa cấu hình Engine"
                 }
             },
             "pinEngine": {
                 "item": {
-                    "title": "Động cơ ghim"
+                    "title": "Đã ghim Engine"
                 }
             },
             "unpinEngine": {
                 "item": {
-                    "title": "Động cơ không được ghim"
+                    "title": "Đã bỏ ghim Engine"
                 }
             },
             "removeEngine": {
                 "item": {
-                    "title": "Động cơ đã loại bỏ"
+                    "title": "Đã xóa Engine"
                 }
             },
             "restoreEngine": {
                 "item": {
-                    "title": "Động cơ được phục hồi"
+                    "title": "Đã khôi phục Engine"
                 }
             },
             "approveReplay": {
                 "item": {
-                    "title": "Đã phê duyệt Phát lại"
+                    "title": "Đã phê duyệt Bản phát lại"
                 }
             },
             "pinReplay": {
                 "item": {
-                    "title": "Đã ghim Phát lại"
+                    "title": "Đã ghim Bản phát lại"
                 }
             },
             "unpinReplay": {
                 "item": {
-                    "title": "Phát lại chưa ghim"
+                    "title": "Đã bỏ ghim Bản phát lại"
                 }
             },
             "removeReplay": {
                 "item": {
-                    "title": "Đã xóa Phát lại"
+                    "title": "Đã xóa Bản phát lại"
+                }
+            },
+            "removeBrokenReplay": {
+                "item": {
+                    "title": "Đã xóa Bản phát lại bị hỏng"
                 }
             },
             "restoreReplay": {
                 "item": {
-                    "title": "Đã khôi phục phát lại"
+                    "title": "Đã khôi phục Bản phát lại"
                 }
             }
         }
