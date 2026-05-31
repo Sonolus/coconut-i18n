@@ -22,8 +22,8 @@
                 "description": "Màu chủ đề để nhúng vào trang web."
             },
             "homeItems": {
-                "title": "Các mục trang chủ",
-                "description": "Các mục được hiển thị trên trang chủ Server."
+                "title": "Các mục Trang chủ",
+                "description": "Các mục được hiển thị trên Trang chủ Server."
             },
             "allowCreate": {
                 "title": "Cho phép tạo",
@@ -92,7 +92,7 @@
             },
             "editServerHomeItemTypes": {
                 "item": {
-                    "title": "Đã chỉnh sửa các mục trang chủ Server"
+                    "title": "Đã chỉnh sửa các mục Trang chủ Server"
                 }
             },
             "editServerAllowCreateTypes": {
@@ -137,12 +137,12 @@
             },
             "addBanned": {
                 "item": {
-                    "title": "Đã thêm bị cấm"
+                    "title": "Đã thêm mục bị cấm"
                 }
             },
             "removeBanned": {
                 "item": {
-                    "title": "Đã xóa bị cấm"
+                    "title": "Đã xóa mục bị cấm"
                 }
             },
             "addTag": {
