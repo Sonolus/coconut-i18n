@@ -51,12 +51,12 @@
         },
         "tags": {
             "usableTags": {
-                "title": "Thẻ có thể sử dụng",
-                "description": "Các Thẻ người chơi có thể sử dụng."
+                "title": "Tag​ có thể sử dụng",
+                "description": "Danh sách các Tag​ người chơi có thể sử dụng."
             },
             "searchableTags": {
-                "title": "Thẻ có thể tìm kiếm",
-                "description": "Các Thẻ người chơi có thể tìm kiếm."
+                "title": "Tag​ có thể tìm kiếm",
+                "description": "Danh sách các Tag​ người chơi có thể tìm kiếm."
             }
         },
         "inquiry": {
@@ -147,97 +147,97 @@
             },
             "addTag": {
                 "item": {
-                    "title": "Đã thêm Thẻ"
+                    "title": "Đã thêm Tag​"
                 }
             },
             "editTagIcon": {
                 "item": {
-                    "title": "Đã chỉnh sửa biểu tượng Thẻ"
+                    "title": "Đã chỉnh sửa biểu tượng Tag​"
                 }
             },
             "editTagTitle": {
                 "item": {
-                    "title": "Đã chỉnh sửa tiêu đề Thẻ"
+                    "title": "Đã chỉnh sửa tiêu đề Tag​"
                 }
             },
             "editUsablePostTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Bài đăng có thể sử dụng"
+                    "title": "Đã chỉnh sửa Tag​ Bài đăng có thể sử dụng"
                 }
             },
             "editUsablePlaylistTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Danh sách phát có thể sử dụng"
+                    "title": "Đã chỉnh sửa Tag​ Danh sách phát có thể sử dụng"
                 }
             },
             "editUsableLevelTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Màn chơi có thể sử dụng"
+                    "title": "Đã chỉnh sửa Tag​ Màn chơi có thể sử dụng"
                 }
             },
             "editUsableSkinTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Skin có thể sử dụng"
+                    "title": "Đã chỉnh sửa Tag​ Skin có thể sử dụng"
                 }
             },
             "editUsableBackgroundTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Ảnh nền có thể sử dụng"
+                    "title": "Đã chỉnh sửa Tag​ Ảnh nền có thể sử dụng"
                 }
             },
             "editUsableEffectTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ SFX có thể sử dụng"
+                    "title": "Đã chỉnh sửa Tag​ SFX có thể sử dụng"
                 }
             },
             "editUsableParticleTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Particle có thể sử dụng"
+                    "title": "Đã chỉnh sửa Tag​ Particle có thể sử dụng"
                 }
             },
             "editUsableEngineTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Engine có thể sử dụng"
+                    "title": "Đã chỉnh sửa Tag​ Engine có thể sử dụng"
                 }
             },
             "editSearchablePostTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Bài đăng có thể tìm kiếm"
+                    "title": "Đã chỉnh sửa Tag​ Bài đăng có thể tìm kiếm"
                 }
             },
             "editSearchablePlaylistTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Danh sách phát có thể tìm kiếm"
+                    "title": "Đã chỉnh sửa Tag​ Danh sách phát có thể tìm kiếm"
                 }
             },
             "editSearchableLevelTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Màn chơi có thể tìm kiếm"
+                    "title": "Đã chỉnh sửa Tag​ Màn chơi có thể tìm kiếm"
                 }
             },
             "editSearchableSkinTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Skin có thể tìm kiếm"
+                    "title": "Đã chỉnh sửa Tag​ Skin có thể tìm kiếm"
                 }
             },
             "editSearchableBackgroundTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Ảnh nền có thể tìm kiếm"
+                    "title": "Đã chỉnh sửa Tag​ Ảnh nền có thể tìm kiếm"
                 }
             },
             "editSearchableEffectTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ SFX có thể tìm kiếm"
+                    "title": "Đã chỉnh sửa Tag​ SFX có thể tìm kiếm"
                 }
             },
             "editSearchableParticleTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Particle có thể tìm kiếm"
+                    "title": "Đã chỉnh sửa Tag​ Particle có thể tìm kiếm"
                 }
             },
             "editSearchableEngineTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Engine có thể tìm kiếm"
+                    "title": "Đã chỉnh sửa Tag​ Engine có thể tìm kiếm"
                 }
             },
             "lockInquiry": {
@@ -292,7 +292,7 @@
             },
             "editPostTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Bài đăng"
+                    "title": "Đã chỉnh sửa Tag​ Bài đăng"
                 }
             },
             "editPostThumbnail": {
@@ -357,7 +357,7 @@
             },
             "editPlaylistTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Danh sách phát"
+                    "title": "Đã chỉnh sửa Tag​ Danh sách phát"
                 }
             },
             "editPlaylistLevels": {
@@ -432,7 +432,7 @@
             },
             "editLevelTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Màn chơi"
+                    "title": "Đã chỉnh sửa Tag​ Màn chơi"
                 }
             },
             "editLevelEngine": {
@@ -537,7 +537,7 @@
             },
             "editSkinTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Skin"
+                    "title": "Đã chỉnh sửa Tag​ Skin"
                 }
             },
             "editSkinThumbnail": {
@@ -612,7 +612,7 @@
             },
             "editBackgroundTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Ảnh nền"
+                    "title": "Đã chỉnh sửa Tag​ Ảnh nền"
                 }
             },
             "editBackgroundThumbnail": {
@@ -692,7 +692,7 @@
             },
             "editEffectTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ SFX"
+                    "title": "Đã chỉnh sửa Tag​ SFX"
                 }
             },
             "editEffectThumbnail": {
@@ -767,7 +767,7 @@
             },
             "editParticleTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Particle"
+                    "title": "Đã chỉnh sửa Tag​ Particle"
                 }
             },
             "editParticleThumbnail": {
@@ -842,7 +842,7 @@
             },
             "editEngineTagIds": {
                 "item": {
-                    "title": "Đã chỉnh sửa Thẻ Engine"
+                    "title": "Đã chỉnh sửa Tag​ Engine"
                 }
             },
             "editEngineSkin": {
